@@ -1,0 +1,763 @@
+@import "tailwindcss";
+
+:root {
+  --font-head: 'Cinzel', 'Aniron', serif, sans-serif;
+  --font-subhead: 'Alegreya', 'Tolkien', serif, sans-serif;
+  --font-main: 'Alegreya', 'Baskerville Old Face', serif;
+  --font-runes: 'aaatord', sans-serif;
+  --font-box: 'Niveau Grotesk', sans-serif;
+  --color-tor-red: #8E1616;
+  --color-tor-brown: #5D4F3C;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-main), 'Alegreya', Georgia, serif;
+    font-size: 1.05rem;
+    color: #261F1A;
+    background-color: #EFE8D3; /* Warm, yellowed parchment tone */
+  }
+
+  h1, h2, h3, h4, .font-cinzel {
+    font-family: var(--font-head), 'Cinzel', serif;
+  }
+  
+  .font-fell {
+    font-family: 'IM Fell English', serif;
+  }
+
+  .font-cinzel-dec {
+    font-family: 'Cinzel Decorative', serif;
+  }
+
+  .font-smallcaps {
+    font-variant: small-caps;
+  }
+}
+
+/* GENERAL FORMATTING */
+.head_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.subhead {
+  font-style: italic;
+  color: var(--color-tor-brown);
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.subhead-red {
+  font-size: 110%;
+  color: var(--color-tor-red);
+  padding: 10px;
+}
+
+.sheet-body strong {
+  color: var(--color-tor-red);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+.journal-header .title {
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 150%;
+  color: var(--color-tor-red);
+}
+
+/* KEY BOX & RED BOX CALLOUT STYLES - REFINED PARCHMENT UNIFORMITY */
+.key-box, .markdown-body .key-box {
+  background-color: #FAF2DA;
+  border: 2px solid #855B09;
+  border-left: 6px solid #855B09;
+  border-radius: 2px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.6rem 0;
+  box-shadow: 0 2px 8px rgba(133, 91, 9, 0.08);
+  font-family: var(--font-main);
+  color: #2D241E;
+  position: relative;
+}
+
+.key-box h1, .key-box h2, .key-box h3, .key-box h5, .key-box h6, .key-box .key-title,
+.markdown-body .key-box h1, .markdown-body .key-box h2, .markdown-body .key-box h3, .markdown-body .key-box h5, .markdown-body .key-box h6 {
+  font-family: var(--font-head);
+  color: #855B09;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  border-bottom: 1px solid rgba(133, 91, 9, 0.25);
+  padding-bottom: 0.35rem;
+  text-align: center;
+}
+
+.key-box h4, .markdown-body .key-box h4 {
+  font-family: var(--font-head);
+  color: #855B09;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(133, 91, 9, 0.25);
+  padding-bottom: 0.25rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.red-box, .markdown-body .red-box {
+  background-color: #FDF1F0;
+  border: 2px solid #8E1616;
+  border-left: 6px solid #8E1616;
+  border-radius: 2px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.6rem 0;
+  box-shadow: 0 2px 8px rgba(142, 22, 22, 0.08);
+  font-family: var(--font-main);
+  color: #2D241E;
+  position: relative;
+}
+
+.red-box h1, .red-box h2, .red-box h3, .red-box h5, .red-box h6, .red-box .red-title,
+.markdown-body .red-box h1, .markdown-body .red-box h2, .markdown-body .red-box h3, .markdown-body .red-box h5, .markdown-body .red-box h6 {
+  font-family: var(--font-head);
+  color: #8E1616;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  border-bottom: 1px solid rgba(142, 22, 22, 0.25);
+  padding-bottom: 0.35rem;
+  text-align: center;
+}
+
+.red-box h4, .markdown-body .red-box h4 {
+  font-family: var(--font-head);
+  color: #8E1616;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(142, 22, 22, 0.25);
+  padding-bottom: 0.25rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+/* Custom Scrollbar - Map Ink Style */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(220, 205, 180, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(142, 22, 22, 0.35);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(142, 22, 22, 0.65);
+}
+
+/* Markdown styling container */
+.markdown-body {
+  font-family: 'Alegreya', Georgia, serif;
+  line-height: 1.62;
+  font-size: 1.1rem;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h5,
+.markdown-body h6 {
+  text-align: center;
+}
+
+.markdown-body h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px double #8E1616;
+  color: #8E1616; /* Scarlet Red Header */
+  letter-spacing: -0.01em;
+}
+
+.markdown-body h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: #8E1616; /* Scarlet Red */
+  letter-spacing: -0.01em;
+}
+
+.markdown-body h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #A82222; /* Crimson Header */
+}
+
+.markdown-body h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  color: #B22222;
+  text-align: left;
+  padding-left: 1.25rem; /* Tabbed in from the left */
+}
+
+.markdown-body h5 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.0rem;
+  font-weight: 600;
+  margin-top: 1.1rem;
+  margin-bottom: 0.35rem;
+  color: #B8860B;
+}
+
+.markdown-body h6 {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 1.0rem;
+  margin-bottom: 0.3rem;
+  color: #6B5748;
+}
+
+.markdown-body p {
+  margin-bottom: 1.0rem;
+  color: #2D241E;
+  line-height: 1.62;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 1.25rem;
+  color: #2D241E;
+}
+
+.markdown-body ul {
+  list-style-type: none;
+  padding-left: 1.4rem;
+}
+
+.markdown-body ul > li {
+  position: relative;
+  margin-bottom: 0.45rem;
+  line-height: 1.62;
+}
+
+.markdown-body ul > li::before {
+  content: "◆";
+  position: absolute;
+  left: -1.25rem;
+  top: 0.05rem;
+  color: #8E1616; /* Red Diamond */
+  font-size: 0.72rem;
+}
+
+.markdown-body ul ul {
+  padding-left: 1.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.markdown-body ul ul > li::before {
+  content: "◇";
+  color: #8E1616;
+  font-size: 0.7rem;
+}
+
+/* REFINED NUMBERED LISTS (OL) STYLING */
+.markdown-body ol {
+  list-style-type: none;
+  counter-reset: tor-counter;
+  padding-left: 1.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.markdown-body ol > li {
+  counter-increment: tor-counter;
+  position: relative;
+  margin-bottom: 0.55rem;
+  line-height: 1.62;
+  padding-left: 0.2rem;
+}
+
+.markdown-body ol > li::before {
+  content: counter(tor-counter) ".";
+  position: absolute;
+  left: -1.6rem;
+  top: 0;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: #8E1616;
+  font-size: 0.95rem;
+}
+
+.markdown-body ol ol {
+  counter-reset: tor-subcounter;
+  padding-left: 1.5rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.markdown-body ol ol > li {
+  counter-increment: tor-subcounter;
+}
+
+.markdown-body ol ol > li::before {
+  content: counter(tor-subcounter, lower-alpha) ")";
+  font-size: 0.88rem;
+  color: #855B09;
+}
+
+/* Example Box Styling - Double Red Line Above & Below */
+.example-box {
+  border-top: 4px double #8E1616;
+  border-bottom: 4px double #8E1616;
+  padding: 1.2rem 1.4rem;
+  margin: 1.6rem 0;
+  background-color: rgba(142, 22, 22, 0.04);
+  box-shadow: 0 1px 4px rgba(142, 22, 22, 0.04);
+  position: relative;
+  border-radius: 2px;
+}
+
+.example-header-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: #8E1616;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  display: flex;
+  items-center: center;
+  gap: 0.4rem;
+}
+
+/* Link Styling - Uniform with Skill and Attribute Badges */
+.markdown-body a,
+.markdown-body-demo-link {
+  color: #8E1616;
+  background-color: rgba(142, 22, 22, 0.05);
+  border: 1px solid rgba(142, 22, 22, 0.22);
+  padding: 0.08rem 0.38rem;
+  border-radius: 2px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 0.01em;
+  font-size: 0.9em;
+  line-height: 1.25;
+  transition: all 0.18s ease-in-out;
+  margin: 0 0.12rem;
+}
+
+.markdown-body a:hover,
+.markdown-body-demo-link:hover {
+  background-color: #8E1616;
+  color: #FAF5EB;
+  border-color: #8E1616;
+  box-shadow: 0 2px 5px rgba(142, 22, 22, 0.22);
+  transform: translateY(-1px);
+}
+
+/* Skill Badge Styling - Refined Subtle Red Container */
+.skill-highlight {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8E1616;
+  background-color: rgba(142, 22, 22, 0.06);
+  padding: 0.1rem 0.38rem;
+  border-radius: 2px;
+  border: 1px solid rgba(142, 22, 22, 0.22);
+  display: inline-block;
+  letter-spacing: 0.03em;
+  font-size: 0.88em;
+  line-height: 1.25;
+  transition: all 0.18s ease-in-out;
+  cursor: help;
+  margin: 0 0.15rem;
+}
+
+.skill-highlight:hover {
+  background-color: #8E1616;
+  color: #FAF5EB;
+  border-color: #8E1616;
+  box-shadow: 0 2px 5px rgba(142, 22, 22, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Attribute Box Styling (Strength, Heart, Wits) - Subtle Refined Amber Badge */
+.attribute-highlight {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #92400E;
+  background-color: rgba(184, 134, 11, 0.08);
+  padding: 0.1rem 0.38rem;
+  border-radius: 2px;
+  border: 1px solid rgba(184, 134, 11, 0.32);
+  display: inline-block;
+  letter-spacing: 0.04em;
+  font-size: 0.88em;
+  line-height: 1.25;
+  transition: all 0.18s ease-in-out;
+  cursor: pointer;
+  margin: 0 0.15rem;
+}
+
+.attribute-highlight:hover {
+  background-color: #B8860B;
+  color: #FAF5EB;
+  border-color: #B8860B;
+  box-shadow: 0 2px 5px rgba(184, 134, 11, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Quote styling - subhead quotes and inline quotes */
+.subhead-quote,
+div.subhead-quote {
+  font-family: 'IM Fell English', 'Cinzel', serif;
+  font-style: italic;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  color: #7A5B0B;
+  text-align: center;
+  margin: 1.25rem auto;
+  padding: 0.75rem 1.25rem;
+  max-width: 42rem;
+  background-color: rgba(239, 229, 203, 0.35);
+  border-top: 1px solid rgba(216, 200, 168, 0.85);
+  border-bottom: 1px solid rgba(216, 200, 168, 0.85);
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(142, 22, 22, 0.03);
+}
+
+.subhead-quote p,
+div.subhead-quote p {
+  margin-bottom: 0 !important;
+  color: #7A5B0B !important;
+  font-family: 'IM Fell English', serif !important;
+  font-style: italic !important;
+  font-size: 1.12rem !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+}
+
+.subhead-quote::before {
+  content: "❖";
+  display: block;
+  font-size: 0.75rem;
+  color: #8E1616;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+/* Inline Quotes - Left-accented quote appearing in section paragraphs */
+.inline-quote,
+div.inline-quote {
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 1.0rem;
+  line-height: 1.6;
+  color: #8E1616;
+  margin: 1.0rem 0;
+  padding: 0.6rem 1.0rem 0.6rem 1.1rem;
+  background-color: rgba(239, 229, 203, 0.25);
+  border-left: 3px solid #8E1616;
+  border-radius: 0 2px 2px 0;
+  position: relative;
+}
+
+.inline-quote p,
+div.inline-quote p {
+  margin-bottom: 0 !important;
+  color: #8E1616 !important;
+  font-family: 'IM Fell English', serif !important;
+  font-style: italic !important;
+  font-size: 1.0rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Table Formatting - Unified, borderless container, classic book styling */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FAF5EB;
+  border-top: 2px solid #8E1616;
+  border-bottom: 2px solid #8E1616;
+  border-left: none !important;
+  border-right: none !important;
+  font-family: var(--font-main), 'Alegreya', Georgia, serif;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: none !important;
+}
+
+.markdown-body table thead {
+  background-color: #EFE5CB;
+  border-bottom: 2px solid #D8C8A8;
+}
+
+.markdown-body table thead:has(th:empty) {
+  display: none !important;
+}
+
+.markdown-body table th {
+  padding: 0.65rem 0.85rem;
+  font-family: var(--font-head), 'Cinzel', serif;
+  font-weight: 700;
+  color: #8E1616;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #D8C8A8;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+}
+
+.markdown-body table td {
+  padding: 0.65rem 0.85rem;
+  font-family: var(--font-main), 'Alegreya', Georgia, serif;
+  color: #2D241E;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  border-bottom: 1px solid #E8DCC2;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+}
+
+/* Headings directly above tables formatted like Table Captions while keeping header semantics */
+.markdown-body h1:has(+ table),
+.markdown-body h2:has(+ table),
+.markdown-body h3:has(+ table),
+.markdown-body h4:has(+ table),
+.markdown-body h5:has(+ table),
+.markdown-body h6:has(+ table),
+.markdown-body h1:has(+ p + table),
+.markdown-body h2:has(+ p + table),
+.markdown-body h3:has(+ p + table),
+.markdown-body h4:has(+ p + table),
+.markdown-body h5:has(+ p + table),
+.markdown-body h6:has(+ p + table),
+.markdown-body h1:has(+ div > table),
+.markdown-body h2:has(+ div > table),
+.markdown-body h3:has(+ div > table),
+.markdown-body h4:has(+ div > table),
+.markdown-body h5:has(+ div > table),
+.markdown-body h6:has(+ div > table),
+.markdown-body h1:has(+ p + div > table),
+.markdown-body h2:has(+ p + div > table),
+.markdown-body h3:has(+ p + div > table),
+.markdown-body h4:has(+ p + div > table),
+.markdown-body h5:has(+ p + div > table),
+.markdown-body h6:has(+ p + div > table) {
+  font-family: var(--font-head), 'Cinzel', serif !important;
+  font-size: 0.925rem !important;
+  font-weight: 700 !important;
+  color: #8E1616 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  text-align: center !important;
+  margin-top: 1.75rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-bottom: 0.2rem !important;
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+/* Attributes Table - Special vertical header shading for column 1 */
+table.attributes-table tr td:first-child,
+table.attributes-table tr th:first-child,
+.markdown-body table.attributes-table tr td:first-child,
+.markdown-body table.attributes-table tr th:first-child {
+  background-color: #E8DCC2 !important;
+  font-family: var(--font-head), 'Cinzel', serif !important;
+  font-weight: bold !important;
+  color: #8E1616 !important;
+  text-align: center !important;
+  border-right: 1px solid #D8C8A8 !important;
+}
+
+.markdown-body blockquote {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0.4rem 1.0rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #7A5B0B;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 44rem;
+}
+
+@keyframes floatQuoteWord {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate3d(var(--float-x, 0.5px), var(--float-y, -0.6px), 0) rotate(var(--float-rot, 0.1deg));
+  }
+  50% {
+    transform: translate3d(calc(var(--float-x, 0.5px) * -0.7), calc(var(--float-y, -0.6px) * -0.8), 0) rotate(calc(var(--float-rot, 0.1deg) * -1));
+  }
+  75% {
+    transform: translate3d(calc(var(--float-x, 0.5px) * 0.4), calc(var(--float-y, -0.6px) * 0.5), 0) rotate(0deg);
+  }
+}
+
+.floating-quote-word {
+  display: inline-block;
+  cursor: default;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 1.38rem;
+  line-height: 1.6;
+  color: #7A5B0B;
+  transition: color 0.2s ease, transform 0.2s ease;
+  will-change: transform;
+  animation: floatQuoteWord var(--float-duration, 7s) ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+
+.floating-quote-word:hover {
+  color: #8E1616;
+  transform: scale(1.04) translate3d(0, -1.5px, 0);
+}
+
+/* Formal, elegant calligraphic handwritten font for Letter from Gandalf with soft blue glowing aura on red typeface */
+.font-handwriting {
+  font-family: 'Aniron', 'Anirion', 'Cinzel Decorative', 'Cinzel', serif;
+}
+
+.gandalf-letter-body {
+  margin: 1.5rem auto;
+  text-align: center;
+  max-width: 44rem;
+  padding: 0.5rem 0;
+}
+
+.gandalf-letter-body p {
+  font-family: 'Aniron', 'Anirion', 'Cinzel Decorative', 'Cinzel', serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #C81E1E;
+  text-shadow: 0 0 5px rgba(59, 130, 246, 0.55), 0 0 12px rgba(96, 165, 250, 0.38), 0 0 20px rgba(147, 197, 253, 0.22);
+  text-align: center;
+  margin-bottom: 1.1rem;
+}
+
+@keyframes floatGandalfWord {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(var(--float-x, 0.4px), var(--float-y, -0.5px), 0);
+  }
+}
+
+.floating-gandalf-word {
+  display: inline-block;
+  cursor: default;
+  font-family: 'Aniron', 'Anirion', 'Cinzel Decorative', 'Cinzel', serif;
+  color: #C81E1E;
+  font-size: 1.45rem;
+  line-height: 1.3;
+  padding: 0 0.1rem;
+  text-shadow: 0 0 5px rgba(59, 130, 246, 0.55), 0 0 12px rgba(96, 165, 250, 0.38), 0 0 20px rgba(147, 197, 253, 0.22);
+  transition: transform 0.2s ease, text-shadow 0.2s ease;
+  will-change: transform;
+  animation: floatGandalfWord var(--float-duration, 6.5s) ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+
+.floating-gandalf-word:hover {
+  transform: scale(1.08) translate3d(0, -2px, 0);
+  text-shadow: 0 0 9px rgba(59, 130, 246, 0.9), 0 0 18px rgba(96, 165, 250, 0.75), 0 0 28px rgba(147, 197, 253, 0.55);
+}
+
+.markdown-body code {
+  background-color: #EFE6D2;
+  color: #8E1616;
+  padding: 0.2rem 0.45rem;
+  border-radius: 2px;
+  font-size: 0.88em;
+  font-family: monospace;
+  border: 1px solid #D8C8A8;
+}
+
+.markdown-body strong {
+  font-weight: 700;
+  color: #1A1410;
+}
+
+/* Subtle floating letter animation for Favoured and Ill-Favoured */
+@keyframes subtleFloatLetter {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.8px);
+  }
+}
+
+.favoured-floating {
+  font-style: italic;
+  font-weight: 700;
+  color: #926A18;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.favoured-floating span {
+  display: inline-block;
+  animation: subtleFloatLetter 2.4s ease-in-out infinite;
+}
+
+.ill-favoured-floating {
+  font-style: italic;
+  font-weight: 700;
+  color: #8A2626;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.ill-favoured-floating span {
+  display: inline-block;
+  animation: subtleFloatLetter 2.4s ease-in-out infinite;
+}
+
+

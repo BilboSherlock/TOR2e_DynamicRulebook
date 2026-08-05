@@ -1,0 +1,6 @@
+{
+  "name": "The One Ring 2e Rulebook",
+  "description": "A minimalistic, elegant, interactive rulebook and quick reference guide for The One Ring 2nd Edition TTRPG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
