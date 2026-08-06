@@ -2,12 +2,12 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig } from 'vite';
-import compressPlugin from 'vite-plugin-compress'; // gzip & brotli
+import compressPlugin from 'vite-plugin-compress';
 import { visualizer } from 'rollup-plugin-visualizer';
 
 export default defineConfig(() => {
   const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
-  const basePath = repo ? `/${repo}/` : '/';
+  const basePath = repo ? // : '/';
   return {
     base: basePath,
     plugins: [react(), tailwindcss(), compressPlugin({ verbose: true }), visualizer({ filename: 'stats.html', open: false })],
@@ -17,31 +17,28 @@ export default defineConfig(() => {
       },
     },
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
-      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     build: {
-    assetsInlineLimit: 4096, // inline assets <=4KB
-    chunkSizeWarningLimit: 800, // higher limit to avoid warnings after chunking
-    sourcemap: false,
-    minify: 'esbuild',
-    rollupOptions: {
+      assetsInlineLimit: 4096,
+      chunkSizeWarningLimit: 800,
       sourcemap: false,
       minify: 'esbuild',
       rollupOptions: {
-        output: {
-          manualChunks: {
-            react: ['react', 'react-dom'],
-            markdown: ['react-markdown', 'rehype-raw', 'remark-gfm'],
-            motion: ['motion'],
-            vendor: ['@google/genai', '@tailwindcss/vite']
+        sourcemap: false,
+        minify: 'esbuild',
+        rollupOptions: {
+          output: {
+            manualChunks: {
+              react: ['react', 'react-dom'],
+              markdown: ['react-markdown', 'rehype-raw', 'remark-gfm'],
+              motion: ['motion'],
+              vendor: ['@google/genai', '@tailwindcss/vite']
+            }
           }
         }
       }
     }
-
   };
 });
