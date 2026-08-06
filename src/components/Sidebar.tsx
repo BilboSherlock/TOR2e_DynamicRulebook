@@ -16,7 +16,8 @@ import {
   ChevronsUp,
   X
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { AnimatePresence } from 'motion/react';
+import { Motion } from './LazyMotion';
 import { RuleChapter, RuleSection, SubHeader, SupplementCategory } from '../types';
 
 interface SidebarProps {

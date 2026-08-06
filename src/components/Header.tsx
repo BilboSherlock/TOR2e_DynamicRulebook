@@ -8,7 +8,7 @@ import {
   Shield,
   Sparkles,
 } from 'lucide-react';
-import { motion } from 'motion/react';
+
 import { SupplementCategory } from '../types';
 
 export interface NavTabConfig {
@@ -54,15 +54,13 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
         {/* Left branding & mobile menu toggle */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">
           {activeView !== 'toc' && (
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+            <button
               onClick={onToggleMobileSidebar}
               className="lg:hidden p-2 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer min-w-[42px] min-h-[42px] flex items-center justify-center shrink-0"
               aria-label="Toggle navigation menu"
             >
               {isMobileSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </motion.button>
+            </button>
           )}
 
           <button
@@ -70,12 +68,11 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
             onClick={onGoHome}
             className="flex items-center gap-2 sm:gap-2.5 text-left cursor-pointer group min-w-0"
           >
-            <motion.div
-              whileHover={{ rotate: 10, scale: 1.08 }}
+            <div
               className="w-8 h-8 rounded-[2px] bg-[#8E1616] text-[#FAF5EB] flex items-center justify-center font-cinzel font-bold text-base shadow-xs border border-[#6E1010] shrink-0"
             >
               ᚠ
-            </motion.div>
+            </div>
             <div className="min-w-0">
               <h1 className="font-cinzel font-bold text-xs sm:text-base tracking-tight text-[#8E1616] group-hover:text-[#A82222] transition-colors leading-tight truncate">
                 The One Ring <span className="font-fell font-normal text-[#6B5748] text-xs hidden sm:inline sm:ml-1">Second Edition</span>
@@ -87,9 +84,7 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
         {/* Right actions: LM Mode Toggle, Styles Debugger & Quick Search */}
         <div className="flex items-center gap-1 sm:gap-2 shrink-0">
           {/* LoreMaster Mode Toggle Button */}
-          <motion.button
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.96 }}
+          <button
             onClick={onToggleLoreMasterMode}
             className={`px-2 sm:px-2.5 py-1.5 rounded-[2px] transition-all cursor-pointer flex items-center gap-1.5 text-xs font-serif min-h-[38px] ${
               isLoreMasterMode
@@ -116,24 +111,20 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
             >
               {isLoreMasterMode ? 'ON' : 'OFF'}
             </span>
-          </motion.button>
+          </button>
 
           {/* Style Debugger */}
-          <motion.button
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.96 }}
+          <button
             onClick={onOpenStyleGuide}
             className="p-2 sm:px-2.5 sm:py-1.5 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer flex items-center justify-center gap-1.5 text-xs font-serif min-h-[38px]"
             title="Open Formatting & Styles Debug Display"
           >
             <Palette className="w-3.5 h-3.5 text-[#8E1616]" />
             <span className="hidden md:inline text-xs font-serif font-semibold">Styles</span>
-          </motion.button>
+          </button>
 
           {/* Quick Search Shortcut Button */}
-          <motion.button
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.96 }}
+          <button
             onClick={onOpenSearch}
             className="p-2 sm:px-2.5 sm:py-1.5 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer flex items-center justify-center gap-1.5 text-xs font-serif min-h-[38px]"
             title="Search Rulebook (Ctrl+K)"
@@ -143,7 +134,7 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
             <kbd className="hidden md:inline-block px-1 py-0.2 text-[9px] font-mono rounded-[2px] bg-[#E8DCC2] border border-[#C8B693] text-[#8E1616] font-bold">
               Ctrl+K
             </kbd>
-          </motion.button>
+          </button>
         </div>
       </div>
 
