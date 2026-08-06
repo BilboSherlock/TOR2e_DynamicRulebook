@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Header } from './components/Header';
-const Sidebar = lazy(() => import('./components/Sidebar'));
-const MarkdownViewer = lazy(() => import('./components/MarkdownViewer'));
-const TableOfContents = lazy(() => import('./components/TableOfContents'));
-const HeroicCulturesGrid = lazy(() => import('./components/HeroicCulturesGrid'));
-const SearchModal = lazy(() => import('./components/SearchModal'));
-const StyleGuideModal = lazy(() => import('./components/StyleGuideModal'));
+import { Sidebar } from './components/Sidebar';
+import { MarkdownViewer } from './components/MarkdownViewer';
+import { TableOfContents } from './components/TableOfContents';
+import { HeroicCulturesGrid } from './components/HeroicCulturesGrid';
+import { SearchModal } from './components/SearchModal';
+import { StyleGuideModal } from './components/StyleGuideModal';
 import { CORE_CHAPTERS } from './data/rulebookData';
 import { SupplementCategory } from './types';
 
@@ -150,74 +150,62 @@ export default function App() {
       {/* Main Layout Area */}
       <div className="flex-1 max-w-7xl w-full mx-auto flex items-start">
         {/* Navigation Sidebar */}
-        <Suspense fallback={<div className="p-4">Loading Sidebar…</div>}>
-          <Sidebar
-            chapters={chapters}
-            activeChapterId={activeChapterId}
-            activeSectionId={activeSectionId}
-            activeSubHeaderId={activeSubHeaderId}
-            onSelectSection={handleSelectSection}
-            selectedSupplement={selectedSupplement}
-            setSelectedSupplement={setSelectedSupplement}
-            isOpenMobile={isMobileSidebarOpen}
-            onCloseMobile={handleCloseMobileSidebar}
-          />
-        </Suspense>
+        <Sidebar
+          chapters={chapters}
+          activeChapterId={activeChapterId}
+          activeSectionId={activeSectionId}
+          activeSubHeaderId={activeSubHeaderId}
+          onSelectSection={handleSelectSection}
+          selectedSupplement={selectedSupplement}
+          setSelectedSupplement={setSelectedSupplement}
+          isOpenMobile={isMobileSidebarOpen}
+          onCloseMobile={handleCloseMobileSidebar}
+        />
 
         {/* Dynamic Main View Area - High Performance Native Fade View Transition */}
         <div className="flex-1 min-w-0 transition-opacity duration-150 ease-out">
           {activeView === 'toc' && (
-            <Suspense fallback={<div className="p-4">Loading Table of Contents…</div>}>
-              <TableOfContents
-                chapters={coreRulesChapters}
-                title="Core Rules"
-                onSelectSection={handleSelectSection}
-              />
-            </Suspense>
+            <TableOfContents
+              chapters={coreRulesChapters}
+              title="Core Rules"
+              onSelectSection={handleSelectSection}
+            />
           )}
 
           {activeView === 'heroic-cultures' && (
-            <Suspense fallback={<div className="p-4">Loading Heroic Cultures…</div>}>
-              <HeroicCulturesGrid
-                cultureChapters={heroicCultureChapters}
-                activeCultureId={activeChapterId}
-                onSelectCulturePage={handleSelectCulturePage}
-                onNavigateSection={handleSelectSection}
-              />
-            </Suspense>
+            <HeroicCulturesGrid
+              cultureChapters={heroicCultureChapters}
+              activeCultureId={activeChapterId}
+              onSelectCulturePage={handleSelectCulturePage}
+              onNavigateSection={handleSelectSection}
+            />
           )}
 
           {activeView === 'reader' && (
-            <Suspense fallback={<div className="p-4">Loading Chapter…</div>}>
-              <MarkdownViewer
-                chapter={activeChapter}
-                section={activeSection}
-                activeSubHeaderId={activeSubHeaderId}
-                onNavigateSection={handleSelectSection}
-                allChapters={chapters}
-              />
-            </Suspense>
+            <MarkdownViewer
+              chapter={activeChapter}
+              section={activeSection}
+              activeSubHeaderId={activeSubHeaderId}
+              onNavigateSection={handleSelectSection}
+              allChapters={chapters}
+            />
           )}
         </div>
-
-        {/* Search Modal */}
-        <Suspense fallback={<div className="p-4">Loading Search…</div>}>
-          <SearchModal
-            isOpen={isSearchOpen}
-            onClose={handleCloseSearch}
-            chapters={chapters}
-            onSelectResult={handleSelectSection}
-          />
-        </Suspense>
-
-        {/* Stylesheet & Formatting Debug Display Modal */}
-        <Suspense fallback={<div className="p-4">Loading Style Guide…</div>}>
-          <StyleGuideModal
-            isOpen={isStyleGuideOpen}
-            onClose={handleCloseStyleGuide}
-          />
-        </Suspense>
       </div>
+
+      {/* Search Modal */}
+      <SearchModal
+        isOpen={isSearchOpen}
+        onClose={handleCloseSearch}
+        chapters={chapters}
+        onSelectResult={handleSelectSection}
+      />
+
+      {/* Stylesheet & Formatting Debug Display Modal */}
+      <StyleGuideModal
+        isOpen={isStyleGuideOpen}
+        onClose={handleCloseStyleGuide}
+      />
     </div>
   );
 }
