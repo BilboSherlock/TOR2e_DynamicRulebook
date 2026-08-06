@@ -52,7 +52,7 @@ From the point of view of the Loremaster, a typical session can be summarised as
 
 ## 1. Framing A Scene
 
-The Loremaster frames each scene, describing where it is taking place, setting the time of the day, and finally determining who is involved in it — this is the role of the Loremaster as Director (see page 128).
+The Loremaster frames each scene, describing where it is taking place, setting the time of the day, and finally determining who is involved in it — this is the role of [[The Loremaster as Director]].
 
 Once a scene is set, the players react to it, focusing on the goals they are pursuing and coming up with plans to achieve them.
 
@@ -76,7 +76,7 @@ If a long stretch of game time passes from one scene to another, the Loremaster 
 
 ## 2. Describe The Consequences Of The Players
 
-Once the players have made their decision and have described their course of action, the Loremaster and the players employ the rules for Action Resolution and Heroic Ventures to manage all situations and conflicts — this is the role of The Loremaster as Referee (see page 128).
+Once the players have made their decision and have described their course of action, the Loremaster and the players employ the rules for Action Resolution and Heroic Ventures to manage all situations and conflicts — this is the role of [[The Loremaster as Referee]].
 
 The Loremaster assists the players when they choose actions for their characters to accomplish, calls for die rolls when required, and describes the consequences of those rolls.
 
@@ -90,7 +90,7 @@ Additional guidelines about how to determine the consequences of the actions of 
 
 ## 3. Advance The Gameplay
 
-The Loremaster adds new narrative elements to the gameplay as necessary, driven by the actions of the players and their consequences — this is the role of The Loremaster as Narrator (see page 129).
+The Loremaster adds new narrative elements to the gameplay as necessary, driven by the actions of the players and their consequences — this is the role of [[The Loremaster as Narrator]].
 
 [key-box]
 Taking into consideration what the players have done, the Loremaster develops several options about where the current situation may lead, to set up a follow-up scene in an organic way.
@@ -323,7 +323,7 @@ A Skill Endeavour is resolved applying the following steps:
 2.  Set Time Limit
 3.  Execution
 
-When the Skill Endeavour is concluded, the Loremaster assesses its outcome (see Completing a Skill Endeavour).
+When the Skill Endeavour is concluded, the Loremaster assesses its outcome (see [[Completing a Skill Endeavour]]).
 
 #### 1\. Set Resistance:
 
@@ -448,7 +448,7 @@ Loremaster characters is the best tool a Loremaster has to create a believable s
 
 A quick way to give substance to Loremaster characters is to give each of them a name. In a game set in Middle-earth, this is easier said than done, as each Culture follows specific naming conventions.
 
-To avoid fumbling through the rules each time a player asks the name of one of your characters, it would be wise for the Loremaster to keep a list of names handy from those found in the character generation chapter (see Heroic Cultures, pages 33–43).
+To avoid fumbling through the rules each time a player asks the name of one of your characters, it would be wise for the Loremaster to keep a list of names handy from those found in the character generation chapter (see [[Heroic Cultures]]).
 [/red-box]
 
 ## Distinctive Features
@@ -471,7 +471,7 @@ Most of the time, the interaction of a Player-hero with Loremaster characters is
 When this is not enough, the Loremaster and the players resort to the usual rules for Action Resolution, considering whether Loremaster characters are seen as obstacles by the Company, or if they give assistance (see page ).
 [/key-box]
 
-Should the interaction with a Loremaster character lead to outright conflict, the character must be cast as an Adversary by generating the characteristics needed for Combat (see page 142).
+Should the interaction with a Loremaster character lead to outright conflict, the character must be cast as an Adversary by generating the characteristics needed for Combat (see [[Adversaries]]).
 
 * * *
 
@@ -541,7 +541,7 @@ Challenging an almost all-powerful Enemy and facing its terrible minions is boun
 In the game, this burden is represented by the accumulation of Shadow points, and by the sources that force their gain.
 
 [key-box]
-In the course of play, the Player-heroes see their Shadow score ebb and flow, as they gain points during the Adventuring Phase as a consequence of their actions, and then they possibly lose them by making a Shadow Test, by strengthening their resolve (see Harden Will), or by mending their spiritual hurt during a Fellowship Phase (see Spiritual Recovery, page 119).
+In the course of play, the Player-heroes see their Shadow score ebb and flow, as they gain points during the Adventuring Phase as a consequence of their actions, and then they possibly lose them by making a Shadow Test, by strengthening their resolve (see [[Harden Will]]), or by mending their spiritual hurt during a Fellowship Phase (see [[Spiritual Recovery]]).
 [/key-box]
 
 Shadow points are kept track of by marking them in the appropriate box on the character sheet, next to a hero’s Hope rating. Heroes cannot accumulate Shadow in excess of their maximum Hope score (any additional points gained do not raise a hero’s Shadow score).
@@ -578,7 +578,7 @@ Player-heroes whose Shadow score reaches their maximum Hope rating are so overbu
 
 There is only one way to recover from such depths of desperation — the Player-hero must experience a bout of madness.
 
-A bout of madness is a violent outburst, a dangerous crisis that frees a Player-hero from the burden of the Shadow, but that may have serious, long-term consequences (see Madness, on page 139).
+A bout of madness is a violent outburst, a dangerous crisis that frees a Player-hero from the burden of the Shadow, but that may have serious, long-term consequences (see [[Madness]]).
 
 * * *
 
@@ -592,7 +592,7 @@ For some, this effort takes the form of a demonstration of desperate strength; o
 In game terms, Player-heroes whose accumulated Shadow does not yet match their maximum Hope score may choose to remove all their current Shadow, replacing it with a single Shadow Scar.
 [/key-box]
 
-A Shadow Scar is a ‘permanent’ Shadow point that can be removed only during a Yule Fellowship Phase, by choosing the Heal Scars undertaking (see page 121), but is otherwise considered as a normal Shadow point for all purposes.
+A Shadow Scar is a ‘permanent’ Shadow point that can be removed only during a Yule Fellowship Phase, by choosing the [[Heal Scars]] undertaking, but is otherwise considered as a normal Shadow point for all purposes.
 
 >Sam’s plain hobbit-face grew stern, almost grim, as the will hardened in him, and he felt through all his limbs a thrill, as if he was turning into some creature of stone and steel that neither despair nor weariness nor endless barren miles could subdue.
 
@@ -614,7 +614,7 @@ Terror is a spear in the hand of the Enemy. Adventurers gain Shadow points whene
 | Harrowing experience, physical and spiritual torment. | Experiencing torture, being haunted by a Wight | 3 |
 | Experiencing directly the power of the Enemy. | Seeing the mustering of a Shadow army, seeing the Eye in a Palantír | 4 |
 
-The extent of the Shadow gain depends on the source of Dread — the table above provides a number of examples to help the Loremaster adjudicate (other sources, like the terror caused by a creature or a dark spell, are discussed in detail in the Adversaries, page 142).
+The extent of the Shadow gain depends on the source of Dread — the table above provides a number of examples to help the Loremaster adjudicate (other sources, like the terror caused by a creature or a dark spell, are discussed in detail in the [[Adversaries]]).
 
 [key-box]
 Adventurers may reduce or cancel the effects of Dread with a Shadow Test (**Valour**).
@@ -628,7 +628,7 @@ Adventurers may reduce or cancel the effects of Dread with a Shadow Test (**Valo
 
 Hoards of gold and great stores of enchanted weapons and armour lie in forgotten caves. Heroes risk being corrupted by their own desire whenever they put their hands on gold and precious objects that were tainted by laying in the dark for a long time.
 
-When the Player-heroes find a hoard of treasure, they may gain a number of Shadow points if the hoard was tainted (see Treasure, on page 158).
+When the Player-heroes find a hoard of treasure, they may gain a number of Shadow points if the hoard was tainted (see [[Treasure]]).
 
 [key-box]
 Adventurers may reduce or cancel the effects of Greed with a Shadow Test (**Wisdom**).
@@ -685,13 +685,13 @@ Adventurers may reduce or cancel the effects of Sorcery with a Shadow Test (**Wi
 >Then the leader, who was now half across the Ford, stood up menacing in his stirrups, and raised up his hand. Frodo was stricken dumb.
 
 ## Madness
-As seen on page 137, Player-heroes whose Shadow score reaches their maximum Hope rating become Ill-favoured on all rolls. Once they reach this point, they can get rid of Shadow only in one way — by playing out a bout of madness, a violent reaction marking a significant step in their downward course towards degeneration.
+As seen in [[The Consequences of Shadow]], Player-heroes whose Shadow score reaches their maximum Hope rating become Ill-favoured on all rolls. Once they reach this point, they can get rid of Shadow only in one way — by playing out a bout of madness, a violent reaction marking a significant step in their downward course towards degeneration.
 
 [key-box]
 To play out a bout of madness, players must describe how their characters lose control for a short period of time, doing something they will later regret.
 [/key-box]
 
-To describe their loss of control, players should take into consideration the source of the last Shadow gain that pushed their heroes beyond their limit, a character’s Shadow Path, or one of their Flaws (see Shadow Paths overleaf).
+To describe their loss of control, players should take into consideration the source of the last Shadow gain that pushed their heroes beyond their limit, a character’s Shadow Path, or one of their Flaws.
 
 Here are some examples of the consequences of a bout of madness:
 
@@ -705,7 +705,7 @@ If nothing seems to fit the circumstances, a standard bout of madness can take t
 Player-heroes quickly regain control of themselves once their bout of madness passes. They see their mind finally cleared of the tangle of fear and doubt they fell into before facing the crisis.
 
 [key-box]
-They are no longer _Ill-favoured_ and remove all their current Shadow points, but they advance one step along their Shadow Path (page ).
+They are no longer _Ill-favoured_ and remove all their current Shadow points, but they advance one step along their [[Shadow Path]].
 [/key-box]
 
 A bout of madness must take place during the current Adventuring Phase (player-heroes ending the Adventuring Phase with a Shadow score matching their maximum Hope can be considered to have left the Company and are retired from the game).
@@ -727,7 +727,7 @@ In addition to resetting their Shadow score, every time a hero suffers a bout of
 | #3 | Cruel | Decietful | Overconfident | Scheming | Guilt-ridden | Uncaring |
 | #4 | Murderous | Thieving | Tyrannical | Traitorous | Fearful | Cowardly |
 
-A Player-hero’s Calling determines which Flaws are acquired, based on the character’s Shadow Path (see table above).
+A Player-hero’s Calling determines which Flaws are acquired, based on the character’s Shadow Path.
 
 * * *
 
@@ -970,7 +970,7 @@ Evil Men and other non-monstrous adversaries often have a Resolve rating.
 
 ### Hate Vs Resolve:
 
-There is another important difference between foes with a Hate rating and ones with a Resolve score: while fighting minions of the Enemy can hardly call the integrity of the Player-heroes into question, the act of attacking or killing an adversary with a Resolve rating should always be evaluated by the Loremaster as a possible Misdeed (see page 138).
+There is another important difference between foes with a Hate rating and ones with a Resolve score: while fighting minions of the Enemy can hardly call the integrity of the Player-heroes into question, the act of attacking or killing an adversary with a Resolve rating should always be evaluated by the Loremaster as a possible [[Misdeed]].
 
 [key-box]
 To ascertain this, Loremasters can ask themselves some simple questions: was the fight provoked by the Player-heroes or were they attacked? Was there another option to combat? Was killing necessary, or were the adversaries prone to surrender?
@@ -1047,7 +1047,7 @@ All adversaries’ Fell Abilities are listed in their individual stat boxes. The
 [red-box]
 ### Distinctive Features
 
-The Loremaster may give an additional level of depth to the description of adversaries by giving them one or two Distinctive Features, to be used following the rules for Loremaster Characters as Obstacles (see page 135). Each adversary’s stat box listed in this chapter includes some suggestions.
+The Loremaster may give an additional level of depth to the description of adversaries by giving them one or two Distinctive Features, to be used following the rules for [[Loremaster Characters as Obstacles]]. Each adversary’s stat box listed in this chapter includes some suggestions.
 [/red-box]
 
 ## Evil Men
@@ -1194,7 +1194,7 @@ For example, a golden crown found among the ruins of an ancient castle on the hi
 
 The tables presented below can be used to create an item at the moment it is uncovered, or to design it carefully beforehand. The Loremaster is encouraged to enrich the description of all Precious Objects or spend some time imagining wonderful things with rich backstories. It is not necessary to track down the full lineage of every crystal hanging from a fillet of Mithril; a few hints to a tragic or heroic heritage is more than enough to evoke the right mood.
 
-This sort of information may be revealed to a player who chooses the Meet Patron undertaking during a Fellowship phase (see page 121).
+This sort of information may be revealed to a player who chooses the [[Meet Patron]] undertaking during a Fellowship phase.
 
 * * *
 
@@ -1297,14 +1297,14 @@ Such objects are wound about with powerful enchantments called Blessings. An obj
 A single Blessing bestowed upon an object lets its bearer affect the result of all rolls made using a specific Skill. An object possessing two Blessings will then modify the outcome of two different Skills.
 
 [key-box]
-The bearer of a Marvellous Artefact or Wondrous Item gains (2d) when making rolls using the Skill corresponding to its Blessing, and allows the Player-hero to achieve a magical success (see page 21).
+The bearer of a Marvellous Artefact or Wondrous Item gains (2d) when making rolls using the Skill corresponding to its Blessing, and allows the Player-hero to achieve a [[Magical Success]].
 [/key-box]
 
 When a blessed item is found, the Loremaster either chooses an object included in the Treasure Index, or uses the Blessings tables overleaf to create one.
 
 Marvellous Artefacts and Wondrous Items should be rare and unique, lest their worth be diminished in the eyes of the players. The Loremaster should use the directions contained in this chapter and their knowledge of the source material to create a limited number of such objects for inclusion in a Treasure Index — two or three per Player-hero at most. Should that list run out, the Loremaster may create additional ones, either taking the time to design them or rolling them up on the spot.
 
-The capabilities of an object may not be readily apparent upon discovery. While it is possible that a hero finds out while adventuring, a Player-hero may learn about an item’s Blessings by choosing the Meet Patron Fellowship phase undertaking (see page 121).
+The capabilities of an object may not be readily apparent upon discovery. While it is possible that a hero finds out while adventuring, a Player-hero may learn about an item’s Blessings by choosing the [[Meet Patron]] Fellowship phase undertaking.
 
 * * *
 
@@ -1312,7 +1312,7 @@ The capabilities of an object may not be readily apparent upon discovery. While 
 
 To determine which skill is affected by a Blessing the Loremaster rolls a Success die twice: the first roll selects the Skill ‘group’, the second roll identifies the affected Skill. The procedure must be repeated if the object is a Wondrous Item bestowed with two Blessings.
 
-In brackets are listed options to help the Loremaster in choosing the type of object discovered, whether it is a ring, a cloak, a belt, or something else. If the same item possesses two Blessings, choose the type of object that seems more appropriate. To determine the craftsmanship of the find, you may use Table 3 on page 160).
+In brackets are listed options to help the Loremaster in choosing the type of object discovered, whether it is a ring, a cloak, a belt, or something else. If the same item possesses two Blessings, choose the type of object that seems more appropriate. To determine the craftsmanship of the find, you may use Table 3 in [[Precious Object Tables]]).
 
 * * *
 
@@ -1428,7 +1428,7 @@ The Men of Westernesse excelled in the making of many weapons, but rarely devote
 
 #### 3\. Select Banes
 
-Bane weapons describe instruments of war that have been wrought to defeat a specific enemy. If the magical item is of Elven or Númenórean craftsmanship, then it may be attributed with one or more Banes, as several of the special virtues that may be attributed to it are effective only against Bane creatures (see Enchanted Qualities, on page 165). A Bane weapon provides special benefits against one or more creature types.
+Bane weapons describe instruments of war that have been wrought to defeat a specific enemy. If the magical item is of Elven or Númenórean craftsmanship, then it may be attributed with one or more Banes, as several of the special virtues that may be attributed to it are effective only against Bane creatures (see [[Enchanted Qualities]]). A Bane weapon provides special benefits against one or more creature types.
 
 Blades, spears, and arrow-heads forged in Númenor may have been wound about with spells for the bane of two creature types.
 
@@ -1450,7 +1450,7 @@ Particularly ancient and rare, some blades may have been wrought for the bane of
 
 Player-heroes may improve their war gear by upgrading their weapons of choice using Rewards. Similarly, Famous Weapons and Armour owe their qualities to Rewards and Enchanted Rewards.
 
-Upon creation, a number of qualities must be attributed to the magical item, choosing among the Rewards listed on page 79, and the Enchanted Rewards described in this chapter, starting overleaf. The mix and number of qualities attributed to an object determine how powerful it will be.
+Upon creation, a number of qualities must be attributed to the magical item, choosing among [[Rewards]], and the Enchanted Rewards described in this chapter, starting overleaf. The mix and number of qualities attributed to an object determine how powerful it will be.
 
 * Generally, a famous weapon or piece of defensive gear should feature a maximum of 3 qualities, and must include a minimum of one Enchanted Reward.
 * All qualities of an item can be recorded on the Magical Treasure Index in any order desired, keeping in mind that the qualities that are listed first are the ones that the owner will discover soonest (see overleaf).
@@ -1461,9 +1461,9 @@ Upon creation, a number of qualities must be attributed to the magical item, cho
 
 Precious Objects and Wondrous Artefacts rarely possess proper names — They are usually named after their maker, or after their most famous owner (‘The Necklace of Girion’, ‘The Arkenstone of Thrain’, ‘The Phial of Galadriel’). On the contrary, Famous Weapons and Armour often have a name, or even more than one, if the item is known by different folks.
 
-All pieces of war gear included in a Treasure Index should be given an appropriate name, along with a set of historical notes. The name of an item can be revealed to its bearer who researches it or asks a lore-master about it (see the Meet Patron Fellowship Phase undertaking, on page 121).
+All pieces of war gear included in a Treasure Index should be given an appropriate name, along with a set of historical notes. The name of an item can be revealed to its bearer who researches it or asks a lore-master about it (see the [[Meet Patron]] Fellowship Phase undertaking).
 
-A player is, of course, free to name an item themselves much as Bilbo did with Sting — either because the object does not have a known name or the companion isn’t interested in discovering it. The notes about Named Weapons on page 80 can provide useful suggestions.
+A player is, of course, free to name an item themselves much as Bilbo did with Sting — either because the object does not have a known name or the companion isn’t interested in discovering it. The notes about [[Named Weapons]] can provide useful suggestions.
 
 * * *
 
@@ -1502,7 +1502,7 @@ An Elven adventurer recently found the Raven Axe of Arnor in a Troll’s hoard w
 The treasuries of most folks have been created with the loot of many wars, but also by the findings of generations of adventurers.
 
 [key-box]
-When Player-heroes gain possession of a Famous Weapon or Armour, they can return home as a Fellowship Phase undertaking (see page 121), to leave a piece of war gear enhanced by one or more Rewards as a gift to their folk.
+When Player-heroes gain possession of a Famous Weapon or Armour, they can return home as a [[Fellowship Phase Undertaking]], to leave a piece of war gear enhanced by one or more Rewards as a gift to their folk.
 [/key-box]
 
 These gift-giving acts alter the identity of the Player-heroes in the eyes of their folk: they become the bearers of their newly-found enchanted items, and the objects left behind become ‘cultural treasures’.
@@ -1520,7 +1520,7 @@ While clearing an abandoned Dwarven keep of Goblins, a Barding hero found the Ru
 [red-box]
 ### Seeking a Loremaster
 
-A companion who wishes to know more about a Famous Weapon or Armour may visit an appropriate location and choose the Meet Patron undertaking during a Yule Fellowship Phase (see page 121).
+A companion who wishes to know more about a Famous Weapon or Armour may visit an appropriate location and choose the [[Meet Patron]] undertaking during a Yule Fellowship Phase.
 [/red-box]
 
 ### Enchanted Rewards:
@@ -1535,7 +1535,7 @@ Each Enchanted Reward’s description includes any requirement that the enhanced
 Loremasters must keep in mind that they may apply a maximum of 3 Rewards (Enchanted or ordinary) to a Famous Weapon or Armour, always including a minimum of 1 Enchanted Reward. All Enchanted Rewards are unique, meaning that they can only be applied once to the same item.
 [/key-box]
 
-The Loremaster should note that the first six Enchanted Rewards are enhanced versions of those described on page 79 — qualities sharing a common descriptor cannot be attributed to the same item. (For example, a Grievous sword cannot be given the Superior Grievous Enchanted Quality.) Moreover, when designing an Elven or Númenórean weapon, the Loremaster should be sure to bestow upon it at least one Enchanted Reward that possesses the Bane requirement.
+The Loremaster should note that the first six Enchanted Rewards are enhanced versions of those described in [[Rewards]] — qualities sharing a common descriptor cannot be attributed to the same item. (For example, a Grievous sword cannot be given the Superior Grievous Enchanted Quality.) Moreover, when designing an Elven or Númenórean weapon, the Loremaster should be sure to bestow upon it at least one Enchanted Reward that possesses the Bane requirement.
 
 * * *
 
@@ -1747,7 +1747,7 @@ A Curse may not be initially apparent, but instead be activated by a specific ci
 [red-box]
 ### Cursed Precious Objects
 
-Generally, only Magical Treasure can be cursed, but if the Loremaster wishes, it is of course possible to lay a curse upon a heap of gold or a chest of precious gems, but usually that type of treasure just has an ill feeling about it and a character may struggle to sell it. To make things slightly darker, a cursed Precious Object might be denied any sentimental value (see page 160).
+Generally, only Magical Treasure can be cursed, but if the Loremaster wishes, it is of course possible to lay a curse upon a heap of gold or a chest of precious gems, but usually that type of treasure just has an ill feeling about it and a character may struggle to sell it. To make things slightly darker, a cursed Precious Object might be denied any sentimental value (see [[Creating Precious Objects]]).
 [/red-box]
 
 * * *
@@ -1808,7 +1808,7 @@ The item’s Curse worms away at its bearer, bringing with it a terrible weaknes
 [red-box]
 ### Discovering the One Ring
 
-Bilbo’s discovery of the One Ring in Gollum’s cave is a shining example of predestination, as discussed on page 161. Bilbo was meant to find the Ring, and then to pass it over to Frodo. Perhaps the Loremaster of Bilbo’s campaign was planning very far ahead indeed — or maybe they didn't even realise at the time quite what they had created — the goal might have been merely to give the Burglar a Marvellous Artefact bestowed with a Blessing of **Stealth**.
+Bilbo’s discovery of the One Ring in Gollum’s cave is a shining example of predestination, as discussed in [[Fate and Predestination]]. Bilbo was meant to find the Ring, and then to pass it over to Frodo. Perhaps the Loremaster of Bilbo’s campaign was planning very far ahead indeed — or maybe they didn't even realise at the time quite what they had created — the goal might have been merely to give the Burglar a Marvellous Artefact bestowed with a Blessing of **Stealth**.
 
 But how can the Ruling Ring of Sauron be created under the Magical Treasure rules? The short answer is that it can’t: it is the greatest magical artefact ever created in the history of Middle-earth after all. But let’s indulge a little bit more… The Ring would probably have a Blessing of Stealth for its capability to make its wearer invisible, but eventually reveal later to bestow another Blessing on the skill that better defines its wearer’s ambitions and desires: **Awe** for a mighty warrior, **Battle** for a leader of Men, **Craft** for someone who would desire to create things, **Insight** for those who seek to know the hearts of others… But what about its Curses? Well, let’s not even get started…
 [/red-box]

@@ -125,11 +125,11 @@ A Reeve holds a nominal position of leadership over the community, but they are 
 
 There are many families of Hobbits spread among the villages of the Bree-land, especially in Staddle. These Bree-hobbits are of course closely related to their neighbours in the Shire — indeed, to most Big Folk, it is impossible to tell the difference (unless one makes the mistake of asking one of the Hobbits, in which case get comfortable — you are in for a long talk about family trees, obscure legal issues, and exceedingly minute cultural differences).
 
-If you desire to create a Bree-hobbit, use all the rules concerning the Men of Bree found on page 40, with the following exceptions:
+If you desire to create a Bree-hobbit, use all the rules concerning the [[Men of Bree]], with the following exceptions:
 
-Bree-hobbits calculate their Endurance, Hope and Parry ratings using the Hobbits’ tables (on page 38);
+Bree-hobbits calculate their Endurance, Hope and Parry ratings using the [[Hobbits of the Shire]]'s tables;
 
-They are limited to use of the same weapons as Hobbits (see Halflings, page 38);
+They are limited to use of the same weapons as Hobbits;
 
 They must pick their Cultural Virtues from the following list: Bree-pony, Desperate Courage, Small Folk, Strange as News from Bree, The Art of Smoking, Tough as Old Tree Roots.
 
@@ -586,9 +586,9 @@ There is nothing like taking into consideration the passage of time to make the 
 There are many ways to incorporate wider events into the Player-heroes’ adventures. They could witness a great gathering, cross paths with groups involved in the timeline events or discuss the goings-on with the people they encounter on their Journey. Every Adventuring Phase can benefit greatly from making the Company’s exploits part of the chronology of Middle-earth, provided that the focus of the narration remains firmly fixed on the Player-heroes’ own deeds.
 
 ## Where?
-Where is the action taking place? There are two answers to this question — either a precise location is vital to the action, and the Loremaster chooses a specific place from those described in this guide or in the source material (see also Landmarks, on page 221), or the adventure requires nothing more than a generic setting and any ruin, forest glade or river will do.
+Where is the action taking place? There are two answers to this question — either a precise location is vital to the action, and the Loremaster chooses a specific place from those described in this guide or in the source material (see also [[Landmarks]]), or the adventure requires nothing more than a generic setting and any ruin, forest glade or river will do.
 
-In either case, the Loremaster should consider a place that is either close to the current location of the Company, or one that they can reach conveniently (using the Journey rules). In the latter case, the trip itself gives the Loremaster the chance to set up a challenging situation for the Company.
+In either case, the Loremaster should consider a place that is either close to the current location of the Company, or one that they can reach conveniently (using the [[Journey]] rules). In the latter case, the trip itself gives the Loremaster the chance to set up a challenging situation for the Company.
 
 * * *
 
@@ -601,7 +601,7 @@ When this happens, the Loremaster should allow the Company to interact with the 
 ## What?
 What is going on? This question defines the heart of the Adventuring Phase, and summarises the information that a Loremaster presents to the players at the beginning of the first game session.
 
-Sometimes, this is summarised by a rumour that the Company has gathered during the last Fellowship Phase (see page 121), but can otherwise be something tied to what happened in a previous Adventuring Phase — travellers talk of a strange luminescence they see while on the North Road; word of a stolen treasure and the reward offered to recover it reaches the inn at Bree; an important personality the Company was scheduled to meet is kidnapped or killed by an unknown threat. Any situation pointing the Player-heroes in the right direction on their path to adventure is a good starting point.
+Sometimes, this is summarised by a rumour that the Company has gathered during the last [[Fellowship Phase]], but can otherwise be something tied to what happened in a previous Adventuring Phase — travellers talk of a strange luminescence they see while on the North Road; word of a stolen treasure and the reward offered to recover it reaches the inn at Bree; an important personality the Company was scheduled to meet is kidnapped or killed by an unknown threat. Any situation pointing the Player-heroes in the right direction on their path to adventure is a good starting point.
 
 Another way is to begin an Adventuring Phase with a direct challenge — something that provokes the Company into action right from the start. There’s no need to plan a complete series of events, as the Company will provide enough material for the Loremaster to improvise upon as the game progresses.
 
@@ -647,4 +647,4 @@ Loremaster characters should be used sparingly and with careful judgement. Playe
 
 During play, the Company may adopt an important personality as their Patron. This provides an excellent source of story hooks and support, and is an easy way to make a familiar hero a recurring motif in the Company’s adventuring. However, the Loremaster must make sure that a Patron is not simply reduced to a gameplay asset; instead they should be worked into the narrative as an active element.
 
-The Patrons section on page 212 contains several suggestions on how to introduce important characters as Patrons in the game.
+The [[Patrons]] section contains several suggestions on how to introduce important characters as Patrons in the game.
