@@ -32,19 +32,19 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
   onSelectSection,
 }) => {
   return (
-    <div className="h-[calc(100vh-4.5rem)] flex flex-col justify-between max-w-7xl mx-auto px-3 sm:px-6 py-3 overflow-hidden">
+    <div className="min-h-[calc(100vh-4.5rem)] lg:h-[calc(100vh-4.5rem)] flex flex-col justify-between max-w-7xl mx-auto px-3 sm:px-6 py-3 sm:py-4 overflow-y-auto lg:overflow-hidden">
       {/* Compact Title Header */}
-      <div className="text-center shrink-0 mb-2 border-b-2 border-double border-[#8E1616] pb-1.5">
-        <h1 className="font-cinzel font-bold text-lg sm:text-xl text-[#8E1616] tracking-wider uppercase">
+      <div className="text-center shrink-0 mb-3 border-b-2 border-double border-[#8E1616] pb-2">
+        <h1 className="font-cinzel font-bold text-base sm:text-xl text-[#8E1616] tracking-wider uppercase">
           {title} — Table of Contents
         </h1>
-        <p className="text-[11px] font-serif text-[#6B5748]">
+        <p className="text-[11px] sm:text-xs font-serif text-[#6B5748] mt-0.5">
           Select any chapter or section to begin reading
         </p>
       </div>
 
-      {/* Grid Layout - Fits 9 Chapters on one unscrolling screen */}
-      <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3 min-h-0 py-1 overflow-y-auto lg:overflow-hidden">
+      {/* Grid Layout - 1-col on mobile, 2-col on sm, 3-col on lg */}
+      <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-3.5 min-h-0 py-1 overflow-y-auto lg:overflow-hidden">
         {chapters.map((chapter) => (
           <motion.div
             key={chapter.id}

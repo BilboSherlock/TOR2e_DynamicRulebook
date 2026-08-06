@@ -8,6 +8,7 @@ import {
   ChevronDown,
   BookOpen,
   X,
+  ArrowUp,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RuleChapter, RuleSection } from '../types';
@@ -345,6 +346,24 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
     const found = section.subHeaders.find((s) => s.id === activeSubHeaderId);
     return found ? found.title : null;
   }, [activeSubHeaderId, section.subHeaders]);
+
+  const [showBackToTop, setShowBackToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowBackToTop(true);
+      } else {
+        setShowBackToTop(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   // Flat list of all sections across all chapters for next/prev navigation
   const flatSections: { chapterId: string; sectionId: string; title: string }[] = [];
@@ -813,6 +832,23 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
           </motion.button>
         )}
       </div>
+
+      {/* Floating Back to Top Button for Mobile Usability */}
+      <AnimatePresence>
+        {showBackToTop && (
+          <motion.button
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            onClick={scrollToTop}
+            className="fixed bottom-5 right-5 z-40 p-3 rounded-full bg-[#8E1616] text-[#FAF5EB] shadow-lg border-2 border-[#FAF5EB] hover:bg-[#A82222] active:scale-95 transition-all cursor-pointer flex items-center justify-center"
+            aria-label="Scroll back to top"
+            title="Scroll back to top"
+          >
+            <ArrowUp className="w-5 h-5" />
+          </motion.button>
+        )}
+      </AnimatePresence>
     </main>
   );
 };

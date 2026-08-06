@@ -176,7 +176,8 @@ export default function App() {
                     if (targetChap && targetChap.sections.length > 0) {
                       setActiveChapterId(targetChap.id);
                       setActiveSectionId(targetChap.sections[0].id);
-                      setActiveView('reader');
+                      setSelectedSupplement('Heroic Cultures');
+                      setActiveView('heroic-cultures');
                     }
                   }}
                   onNavigateSection={handleSelectSection}

@@ -13,7 +13,8 @@ import {
   Award,
   Sparkles,
   ChevronsDown,
-  ChevronsUp
+  ChevronsUp,
+  X
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RuleChapter, RuleSection, SubHeader, SupplementCategory } from '../types';
@@ -103,18 +104,28 @@ export const Sidebar: React.FC<SidebarProps> = ({
             type="button"
             onClick={expandAll}
             title="Expand All Chapters"
-            className="p-1 rounded hover:bg-[#E2D6B8] text-[#8C7565] hover:text-[#8E1616] transition-colors cursor-pointer"
+            className="p-1 rounded hover:bg-[#E2D6B8] text-[#8C7565] hover:text-[#8E1616] transition-colors cursor-pointer min-w-[32px] min-h-[32px] flex items-center justify-center"
           >
-            <ChevronsDown className="w-3.5 h-3.5" />
+            <ChevronsDown className="w-4 h-4" />
           </button>
           <button
             type="button"
             onClick={collapseAll}
             title="Collapse All Chapters"
-            className="p-1 rounded hover:bg-[#E2D6B8] text-[#8C7565] hover:text-[#8E1616] transition-colors cursor-pointer"
+            className="p-1 rounded hover:bg-[#E2D6B8] text-[#8C7565] hover:text-[#8E1616] transition-colors cursor-pointer min-w-[32px] min-h-[32px] flex items-center justify-center"
           >
-            <ChevronsUp className="w-3.5 h-3.5" />
+            <ChevronsUp className="w-4 h-4" />
           </button>
+          {isOpenMobile && (
+            <button
+              type="button"
+              onClick={onCloseMobile}
+              title="Close Menu"
+              className="lg:hidden p-1 rounded bg-[#8E1616] text-[#FAF5EB] hover:bg-[#A82222] transition-colors cursor-pointer min-w-[32px] min-h-[32px] flex items-center justify-center ml-1"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
         </div>
       </div>
 

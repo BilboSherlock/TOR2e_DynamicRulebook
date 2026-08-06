@@ -50,14 +50,14 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="sticky top-0 z-30 bg-[#FAF3E0]/95 backdrop-blur-md border-b-2 border-[#D8C8A8] shadow-xs transition-colors">
       {/* Top Header Row */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-13 flex items-center justify-between gap-2 sm:gap-4">
+      <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-1.5 sm:gap-4">
         {/* Left branding & mobile menu toggle */}
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onToggleMobileSidebar}
-            className="lg:hidden p-1.5 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] hover:bg-[#E8DCC2] transition-all cursor-pointer"
+            className="lg:hidden p-2 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer min-w-[40px] min-h-[40px] flex items-center justify-center shrink-0"
             aria-label="Toggle navigation menu"
           >
             {isMobileSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -66,16 +66,16 @@ export const Header: React.FC<HeaderProps> = ({
           <button
             type="button"
             onClick={onGoHome}
-            className="flex items-center gap-2.5 text-left cursor-pointer group"
+            className="flex items-center gap-2 sm:gap-2.5 text-left cursor-pointer group min-w-0"
           >
             <motion.div
               whileHover={{ rotate: 10, scale: 1.08 }}
-              className="w-8 h-8 rounded-[2px] bg-[#8E1616] text-[#FAF5EB] flex items-center justify-center font-cinzel font-bold text-base shadow-xs border border-[#6E1010]"
+              className="w-8 h-8 rounded-[2px] bg-[#8E1616] text-[#FAF5EB] flex items-center justify-center font-cinzel font-bold text-base shadow-xs border border-[#6E1010] shrink-0"
             >
               ᚠ
             </motion.div>
-            <div>
-              <h1 className="font-cinzel font-bold text-sm sm:text-base tracking-tight text-[#8E1616] group-hover:text-[#A82222] transition-colors leading-tight">
+            <div className="min-w-0">
+              <h1 className="font-cinzel font-bold text-xs sm:text-base tracking-tight text-[#8E1616] group-hover:text-[#A82222] transition-colors leading-tight truncate">
                 The One Ring <span className="font-fell font-normal text-[#6B5748] text-xs hidden sm:inline sm:ml-1">Second Edition</span>
               </h1>
             </div>
@@ -83,16 +83,16 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Right actions: LM Mode Toggle, Styles Debugger & Quick Search */}
-        <div className="flex items-center gap-1.5 sm:gap-2">
+        <div className="flex items-center gap-1 sm:gap-2 shrink-0">
           {/* LoreMaster Mode Toggle Button */}
           <motion.button
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={onToggleLoreMasterMode}
-            className={`px-2 sm:px-2.5 py-1 rounded-[2px] transition-all cursor-pointer flex items-center gap-1.5 text-xs font-serif ${
+            className={`px-2 sm:px-2.5 py-1.5 rounded-[2px] transition-all cursor-pointer flex items-center gap-1.5 text-xs font-serif min-h-[38px] ${
               isLoreMasterMode
                 ? 'bg-[#8E1616] text-[#FAF5EB] border border-[#6E1010] shadow-2xs font-bold'
-                : 'text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] hover:bg-[#E8DCC2]'
+                : 'text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2]'
             }`}
             title={
               isLoreMasterMode
@@ -121,7 +121,7 @@ export const Header: React.FC<HeaderProps> = ({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={onOpenStyleGuide}
-            className="px-2.5 py-1 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] hover:bg-[#E8DCC2] transition-all cursor-pointer flex items-center gap-1.5 text-xs font-serif"
+            className="p-2 sm:px-2.5 sm:py-1.5 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer flex items-center justify-center gap-1.5 text-xs font-serif min-h-[38px]"
             title="Open Formatting & Styles Debug Display"
           >
             <Palette className="w-3.5 h-3.5 text-[#8E1616]" />
@@ -133,7 +133,7 @@ export const Header: React.FC<HeaderProps> = ({
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
             onClick={onOpenSearch}
-            className="px-2.5 py-1 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] hover:bg-[#E8DCC2] transition-all cursor-pointer flex items-center gap-1.5 text-xs font-serif"
+            className="p-2 sm:px-2.5 sm:py-1.5 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer flex items-center justify-center gap-1.5 text-xs font-serif min-h-[38px]"
             title="Search Rulebook (Ctrl+K)"
           >
             <Search className="w-3.5 h-3.5 text-[#8E1616]" />
@@ -147,7 +147,7 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Main Navigation Bar Strip */}
       <div className="bg-[#EFE5CB]/90 border-t border-[#D8C8A8] overflow-x-auto no-scrollbar">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 flex items-center gap-2 py-1.5 text-xs font-cinzel">
+        <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 flex items-center gap-2 py-1.5 text-xs font-cinzel">
           {NAV_TABS.map((tab) => {
             const isSelected =
               (tab.id === 'Core Rules' && (selectedSupplement === 'Core Rules' || activeView === 'toc')) ||
@@ -158,10 +158,10 @@ export const Header: React.FC<HeaderProps> = ({
                 key={tab.id}
                 type="button"
                 onClick={() => onSelectSupplement(tab.id)}
-                className={`whitespace-nowrap px-4 py-1.5 rounded-[2px] font-bold transition-all flex items-center gap-2 cursor-pointer text-xs uppercase tracking-wider ${
+                className={`whitespace-nowrap px-3.5 py-2 rounded-[2px] font-bold transition-all flex items-center gap-2 cursor-pointer text-xs uppercase tracking-wider min-h-[40px] ${
                   isSelected
                     ? 'bg-[#8E1616] text-[#FAF5EB] shadow-2xs border border-[#6E1010]'
-                    : 'text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] border border-transparent'
+                    : 'text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] active:bg-[#E8DCC2] border border-transparent'
                 }`}
               >
                 {tab.icon}

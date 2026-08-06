@@ -17,6 +17,8 @@ import {
   Languages,
   ChevronRight,
   ChevronLeft,
+  ChevronDown,
+  ChevronUp,
   Check,
   Layers,
   ArrowRight,
@@ -332,6 +334,7 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
   );
 
   const [activeTab, setActiveTab] = useState<'aspects' | 'virtues'>('aspects');
+  const [isCultureSelectorExpanded, setIsCultureSelectorExpanded] = useState<boolean>(false);
 
   useEffect(() => {
     if (activeCultureId && activeCultureId !== selectedCultureId) {
@@ -415,21 +418,75 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
     <div className="flex-1 max-w-7xl mx-auto px-3 sm:px-6 py-4 md:py-6 flex flex-col gap-4">
       {/* Top Culture Hub Navigation & Tab Selector */}
       <div className="flex flex-col gap-3">
-        {/* Active Culture Banner */}
-        <div className="p-3.5 bg-[#EFE5CB] border-2 border-[#D8C8A8] rounded-[2px] shadow-2xs flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-[#8E1616] text-[#FAF5EB] rounded-[2px] border border-[#6E1010] shadow-2xs">
-              <CultureIconComp className="w-5 h-5" />
+        {/* Culture Selection Bar - Collapsible Grid */}
+        <div className="p-3 bg-[#EFE5CB] border-2 border-[#D8C8A8] rounded-[2px] shadow-2xs flex flex-col gap-2.5">
+          <div className="flex items-center justify-between border-b border-[#D8C8A8] pb-1.5 px-0.5 gap-2">
+            <div className="flex items-center gap-2 min-w-0">
+              <div className="p-1.5 bg-[#8E1616] text-[#FAF5EB] rounded-[2px] border border-[#6E1010] shadow-2xs shrink-0">
+                <CultureIconComp className="w-4 h-4" />
+              </div>
+              <div className="min-w-0">
+                <h2 className="font-cinzel font-bold text-sm sm:text-base text-[#8E1616] leading-tight truncate">
+                  {currentCulture?.title}
+                </h2>
+                <span className="text-[10px] sm:text-xs font-serif text-[#6B5748] block truncate">
+                  Heroic Culture Hub • {culturalAspects.length} Cultural Aspects • {virtueAspects.length} Virtues
+                </span>
+              </div>
             </div>
-            <div>
-              <h2 className="font-cinzel font-bold text-base sm:text-lg text-[#8E1616] leading-tight">
-                {currentCulture?.title}
-              </h2>
-              <span className="text-[11px] font-serif text-[#6B5748] block mt-0.5">
-                Heroic Culture Hub • {culturalAspects.length} Cultural Aspects • {virtueAspects.length} Virtues
-              </span>
-            </div>
+
+            <button
+              type="button"
+              onClick={() => setIsCultureSelectorExpanded(!isCultureSelectorExpanded)}
+              className="px-2.5 py-1.5 rounded-[2px] bg-[#FAF3E0] hover:bg-[#E8DCC2] active:bg-[#E2D2A8] text-[#8E1616] border border-[#D4C4A0] text-xs font-cinzel font-bold transition-all cursor-pointer flex items-center gap-1.5 shadow-2xs shrink-0"
+              title={isCultureSelectorExpanded ? "Hide Culture List" : "Change Heroic Culture"}
+            >
+              <span>{isCultureSelectorExpanded ? "Hide Cultures" : "Change Culture"}</span>
+              {isCultureSelectorExpanded ? (
+                <ChevronUp className="w-3.5 h-3.5 text-[#8E1616]" />
+              ) : (
+                <ChevronDown className="w-3.5 h-3.5 text-[#8E1616]" />
+              )}
+            </button>
           </div>
+
+          {/* Grid of All 11 Heroic Cultures - Shown when expanded or hidable after selection */}
+          {isCultureSelectorExpanded && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1.5 pt-1"
+            >
+              {cultureChapters.map((culture) => {
+                const isSelected = culture.id === selectedCultureId;
+                const Icon = CULTURE_ICON_MAP[culture.iconName || 'Shield'] || Shield;
+                const shortTitle = culture.title.replace(/^Chapter \d+:\s*/i, '').replace(/The\s+/i, '');
+
+                return (
+                  <button
+                    key={culture.id}
+                    type="button"
+                    onClick={() => {
+                      setSelectedCultureId(culture.id);
+                      setIsCultureSelectorExpanded(false); // Auto-hide after selection is made
+                      if (onSelectCulturePage) {
+                        onSelectCulturePage(culture.id);
+                      }
+                    }}
+                    className={`px-2 py-1.5 rounded-[2px] border text-xs font-cinzel font-bold transition-all cursor-pointer flex items-center gap-1.5 min-h-[36px] ${
+                      isSelected
+                        ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010] shadow-2xs'
+                        : 'bg-[#FAF3E0] text-[#28211D] hover:bg-[#E8DCC2] active:bg-[#E2D2A8] border-[#D4C4A0]'
+                    }`}
+                  >
+                    <Icon className="w-3.5 h-3.5 shrink-0" />
+                    <span className="truncate">{shortTitle}</span>
+                  </button>
+                );
+              })}
+            </motion.div>
+          )}
         </div>
 
         {/* Top Tab Selector Switcher: Cultural Aspects vs Virtues */}
@@ -512,34 +569,52 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                 No virtues listed yet for {currentCulture.title}. Select Beornings to view Cultural Virtues!
               </div>
             ) : (
-              <>
-                {/* Mobile Horizontal Pill Selector */}
-                <div className="flex lg:hidden overflow-x-auto no-scrollbar gap-1.5 pb-1 pt-0.5">
-                  {currentTiles.map((tile, index) => {
-                    const IconComp = tile.icon;
-                    const isActive = activeAspectId === tile.id;
-                    const isFirstTab = index === 0;
-                    const { mainTitle, subTitle } = splitTitle(tile.title);
+              /* Open Grid - 2 columns in vertical (portrait) and 3 columns in landscape - NO SCROLLBAR */
+              <div className="grid grid-cols-2 landscape:grid-cols-3 sm:grid-cols-3 lg:grid-cols-1 gap-1.5 sm:gap-2">
+                {currentTiles.map((tile, index) => {
+                  const IconComp = tile.icon;
+                  const isActive = activeAspectId === tile.id;
+                  const isFirstTab = index === 0;
+                  const { mainTitle, subTitle } = splitTitle(tile.title);
 
-                    return (
-                      <button
-                        key={tile.id}
-                        type="button"
-                        onClick={() => handleAspectClick(tile.id)}
-                        className={`shrink-0 px-2.5 py-1.5 rounded-[2px] border text-xs font-cinzel font-bold transition-all cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
-                          isActive
-                            ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010] shadow-xs'
-                            : isFirstTab
-                            ? 'bg-[#E2D2A8] text-[#28211D] hover:bg-[#D9C89B] border-[#CBB88C] shadow-2xs'
-                            : 'bg-[#EFE5CB] text-[#28211D] hover:bg-[#E8DCC2] border-[#D4C4A0]'
-                        }`}
-                      >
-                        <IconComp className="w-3.5 h-3.5 shrink-0" />
-                        <div className="flex flex-col text-left leading-tight">
-                          <span>{mainTitle}</span>
+                  return (
+                    <motion.button
+                      key={tile.id}
+                      type="button"
+                      whileHover={{ x: 2 }}
+                      whileTap={{ scale: 0.98 }}
+                      onClick={() => handleAspectClick(tile.id)}
+                      className={`px-3 py-2.5 sm:py-2 rounded-[2px] text-left transition-all cursor-pointer border flex items-center justify-between gap-2 relative overflow-hidden group min-h-[44px] ${
+                        isActive
+                          ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010] shadow-xs ring-1 ring-[#8E1616]/40'
+                          : isFirstTab
+                          ? 'bg-[#E2D2A8] text-[#28211D] hover:bg-[#D9C89B] active:bg-[#D0C092] border-[#CBB88C] shadow-2xs'
+                          : 'bg-[#EFE5CB] text-[#28211D] hover:bg-[#E8DCC2] active:bg-[#DFCFA8] border-[#D4C4A0]'
+                      }`}
+                    >
+                      <div className="flex items-center gap-2.5 min-w-0">
+                        <div
+                          className={`p-1.5 rounded-[2px] shrink-0 ${
+                            isActive
+                              ? 'bg-[#FAF5EB]/20 text-[#FAF5EB]'
+                              : isFirstTab
+                              ? 'bg-[#8E1616]/15 text-[#8E1616]'
+                              : 'bg-[#D8C8A8]/40 text-[#8E1616]'
+                          }`}
+                        >
+                          <IconComp className="w-3.5 h-3.5" />
+                        </div>
+                        <div className="min-w-0 flex flex-col">
+                          <h3
+                            className={`font-cinzel font-bold text-xs leading-tight truncate ${
+                              isActive ? 'text-[#FAF5EB]' : 'text-[#8E1616] group-hover:text-[#A82222]'
+                            }`}
+                          >
+                            {mainTitle}
+                          </h3>
                           {subTitle && (
                             <span
-                              className={`text-[9px] font-serif italic font-normal ${
+                              className={`text-[10px] font-serif italic font-normal truncate block leading-tight mt-0.5 ${
                                 isActive ? 'text-[#FAF5EB]/85' : 'text-[#6B5748]'
                               }`}
                             >
@@ -547,76 +622,17 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                             </span>
                           )}
                         </div>
-                      </button>
-                    );
-                  })}
-                </div>
+                      </div>
 
-                {/* Desktop Compact Tiles List */}
-                <div className="hidden lg:grid grid-cols-1 gap-1.5">
-                  {currentTiles.map((tile, index) => {
-                    const IconComp = tile.icon;
-                    const isActive = activeAspectId === tile.id;
-                    const isFirstTab = index === 0;
-                    const { mainTitle, subTitle } = splitTitle(tile.title);
-
-                    return (
-                      <motion.button
-                        key={tile.id}
-                        type="button"
-                        whileHover={{ x: 2 }}
-                        whileTap={{ scale: 0.98 }}
-                        onClick={() => handleAspectClick(tile.id)}
-                        className={`px-3 py-2 rounded-[2px] text-left transition-all cursor-pointer border flex items-center justify-between gap-2 relative overflow-hidden group ${
-                          isActive
-                            ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010] shadow-xs ring-1 ring-[#8E1616]/40'
-                            : isFirstTab
-                            ? 'bg-[#E2D2A8] text-[#28211D] hover:bg-[#D9C89B] border-[#CBB88C] shadow-2xs'
-                            : 'bg-[#EFE5CB] text-[#28211D] hover:bg-[#E8DCC2] border-[#D4C4A0]'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2.5 min-w-0">
-                          <div
-                            className={`p-1 rounded-[2px] shrink-0 ${
-                              isActive
-                                ? 'bg-[#FAF5EB]/20 text-[#FAF5EB]'
-                                : isFirstTab
-                                ? 'bg-[#8E1616]/15 text-[#8E1616]'
-                                : 'bg-[#D8C8A8]/40 text-[#8E1616]'
-                            }`}
-                          >
-                            <IconComp className="w-3.5 h-3.5" />
-                          </div>
-                          <div className="min-w-0 flex flex-col">
-                            <h3
-                              className={`font-cinzel font-bold text-xs leading-tight truncate ${
-                                isActive ? 'text-[#FAF5EB]' : 'text-[#8E1616] group-hover:text-[#A82222]'
-                              }`}
-                            >
-                              {mainTitle}
-                            </h3>
-                            {subTitle && (
-                              <span
-                                className={`text-[10px] font-serif italic font-normal truncate block leading-tight mt-0.5 ${
-                                  isActive ? 'text-[#FAF5EB]/85' : 'text-[#6B5748]'
-                                }`}
-                              >
-                                {subTitle}
-                              </span>
-                            )}
-                          </div>
+                      {isActive && (
+                        <div className="flex items-center gap-1 shrink-0 bg-[#FAF5EB]/20 px-1.5 py-0.5 rounded-[2px]">
+                          <Check className="w-3.5 h-3.5 text-[#FAF5EB]" />
                         </div>
-
-                        {isActive && (
-                          <div className="flex items-center gap-1.5 shrink-0">
-                            <Check className="w-3.5 h-3.5 text-[#FAF5EB]" />
-                          </div>
-                        )}
-                      </motion.button>
-                    );
-                  })}
-                </div>
-              </>
+                      )}
+                    </motion.button>
+                  );
+                })}
+              </div>
             )}
           </div>
         </div>
