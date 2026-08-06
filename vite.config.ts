@@ -8,7 +8,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 export default defineConfig(() => {
   return {
     base: '/<repo-name>/',
-    plugins: [react(), tailwindcss(), compressPlugin({ verbose: true })],
+    plugins: [react(), tailwindcss(), compressPlugin({ verbose: true }), visualizer({ filename: 'stats.html', open: false })],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
@@ -40,6 +40,6 @@ export default defineConfig(() => {
         }
       }
     },
-    plugins: [visualizer({ filename: 'stats.html', open: false })]
+
   };
 });
