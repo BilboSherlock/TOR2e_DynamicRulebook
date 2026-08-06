@@ -107,7 +107,7 @@ The following list presents the Skills in alphabetical order. A brief descriptio
 
 A successful **Athletics** roll produces a satisfactory outcome in the physical activity, while a failed roll might lead to serious harm, depending on the circumstances. A superior result suggests a spectacular achievement.
 
->Poor Mr Baggins had never had much practice in climbing trees, but they hoisted him up into the lowest branches of an enormous oak that grew right out into the path, and up he had to go as best he could.
+[inline-quote]Poor Mr Baggins had never had much practice in climbing trees, but they hoisted him up into the lowest branches of an enormous oak that grew right out into the path, and up he had to go as best he could.[/inline-quote]
 
 * * *
 
@@ -115,7 +115,7 @@ A successful **Athletics** roll produces a satisfactory outcome in the physical 
 
 The **Awareness** Skill represents a hero’s readiness to react and the ability to notice something unexpected, out of the ordinary, or difficult to detect. A high Skill score reflects both keen senses and the experience to understand what is seen or heard — a high level of watchfulness is extremely useful if a Player-hero serves as a look-out for the Company.
 
-As Frodo watched he saw something dark pass across the lighter space between two trees, and then halt.
+[inline-quote]As Frodo watched he saw something dark pass across the lighter space between two trees, and then halt.[/inline-quote]
 
 * * *
 
@@ -125,15 +125,15 @@ This Skill measures the capacity to evoke respect in onlookers, and determines t
 
 Successful use of the **Awe** Skill evokes the chosen effect, while failure can lead to the opposite result. Achieving a superior success means that a hero has won the hearts of the onlookers or cowed them into silent submission.
 
-For a moment it seemed to the eyes of Legolas that a white flame flickered on the brows of Aragorn like a shining crown.
+[inline-quote]For a moment it seemed to the eyes of Legolas that a white flame flickered on the brows of Aragorn like a shining crown.[/inline-quote]
 
 * * *
 
 ### Battle
 
-A rating in this Skill shows a firm grasp of the rules of battle and the capability to manoeuvre appropriately when involved in a violent confrontation. The **Battle** Skill can be used to gain an advantage when fighting against a group of foes, or leading a company of troops in open battle and maintaining order in the midst of chaos (individual fighting talents are covered by Combat Proficiencies on page 65).
+A rating in this Skill shows a firm grasp of the rules of battle and the capability to manoeuvre appropriately when involved in a violent confrontation. The **Battle** Skill can be used to gain an advantage when fighting against a group of foes, or leading a company of troops in open battle and maintaining order in the midst of chaos (individual fighting talents are covered by [[Combat Proficiencies]]).
 
-“Fools!” laughed Bard, “to come thus beneath the Mountain’s arm! They do not understand war above ground, whatever they may know of battle in the mines.”
+[inline-quote]“Fools!” laughed Bard, “to come thus beneath the Mountain’s arm! They do not understand war above ground, whatever they may know of battle in the mines.”[/inline-quote]
 
 * * *
 
@@ -143,7 +143,7 @@ The Free Peoples recognise common norms of decency and ancient conventions of be
 
 Succeeding in a **Courtesy** roll might mean the Player-heroes know what to say at the right moment to make a good impression with their host, or are mindful of their manners when receiving guests.
 
-“You have nice manners for a thief and a liar,” said the Dragon.
+[inline-quote]“You have nice manners for a thief and a liar,” said the Dragon.[/inline-quote]
 
 * * *
 
@@ -153,7 +153,7 @@ The **Craft** Skill doesn’t really cover the whole range of abilities of smith
 
 A high **Craft** score may indicate that the Player-hero was a craftsperson before starting a life of adventure. Some Cultures, such as the Dwarves and Noldorin Elves, revere crafts as the highest expression of creativity.
 
-… the only craft little practised among them was shoe-making; but they had long and skilful fingers and could make many other useful and comely things.
+[inline-quote]… the only craft little practised among them was shoe-making; but they had long and skilful fingers and could make many other useful and comely things.[/inline-quote]
 
 * * *
 
@@ -161,9 +161,9 @@ A high **Craft** score may indicate that the Player-hero was a craftsperson befo
 
 Player-heroes can use the **Enhearten** Skill to instil positive feelings in others, urging them to act on the matter at hand. They achieve this mainly through example, charisma, and personal conviction, rather than through the effective use of words (which falls under **Persuade**). This Skill can be used on individuals, but is particularly effective in influencing crowds. Player-heroes with high **Enhearten** ratings can be forceful orators, passionate agitators, and well-loved leaders.
 
-A successful **Enhearten** roll awakens a chosen feeling in the subject, as long as it is not in opposition to their current mood. A superior success is enough to inuence wholly disinterested individuals, or turn rivals into supporters.
+A successful **Enhearten** roll awakens a chosen feeling in the subject, as long as it is not in opposition to their current mood. A superior success is enough to influence wholly disinterested individuals, or turn rivals into supporters.
 
-…he returned to the walls, and passed round all their circuit, enheartening the men…
+[inline-quote]…he returned to the walls, and passed round all their circuit, enheartening the men…[/inline-quote]
 
 * * *
 
@@ -171,7 +171,7 @@ A successful **Enhearten** roll awakens a chosen feeling in the subject, as long
 
 Player-heroes rely on the **Explore** Skill when they move through an unfamiliar area of the Wild. An **Explore** roll may be required during a journey to find out where the Company is heading, or to get back on track after a detour; to cope with adverse weather conditions or other natural hazards; to create paths through the wilderness suitable for others to follow; or to choose a suitable place to set up camp. A high **Explore** rating is an invaluable resource if a Player-hero is acting as a scout for the Company.
 
-“We have found a dry cave,” they said, “not far round the next corner; and ponies and all could get inside.”
+[inline-quote]“We have found a dry cave,” they said, “not far round the next corner; and ponies and all could get inside.”[/inline-quote]
 
 * * *
 
@@ -181,7 +181,7 @@ The knowledge of how to relieve pain and apply remedies to restore health to the
 
 The **Healing** Skill includes bone setting and the use of herbs or salves, but the outcome relies on the ability of the healer to understand what ails the sufferer and determine what should be done to help them.
 
-As a matter of fact, Gandalf, who had often been in the mountains, had once rendered a service to the eagles and healed their lord from an arrow-wound.
+[inline-quote]As a matter of fact, Gandalf, who had often been in the mountains, had once rendered a service to the eagles and healed their lord from an arrow-wound.[/inline-quote]
 
 * * *
 
@@ -191,7 +191,7 @@ Knowing how to hunt is a fundamental skill, shared by most cultures of Middle-ea
 
 In wilder areas, hunters learn to apply their trade to more dangerous quarries — such as Orcs, Spiders, or Wargs — or else risk becoming the prey.
 
-They dwelt most often by the edges of the woods, from which they could escape at times to hunt, or to ride and run over the open lands by moonlight or starlight…
+[inline-quote]They dwelt most often by the edges of the woods, from which they could escape at times to hunt, or to ride and run over the open lands by moonlight or starlight…[/inline-quote]
 
 * * *
 
@@ -201,7 +201,7 @@ They dwelt most often by the edges of the woods, from which they could escape at
 
 A successful **Insight** roll provides the Player-heroes with a reliable, but partial, portrait of the person they are observing. A superior success allows them to correctly guess additional details about an individual’s state of mind. **Insight** tests may be rolled in opposition to an adversary trying to sway or convince a Player-hero of something.
 
-“There are locked doors and closed windows in your mind, and dark rooms behind them,” said Faramir. “But in this I judge that you speak the truth.”
+[inline-quote]“There are locked doors and closed windows in your mind, and dark rooms behind them,” said Faramir. “But in this I judge that you speak the truth.”[/inline-quote]
 
 * * *
 
@@ -211,7 +211,7 @@ A successful **Insight** roll provides the Player-heroes with a reliable, but pa
 
 Player-heroes are considered to be knowledgeable in the traditions of their own people, and so the Loremaster should rarely require a player to make a **Lore** roll for information regarding their own character’s Culture, Background, or the area they originally came from.
 
-He knew many histories and legends of long ago, of Elves and Men and the good and evil deeds of the Elder Days.
+[inline-quote]He knew many histories and legends of long ago, of Elves and Men and the good and evil deeds of the Elder Days.[/inline-quote]
 
 * * *
 
@@ -219,9 +219,9 @@ He knew many histories and legends of long ago, of Elves and Men and the good an
 
 This Skill allows the Player-heroes to apply their reasoning to convince other individuals of an idea or course of action. It can be used to influence small groups of listeners, but only if used in an appropriate context, such as a common hall. Persuasion requires more time than other Personality Skills, but can have a more lasting impact on other characters’ actions. A high **Persuade** score denotes an uncommon eloquence, a love of speech and knowledge of its proper use and its effect on listeners. Wise people, advisers to chieftains and kings, and their messengers all share this passion for the spoken word.
 
-The successful use of the **Persuade** Skill allows a Player-hero to convince an audience that their current position regarding a matter is awed. A superior success convinces listeners of the quality of a hero’s stance, and may even turn them into ardent believers.
+The successful use of the **Persuade** Skill allows a Player-hero to convince an audience that their current position regarding a matter is flawed. A superior success convinces listeners of the quality of a hero’s stance, and may even turn them into ardent believers.
 
-Aragorn laughed. “Every man has something too dear to trust to another. But would you part an old man from his support? Come, will you not let us enter?”
+[inline-quote]Aragorn laughed. “Every man has something too dear to trust to another. But would you part an old man from his support? Come, will you not let us enter?”[/inline-quote]
 
 * * *
 
@@ -231,7 +231,7 @@ Owing its name to the ancient game, the **Riddle** Skill represents the ability 
 
 As an accepted custom among many cultures, speaking in riddles is usually allowed among strangers meeting for the first time and wanting to speak guardedly. This Skill is also used to gain helpful insight from a spoken or written riddle.
 
-“A Hobbit waded out into the water and back; but I cannot say how long ago.” “How then do you read this riddle?” asked Gimli.
+[inline-quote]“A Hobbit waded out into the water and back; but I cannot say how long ago.” “How then do you read this riddle?” asked Gimli.[/inline-quote]
 
 * * *
 
@@ -241,7 +241,7 @@ Player-heroes can use the **Scan** Skill when examining something closely or att
 
 A successful **Scan** roll generally lets Player-heroes find what they are looking for — if it is to be found at all. A superior success usually means the object is found more quickly.
 
-“Less welcome did the Lord Denethor show me then than of old, and grudgingly he permitted me to search among his hoarded scrolls and books.”
+[inline-quote]“Less welcome did the Lord Denethor show me then than of old, and grudgingly he permitted me to search among his hoarded scrolls and books.”[/inline-quote]
 
 * * *
 
@@ -251,7 +251,7 @@ Hobbits and Men, Elves and Dwarves, even Goblins and maybe Orcs: all creatures o
 
 The **Song** Skill is used to recite poems, sing songs, or play instruments suitable to a character’s Culture. It can also be used to learn new works or create original compositions.
 
-As they sang, the Hobbit felt the love of beautiful things made by hands and by cunning and by magic moving through him, a fierce and jealous love, the desire of the hearts of Dwarves.
+[inline-quote]As they sang, the Hobbit felt the love of beautiful things made by hands and by cunning and by magic moving through him, a fierce and jealous love, the desire of the hearts of Dwarves.[/inline-quote]
 
 * * *
 
@@ -261,7 +261,7 @@ Player-heroes resort to **Stealth** whenever they need to act in a furtive or se
 
 A successful **Stealth** roll indicates that the hero has gone unnoticed, while failure almost certainly attracts unwanted attention. A superior success produces an outcome so flawless that it may even be impossible to notice the deed after the fact.
 
-So silent was his going that smoke on a gentle wind could hardly have surpassed it, and he was inclined to feel a bit proud of himself as he drew near the lower door.
+[inline-quote]So silent was his going that smoke on a gentle wind could hardly have surpassed it, and he was inclined to feel a bit proud of himself as he drew near the lower door.[/inline-quote]
 
 * * *
 
@@ -269,9 +269,9 @@ So silent was his going that smoke on a gentle wind could hardly have surpassed 
 
 In the Third Age, the cities, villages, and towns of Middle-earth are often separated by many leagues of wild or deserted areas. Roads that used to lead safely to distant realms now end in broken trails that go nowhere. Whichever way the Company chooses to go, it will be a long and weary way before they get there.
 
-A successful roll of **Travel** may let a Player-hero estimate the length of a journey, read a map, and even evaluate whether a group of strangers on the road can be approached safely or if they should be left alone instead. A good **Travel** Skill is an invaluable asset for the Guide of the Company when on a journey (see page 108).
+A successful roll of **Travel** may let a Player-hero estimate the length of a journey, read a map, and even evaluate whether a group of strangers on the road can be approached safely or if they should be left alone instead. A good **Travel** Skill is an invaluable asset for the Guide of the Company when on a [[Journey]].
 
-The country was much rougher and more barren than in the green vale of the Great River in Wilderland on the other side of the range, and their going would be slow…
+[inline-quote]The country was much rougher and more barren than in the green vale of the Great River in Wilderland on the other side of the range, and their going would be slow…[/inline-quote]
 
 # Combat Proficiencies
 
@@ -291,7 +291,7 @@ Unlike Skills, Combat Proficiencies can never be Favoured, and they can be impro
 
 There are four different Combat Proficiencies in _The One Ring_: **Axes**, **Bows**, **Spears**, and **Swords**. Each one represents a level of familiarity with a number of weapons of similar kind, allowing a Player-hero to attack using any weapon covered by that specific Proficiency.
 
-Descriptions and characteristics of the various weapons corresponding to each Proficiency can be found on page 73 in the Gear section.
+Descriptions and characteristics of the various weapons corresponding to each Proficiency can be found in the [[War Gear]] section.
 
 * * *
 
@@ -301,7 +301,7 @@ Axes and other bashing weapons are often preferred to swords by warriors who fav
 
 The **Axes** Combat Proficiency allows a Player-hero to use an axe, a great axe, a long-hafted axe, but also a mattock.
 
-He was clothed in a tunic of wool down to his knees, and was leaning on a large axe.
+[inline-quote]He was clothed in a tunic of wool down to his knees, and was leaning on a large axe.[/inline-quote]
 
 * * *
 
@@ -311,7 +311,7 @@ A traditional hunting weapon, the bow is also commonly used in warfare. Made fro
 
 The **Bows** Combat Proficiency enables a Player-hero to make ranged attacks using a bow or a great bow.
 
-“Praised be the bow of Galadriel, and the hand and eye of Legolas!”
+[inline-quote]“Praised be the bow of Galadriel, and the hand and eye of Legolas!”[/inline-quote]
 
 * * *
 
@@ -321,7 +321,7 @@ The spear is arguably the most widespread weapon across Middle-earth, arming kin
 
 The **Spears** Combat Proficiency allows a hero to make ranged and close combat attacks using a short spear or a spear, or to fight in close combat using a great spear.
 
-He advanced until the point of his spear was within a foot of Aragorn’s breast.
+[inline-quote]He advanced until the point of his spear was within a foot of Aragorn’s breast.[/inline-quote]
 
 * * *
 
@@ -331,7 +331,7 @@ The sword with a straight blade has always been the weapon of choice among free 
 
 The **Swords** Combat Proficiency enables a Player-hero to attack in close combat using short swords, swords, and long swords.
 
-“There is work for the Sword to do.”
+[inline-quote]“There is work for the Sword to do.”[/inline-quote]
 
 * * *
 
@@ -555,13 +555,13 @@ Player-heroes whose Endurance is reduced to zero drop unconscious, and wake up a
 
 ### Weary
 
-Used in conjunction with a hero’s carried Load (see Gear, page 47), Endurance determines when the weight and bulk of any equipment starts to affect a Player-hero’s performance.
+Used in conjunction with a hero’s carried Load (see [[Starting Gear]]), Endurance determines when the weight and bulk of any equipment starts to affect a Player-hero’s performance.
 
 [key-box]
 Heroes become Weary if their Current Endurance score becomes equal to or lower than their total Load. When this happens, the Weary box on their character sheet is checked.
 [/key-box]
 
-Player-heroes remain Weary until their Endurance score rises above their Load again (see below).
+Player-heroes remain Weary until their Endurance score rises above their Load again (see [[Resting]]).
 
 * * *
 
@@ -596,7 +596,7 @@ When gained, Fatigue points temporarily raise a travelling Player-hero’s total
 [red-box]
 #### Serious Injuries
 
-Endurance loss should not be confused with being Wounded. While being hit in combat results in a loss of Endurance, adventurers are only at risk of death when hit by a Piercing Blow — a precise attack that threatens to bypass their armour and defences completely and cause serious injury (see the rules for Combat on page 93 and following, for the effects of Wounds and their severity).
+Endurance loss should not be confused with being Wounded. While being hit in combat results in a loss of Endurance, adventurers are only at risk of death when hit by a Piercing Blow — a precise attack that threatens to bypass their armour and defences completely and cause serious injury (see the rules for [[Combat]] and following, for the effects of Wounds and their severity).
 [/red-box]
 
 ## Hope

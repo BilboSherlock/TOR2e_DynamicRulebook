@@ -21,7 +21,7 @@ The largest part of the gameplay of The One Ring is made up of a series of Adven
 
 During an Adventuring Phase it is the job of the Loremaster to challenge the players, putting them in difficult circumstances, setting fiendish riddles for them to solve, and confronting them with formidable opponents. The gameplay is a dynamic narrative, as the players take action to explore the situations they encounter. The Loremaster then describes what happens as a result of their actions, and the players again react to the new circumstances, and so on.
 
-The Loremaster keeps the story flowing through a mixture of preparation and improvisation. (See Chapter 8: The Loremaster, for more about running an Adventuring Phase).
+The Loremaster keeps the story flowing through a mixture of preparation and improvisation. (See [[The Loremaster]], for more about running an Adventuring Phase).
 
 ## Adventuring Phase Sessions
 An average Adventuring Phase should last between two and three sessions of play, with each session clocking in at around 3 hours of gaming.
@@ -44,7 +44,7 @@ If the session is the first one of an Adventuring Phase, all the elements listed
 
 ### 2. Scenes
 
-Once a session has started, the gameplay transitions from one scene to another, with each scene describing a situation requiring the players to make meaningful decisions. To build a coherent narrative, the Loremaster frames each scene based on the consequences of the previous one and on the choices of the players (see The Loremaster, page 128).
+Once a session has started, the gameplay transitions from one scene to another, with each scene describing a situation requiring the players to make meaningful decisions. To build a coherent narrative, the Loremaster frames each scene based on the consequences of the previous one and on the choices of the players (see [[The Loremaster]]).
 
 Each scene can vary in duration from less than an hour of play time (a short but meaningful encounter), up to the entire length of the session (a council taking many hours of game time to be completed). Between a number of main scenes and secondary scenes, a session of play should not last more than three or four hours.
 
@@ -56,7 +56,7 @@ When the time allocated for the game session is up, the Loremaster and the playe
 
 If the session ends without the players reaching a satisfactory conclusion, the gameplay will resume at a later date with another Adventuring Phase session. When the Company meets again, the Loremaster starts the new session by summarising what happened in the previous one.
 
-If, on the contrary, the current narrative arc has reached its conclusion, the Loremaster draws the final curtain on the gaming session. The Adventuring Phase is over, and the session of play progresses with the Fellowship Phase, or a Fellowship Phase is scheduled to start at the beginning of the next session, depending on the available time (see Chapter 7: Fellowship Phases).
+If, on the contrary, the current narrative arc has reached its conclusion, the Loremaster draws the final curtain on the gaming session. The Adventuring Phase is over, and the session of play progresses with the Fellowship Phase, or a Fellowship Phase is scheduled to start at the beginning of the next session, depending on the available time (see [[Fellowship Phases]]).
 
 * * *
 
@@ -84,7 +84,7 @@ Before combat even begins, the Loremaster should make sure that not all battles 
 
 Is the Company fleeing from a greater threat and needs to open a way through their enemies’ ranks? Are they fighting to protect a place — or a person? Are they following a dangerous mountain path, or were they encamped among thick trees? Is it raining, or is the battlefield rough and snow-covered?
 
-Whenever possible, the descriptive details employed by the Loremaster should have repercussions on how combat will be resolved; for example, inuencing how many opening volleys to allow, if any, or whether any combatants should be made unavailable as eligible targets for engagement (see page 96).
+Whenever possible, the descriptive details employed by the Loremaster should have repercussions on how combat will be resolved; for example, influencing how many opening volleys to allow, if any, or whether any combatants should be made unavailable as eligible targets for engagement (see [[Engagement Limits]]).
 
 ## Combat Sequence
 Once a combat encounter is initiated, the following steps must be applied in order to keep the action flowing:
@@ -103,7 +103,7 @@ The Loremaster must now determine how many volleys to allow, if any at all, base
 *   Under most circumstances, all combatants are entitled to at least one volley using a bow or a thrown weapon (a spear or a short spear).
 *   If the two sides are separated by a greater distance, then the Loremaster might allow combatants using a bow to let loose two volleys, or even more.
 
-All volley attacks are resolved as normal ranged attacks (see page 98). Player-heroes carrying a shield double its Parry modifier if aware of the incoming attack (a hero advancing to join a confrontation definitely would be).
+All volley attacks are resolved as normal ranged attacks (see [[Resolving Attacks]]). Player-heroes carrying a shield double its Parry modifier if aware of the incoming attack (a hero advancing to join a confrontation definitely would be).
 
 Normally, the volley exchange is resolved with the Player-heroes launching their volleys first, unless the Loremaster considers the circumstances to favour the opposition.
 
@@ -114,8 +114,6 @@ When the opening volleys are completed, the combatants cover the distance that s
 ### Close Quarters Rounds
 
 Once fighting at close quarters is initiated, the gameplay is broken down into a cycle of rounds, played one after the other until the end of the battle.
-
-The sequence of each Close Quarters Round is explained in detail on the next page.
 
 * * *
 
@@ -279,7 +277,7 @@ When it is the Company’s turn to act, all players resolve their actions in sta
 
 When it is their turn to act, players must choose one main action for their Player-hero to perform, and one secondary action, to accomplish before or after the main one.
 
-A main action is a task that requires a hero’s full attention — it is generally used to make an attack roll, or to complete a Combat Task like those described on page 102. Secondary actions are faster, simpler undertakings, or tasks that can be accomplished while focusing on a main action.
+A main action is a task that requires a hero’s full attention — it is generally used to make an attack roll, or to complete a [[Combat Tasks]]. Secondary actions are faster, simpler undertakings, or tasks that can be accomplished while focusing on a main action.
 
 Examples of main actions other than attacking or performing a Combat Task include:
 
@@ -303,7 +301,7 @@ When it is the enemies’ turn to act, the Loremaster chooses their actions, aga
 
 In general terms, adversaries may perform a main action and a secondary action, just like the Player-heroes do. Often, the Loremaster will opt to have them simply take one main action to speed up gameplay.
 
-The description of an adversary, and their special abilities in particular, should guide the Loremaster in making tactical choices (see The Shadow, page 136) but much can also be derived from the context of the adventure itself.
+The description of an adversary, and their special abilities in particular, should guide the Loremaster in making tactical choices (see [[The Shadow]]) but much can also be derived from the context of the adventure itself.
 
 What is the enemy trying to do (apart from harming the Company)? Are they trying to protect a place? Or are they looking for something, or someone? Having the sketch of a plan in mind can provide the Loremaster with many helpful twists to make combat exciting and fun. To make just one example taken from the stories, when the Fellowship was assaulted at Parth Galen, the Uruk Hai’s goal was to capture the Hobbits, not simply battle to the bitter end.
 
@@ -318,7 +316,7 @@ Adversaries make close combat attacks if they are engaged in a Close Combat stan
 
 An Attack roll is made using the Combat Proficiency corresponding to the weapon used.
 
-*   As seen on page 65, the difficulty of all attack rolls is based on a Player-hero’s **Strength** TN, modified by the Parry rating of the targeted enemy.
+*   As seen in [[Combat Proficiencies]], the difficulty of all attack rolls is based on a Player-hero’s **Strength** TN, modified by the Parry rating of the targeted enemy.
 *   The difficulty of all attack rolls made by adversaries against Player-heroes are equal to the target hero’s **Parry** score instead.
 
 A successful attack roll inflicts damage on its target in the form of an Endurance Loss based on the weapon used, and may inflict additional Special Damage types based on the Quality of Success of the roll. Finally, attacks may cause more long-lasting injuries if a Piercing Blow is scored.
@@ -333,7 +331,7 @@ When a melee or ranged attack roll succeeds, the target suffers an immediate los
 
 As seen previously, Player-heroes seeing their Endurance decrease to match or go below their total Load score become Weary; if their Endurance is reduced to zero, they drop unconscious instead.
 
-Adversaries do not normally become Weary due to Endurance loss, but are normally eliminated upon reaching zero Endurance (for more about Adversaries in combat, see page 142).
+Adversaries do not normally become Weary due to Endurance loss, but are normally eliminated upon reaching zero Endurance (see for more about [[Adversaries]] in combat).
 
 #### Knockback:
 
@@ -383,7 +381,7 @@ Characters hit by a Piercing Blow must immediately roll a Feat Die, plus a numbe
 
 The Target Number for the roll is equal to the Injury rating of the weapon used by the attacker.
 
-If the roll fails, then the target of the attack has received a life-threatening blow — a Wound (see page 101).
+If the roll fails, then the target of the attack has received a life-threatening blow — a Wound (see [[Wounds]]).
 
 * * *
 
@@ -436,7 +434,7 @@ Some good roleplaying and clever thinking might allow the Player-heroes to find 
 | Great Shield | +3 | 6 | Prosperous |
 
 ## Wounds
-Most adversaries are killed outright when Wounded (see Adversaries, page 142). Player-heroes, on the other hand, can resist being Wounded once without serious consequences, but risk their lives if injured a second time.
+Most adversaries are killed outright when Wounded (see [[Adversaries]]). Player-heroes, on the other hand, can resist being Wounded once without serious consequences, but risk their lives if injured a second time.
 
 When Player-heroes are Wounded for the first time they immediately check the Wounded box on their character sheet, and then proceed to roll on the Wound Severity table below using a Feat die, to determine the extent of their injury.
 
@@ -448,7 +446,7 @@ When Player-heroes are Wounded for the first time they immediately check the Wou
 | 1-10 | Severe injury | The value indicates how long it will take for the injury to mend, expressed in days (write the result in the Injury box on the character sheet). |
 | U | Moderate Injury | The blow received was violent enough to expose you to the risk of worse consequences if injured again, but no real lasting damage was inflicted. At the end of the combat you will recover fully in a matter of hours (remove the Wounded box check). |
 
-As seen under Resting on page 71, Player-heroes whose Wounded box is checked recover Endurance slowly.
+As seen under [[Resting]], Player-heroes whose Wounded box is checked recover Endurance slowly.
 
 Player-heroes who are wounded a second time (they receive a Wound when their Wounded box was already checked) see their Endurance drop to zero, they fall unconscious and are now Dying.
 
@@ -468,7 +466,7 @@ Each hero may be administered a successful First Aid only once. A failed **Heali
 
 ### Dying Heroes
 
-Heroes are considered to be Dying if they are Wounded twice, or if they roll an T on their Wound severity roll (or as the result of some sources of injury — see page 133).
+Heroes are considered to be Dying if they are Wounded twice, or if they roll an T on their Wound severity roll (or as the result of some [[Sources of Injury]]).
 
 Dying heroes must receive a successful **Healing** roll within approximately 1 hour or they will die.
 
@@ -590,7 +588,7 @@ A council is set up and resolved applying the following three steps:
 2.  Introduction
 3.  Interaction
 
-When the council is concluded, a final step is used to assess its consequences (see End of a Council, page 108).
+When the council is concluded, a final step is used to assess its consequences (see [[End of a Council]]).
 
 ### Council Structure Table:
 
@@ -626,7 +624,7 @@ At the beginning of a council, the Company must present themselves. To do so, th
 To introduce the Company, the spokesperson must make a Skill roll: the roll result determines the time limit of the council — that is, the total number of attempts that the Player-heroes are granted as a group to present their instances, before they are finally dismissed.
 
 *   If the roll is a success, the time limit is equal to the Resistance of the council as set by the Loremaster, plus 1 for each V icon rolled.
-*   If the Skill roll is a failure, the time limit is equal to the Resistance of the council, and if the council ends in a failure, it ends in a Disaster instead (see the End of a Council).
+*   If the Skill roll is a failure, the time limit is equal to the Resistance of the council, and if the council ends in a failure, it ends in a Disaster instead (see the [[End of a Council]]).
 
 The Skills that are particularly useful in setting up a good Introduction are listed below, with details of their uses and consequences.
 
@@ -648,7 +646,7 @@ The players choose their own course of action as they see fit, but their Skill r
 *   Open — _(no modifier)_. This is the default attitude for an audience, representing a general inclination to listen to what the Company has to say.
 *   Friendly — _gain (1d)_. The audience is very interested in hearing what the Player-heroes have to say, and are willing to hear their plea. Maybe the Company was introduced by someone of note, or the spokesperson belongs to the same Culture as the opposing party.
 
-During this stage, the Loremaster keeps track of the total number of successful rolls scored by the Company (as seen on page 18, each rolled V icon counts as an additional success).
+During this stage, the Loremaster keeps track of the total number of successful rolls scored by the Company (as seen on [[How to Read the Success Die]], each rolled V icon counts as an additional success).
 
 ## Useful Skills:
 
@@ -686,7 +684,7 @@ A Company will often end up travelling across long leagues of inhospitable and u
 
 Applying the rules for journeys requires the use of a map of the traversed region, and the collaboration between the Loremaster and the players to determine what happens along the way.
 
-The rules detailed in this chapter are best applied using a journey log (available on page 240 and for download from freeleaguepublishing.com), a summary sheet used to keep track of all the details concerning a journey. Experienced players might eventually find its use unnecessary, but they might consider continuing to use one anyway, as compiled journey logs work as a journal of sorts, recording the accomplishments of the Company of adventurers.
+The rules detailed in this chapter are best applied using a [[Journey Log]], a summary sheet used to keep track of all the details concerning a journey. Experienced players might eventually find its use unnecessary, but they might consider continuing to use one anyway, as compiled journey logs work as a journal of sorts, recording the accomplishments of the Company of adventurers.
 
 ## The Map
 The rules for travelling in _The One Ring_ assume that the Company is trying to reach a specific destination. If the Company must visit a number of different locations, reaching each of them must be considered as a separate journey.
@@ -708,7 +706,7 @@ The rules for journey resolution have been devised to make travelling across the
 [/red-box]
 
 ## The Travelling Company
-The members of the Company assume different roles during a journey. A journey role summarises roughly what a Player-hero is doing for the length of the trip and comes into play when the Company experiences an event (see Journey Sequence).
+The members of the Company assume different roles during a journey. A journey role summarises roughly what a Player-hero is doing for the length of the trip and comes into play when the Company experiences an event (see [[Journey Sequence]]).
 
 There are four journey roles to cover: Guide, Hunter, Look-out, and Scout.
 
@@ -763,7 +761,7 @@ As soon as the Company leaves, the Guide makes a first Marching Test, and counts
 
 The Loremaster finds the precise spot by counting the appropriate number of hexes, starting from the current position of the Company and proceeding towards its destination — the last hex reached by counting is the spot where an event takes place. If the Company is using a journey log, the event is marked on the appropriate hex.
 
-To determine the precise nature of an event, the procedure described under Event Resolution must be applied (see page 112).
+To determine the precise nature of an event, the procedure described under [[Event Resolution]] must be applied.
 
 Once the event has been resolved, the Guide must make a new Marching Test to see if another event happens further along the Company’s journey path.
 
@@ -779,7 +777,7 @@ Fatigue represents a deeper level of weariness that a Player-hero accumulates wh
 
 In game terms, the Player-heroes will likely end their journey with a number of Fatigue points each, as a result of journey events. A hero’s Fatigue total lowers their carrying capacity and ability to function effectively. Fatigue points are recorded on the journey log sheet, and cannot be shaken off while the journey lasts.
 
-* At the end of the journey, Player-heroes with a mount first reduce their total Fatigue by their mount’s Vigour rating (see page 50).
+* At the end of the journey, Player-heroes with a mount first reduce their total Fatigue by their mount’s Vigour rating (see [[Hobbit Ponies and Full-sized Horses]]).
 * Then, all Player-heroes can further reduce their accumulated Fatigue with a roll of **Travel**. A success reduces the total Fatigue of a Player-hero by 1, plus 1 point for each icon rolled.
 
 Any remaining Fatigue is recorded on the character sheets of the affected Player-heroes. They will get rid of it at the rate of 1 point of Fatigue for each following Prolonged Rest they take in a sheltered and safe refuge (i.e.: not ‘on the road’).
@@ -845,7 +843,7 @@ To determine the nature of the event, the Loremaster must check the map to see i
 *   If it is within a Wild Land, the Loremaster rolls one Feat die.
 *   If it is within a Dark Land, the Loremaster makes an _Ill-favoured_ Feat die roll.
 
-The roll result is then checked on the Journey events table on page 112. All entries detail a type of occurrence that the Loremaster uses to describe what happens to the travelling Company, specifying precisely what happens in game terms.
+The roll result is then checked on the [[Journey Events Table]]. All entries detail a type of occurrence that the Loremaster uses to describe what happens to the travelling Company, specifying precisely what happens in game terms.
 
 More specifically:
 
@@ -868,7 +866,7 @@ More specifically:
 
 ### 3 Resolve the Event
 
-To resolve the event, one Player-hero among those selected as the targets must now make a roll, using the Skill identified in step 1; up to one Player-hero covering the same role can choose to support the roll (see Support, page 20).
+To resolve the event, one Player-hero among those selected as the targets must now make a roll, using the Skill identified in step 1; up to one Player-hero covering the same role can choose to support the roll (see [[Support]]).
 
 #### Roads and Hard Terrain:
 

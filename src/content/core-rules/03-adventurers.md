@@ -676,7 +676,7 @@ When the time comes for the Player-hero to retire, it is time to create the heir
 
 *   Players designate one of their hero’s Favoured Skills as their family heritage. The heir receives this heritage ability as a free, additional Favoured Skill.
 *   The starting Standard of Living of the heir is equal to that of the retiring Player-hero (instead of that of the culture).
-*   Instead of receiving 10 points to raise a hero’s starting Skills and Combat Proficiencies, players can spend the amount of points accumulated in their Previous Experience reserve, using the Skill and Combat Proficiency costs tables on page 46 (Skills cannot be raised above the fourth rank, and Combat Proficiencies cannot go beyond the third rank).
+*   Instead of receiving 10 points to raise a hero’s starting Skills and Combat Proficiencies, players can spend the amount of points accumulated in their Previous Experience reserve, using the Skill and Combat Proficiency costs tables on [[Previous Experience]] (Skills cannot be raised above the fourth rank, and Combat Proficiencies cannot go beyond the third rank).
 
 Finally, if the Previous Experience reserve of the designated heir is equal to 15+, a single item in possession of the original Player-hero is passed on to the chosen heir as an Heirloom. If the Previous Experience reserve is equal to 20, a second Heirloom can be passed on.
 
@@ -684,7 +684,7 @@ Finally, if the Previous Experience reserve of the designated heir is equal to 1
 An Heirloom is an item that has been upgraded with one or more Rewards, or a Wondrous Artefact or Famous Weapon or Armour.
 [/key-box]
 
-Famous Weapons or Armour have their first quality automatically activated when they are taken up by an heir. Further qualities can be ’awoken’ in the manner described on page 78, as the new Hero gains levels of **Valour**. In the case of a Wondrous Artefact, its Blessings are revealed upon passing the item to the heir.
+Famous Weapons or Armour have their first quality automatically activated when they are taken up by an heir. Further qualities can be ’awoken’ in the manner described on [[Rewards]], as the new Hero gains levels of **Valour**. In the case of a Wondrous Artefact, its Blessings are revealed upon passing the item to the heir.
 
 * * *
 [red-box]

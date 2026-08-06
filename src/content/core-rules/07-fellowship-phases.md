@@ -43,7 +43,7 @@ A Fellowship Phase usually covers a longer period of time than the average Adven
 To give the Player-heroes a real break from active adventuring, a Fellowship Phase should last a minimum of one week, up to an entire season.
 [/key-box]
 
-Normally, the longest Fellowship Phase is taken during the mid-winter festivities (see Yule, on page 120).
+Normally, the longest Fellowship Phase is taken during the mid-winter festivities (see [[Yule]]).
 
 * * *
 
@@ -88,7 +88,7 @@ During a single Fellowship Phase, players can buy a maximum of one rank in each 
 
 Players spend Adventure points to buy a new rank in either **Wisdom** or **Valour**, or to enhance an adventurer’s Combat Proficiencies. As with Skill points, players do not have to spend all their Adventure points at once, but can save them to acquire more expensive upgrades later.
 
-Players may buy a rank in a Combat Proficiency, **Valour**, or **Wisdom** if they have enough Adventure points to attain the new rating as set out in the Experience Points Cost table. When Player-heroes reach a new **Valour** or **Wisdom** rank, they also gain a new Reward or Virtue (see page 78).
+Players may buy a rank in a Combat Proficiency, **Valour**, or **Wisdom** if they have enough Adventure points to attain the new rating as set out in the Experience Points Cost table. When Player-heroes reach a new **Valour** or **Wisdom** rank, they also gain a new [[Reward]] or [[Virtue]].
 
 [key-box]
 During a single Fellowship Phase, players can acquire a maximum of one rank in each Combat Proficiency. They can also buy a rank in either **Wisdom** or **Valour**, but not in both. If a new attribute value is attained, the scores of all related abilities and features must be updated accordingly.
@@ -113,7 +113,7 @@ If that’s the case, the Loremaster must then weigh the actions of the Company 
 Undertakings are time-consuming endeavours that Player-heroes can accomplish exclusively during a lengthy stop like a Fellowship Phase.
 
 [key-box]
-Players select a number of activities, based on whether the Fellowship Phase is an ordinary one, or if it’s Yule, the end of a year (see Fellowship Phase Undertakings on page 121).
+Players select a number of activities, based on whether the Fellowship Phase is an ordinary one, or if it’s Yule, the end of a year (see [[Fellowship Phase Undertakings]]).
 [/key-box]
 * * *
 
@@ -174,7 +174,7 @@ A Company including a **Warden** can choose this activity as a free Undertaking.
 Heroes feel the burden of the Shadow weigh heavily upon their shoulders long after their adventures are over. Their minds remain bent on dark thoughts, and visions haunt them in their dreams, if not even during their waking hours. Only the passage of time can heal such wounds.
 
 [key-box]
-Choose this undertaking to focus on mending your spiritual injuries — spend 5 Adventure points and remove 1 Shadow Scar (see Harden Will).
+Choose this undertaking to focus on mending your spiritual injuries — spend 5 Adventure points and remove 1 Shadow Scar (see [[Harden Will]]).
 [/key-box]
 
 Player-heroes from different Cultures resort to different methods to get rid of their scars. Dwarves often turn to the forge to burn out their frustration, smiting the red iron on the anvil, Hobbits dedicate themselves to a beloved activity, like gardening, or painting, and Elves and Men generally create, play, or recite poems and songs.
@@ -185,7 +185,7 @@ Player-heroes from different Cultures resort to different methods to get rid of 
 
 [inline-quote]Elrond, as was his custom, sat in a great chair at the end of the long table upon the dais…[/inline-quote]
 
-After a few years of adventuring, the Company will probably count several of the Wise and the Great among their allies. Some of these can be chosen as Patrons of the Company (see page 52).
+After a few years of adventuring, the Company will probably count several of the Wise and the Great among their allies. Some of these can be chosen as [[Patrons]] of the Company.
 
 [key-box]
 Choose this undertaking to meet one of the Company’s friends and allies when spending the Fellowship Phase in a location where that individual can be found, and if the Patron is available for a meeting.
@@ -193,7 +193,7 @@ Choose this undertaking to meet one of the Company’s friends and allies when s
 
 When this is the case, the Loremaster can work with the Player-hero to set up the encounter. The reasons to see a patron vary based on the current circumstances of a campaign, but generally revolve around the Player-hero asking for some sort of assistance, possibly accepting a task requested by the patron in return.
 
-The descriptions of the various personalities given on page 212 give directions on how to handle their introduction as patrons in the game.
+The descriptions of the various personalities given in [[Patrons]] give directions on how to handle their introduction as patrons in the game.
 
 A Company including a **Messenger** can choose this activity as a free Undertaking.
 
@@ -225,7 +225,7 @@ Wise adventurers sooner or later realise that all they have done in their lives 
 Choose this undertaking to spend up to 5 Treasure and an equal number of Adventure points to add to your heir’s starting Previous Experience reserve: for each Adventure point spent, raise the reserve by 1.
 [/key-box]
 
-If this is the first time that this undertaking has been chosen, the player must also choose a name for the designated heir, writing it down on the character sheet (see page 56 for more details about raising an heir).
+If this is the first time that this undertaking has been chosen, the player must also choose a name for the designated heir, writing it down on the character sheet (see page [[Adventuring Career]] for more details about raising an heir).
 
 * * *
 
@@ -239,7 +239,7 @@ Adventures have a meaning for those who live them, but they can become cautionar
 Choose this undertaking to replace one of your Distinctive Features with a new trait, choosing a quality that you displayed in the narrated episode.
 [/key-box]
 
-Players can choose a trait from the list of Distinctive Features on page 67, or even propose a new one of their own creation.
+Players can choose a trait from the list of [[Distinctive Features]], or even propose a new one of their own creation.
 
 * * *
 
