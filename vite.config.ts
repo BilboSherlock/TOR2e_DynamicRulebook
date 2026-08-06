@@ -6,8 +6,10 @@ import compressPlugin from 'vite-plugin-compress'; // gzip & brotli
 import { visualizer } from 'rollup-plugin-visualizer';
 
 export default defineConfig(() => {
+  const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
+  const basePath = repo ? `/${repo}/` : '/';
   return {
-    base: '/<repo-name>/',
+    base: basePath,
     plugins: [react(), tailwindcss(), compressPlugin({ verbose: true }), visualizer({ filename: 'stats.html', open: false })],
     resolve: {
       alias: {
