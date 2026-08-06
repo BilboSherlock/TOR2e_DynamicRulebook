@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -324,7 +324,7 @@ function parseAspectsFromChapter(chap: RuleChapter): AspectTile[] {
   return aspectTiles;
 }
 
-export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
+export const HeroicCulturesGridComponent: React.FC<HeroicCulturesGridProps> = ({
   cultureChapters,
   activeCultureId,
   onSelectCulturePage,
@@ -395,24 +395,29 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
     (tile) => tile.id === activeAspect?.id
   );
 
-  const handlePrevAspect = () => {
+  const handlePrevAspect = useCallback(() => {
     if (activeAspectIndex > 0) {
       setActiveAspectId(currentTiles[activeAspectIndex - 1].id);
     }
-  };
+  }, [activeAspectIndex, currentTiles]);
 
-  const handleNextAspect = () => {
+  const handleNextAspect = useCallback(() => {
     if (activeAspectIndex < currentTiles.length - 1) {
       setActiveAspectId(currentTiles[activeAspectIndex + 1].id);
     }
-  };
+  }, [activeAspectIndex, currentTiles]);
 
-  const handleAspectClick = (tileId: string) => {
+  const handleAspectClick = useCallback((tileId: string) => {
     setActiveAspectId(tileId);
     if (window.innerWidth < 1024 && aspectPaneRef.current) {
       aspectPaneRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-  };
+  }, []);
+
+  const processedContent = useMemo(() => {
+    if (!activeAspect) return '';
+    return processMarkdownText(activeAspect.content);
+  }, [activeAspect]);
 
   return (
     <div className="flex-1 max-w-7xl mx-auto px-3 sm:px-6 py-4 md:py-6 flex flex-col gap-4">
@@ -452,12 +457,7 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
 
           {/* Grid of All 11 Heroic Cultures - Shown when expanded or hidable after selection */}
           {isCultureSelectorExpanded && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
-              className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1.5 pt-1"
-            >
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1.5 pt-1 transition-all">
               {cultureChapters.map((culture) => {
                 const isSelected = culture.id === selectedCultureId;
                 const Icon = CULTURE_ICON_MAP[culture.iconName || 'Shield'] || Shield;
@@ -485,7 +485,7 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                   </button>
                 );
               })}
-            </motion.div>
+            </div>
           )}
         </div>
 
@@ -540,11 +540,11 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
       </div>
 
       {/* Main Culture Hub Split Layout */}
-      <div className="flex flex-col lg:flex-row items-start gap-5">
+      <div className="flex flex-col lg:flex-row items-start gap-4 lg:gap-6">
         {/* Left Column: Compact Tiles Matrix */}
-        <div className="w-full lg:w-[320px] xl:w-[340px] shrink-0 flex flex-col gap-3">
+        <div className="w-full lg:w-[340px] xl:w-[380px] shrink-0 flex flex-col gap-3">
           {/* Compact Aspect Tiles Container */}
-          <div className="bg-[#FAF3E0] border-2 border-[#D8C8A8] rounded-[2px] p-2.5 shadow-2xs flex flex-col gap-2">
+          <div className="bg-[#FAF3E0] border-2 border-[#D8C8A8] rounded-[2px] p-2.5 sm:p-3 shadow-2xs flex flex-col gap-2">
             <div className="flex items-center justify-between border-b border-[#D8C8A8] pb-1.5 px-1 text-xs font-cinzel">
               <span className="font-bold text-[#8E1616] uppercase tracking-wider flex items-center gap-1.5">
                 {activeTab === 'virtues' ? (
@@ -569,8 +569,8 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                 No virtues listed yet for {currentCulture.title}. Select Beornings to view Cultural Virtues!
               </div>
             ) : (
-              /* Open Grid - 2 columns in vertical (portrait) and 3 columns in landscape - NO SCROLLBAR */
-              <div className="grid grid-cols-2 landscape:grid-cols-3 sm:grid-cols-3 lg:grid-cols-1 gap-1.5 sm:gap-2">
+              /* Responsive Grid: 1 col on mobile portrait, 2 cols on tablet/landscape, 1 col on desktop sidebar */
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-2 sm:gap-2.5">
                 {currentTiles.map((tile, index) => {
                   const IconComp = tile.icon;
                   const isActive = activeAspectId === tile.id;
@@ -578,13 +578,11 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                   const { mainTitle, subTitle } = splitTitle(tile.title);
 
                   return (
-                    <motion.button
+                    <button
                       key={tile.id}
                       type="button"
-                      whileHover={{ x: 2 }}
-                      whileTap={{ scale: 0.98 }}
                       onClick={() => handleAspectClick(tile.id)}
-                      className={`px-3 py-2.5 sm:py-2 rounded-[2px] text-left transition-all cursor-pointer border flex items-center justify-between gap-2 relative overflow-hidden group min-h-[44px] ${
+                      className={`w-full px-3 py-2.5 sm:py-3 rounded-[2px] text-left transition-all cursor-pointer border flex items-center justify-between gap-3 relative overflow-hidden group min-h-[50px] active:scale-[0.99] ${
                         isActive
                           ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010] shadow-xs ring-1 ring-[#8E1616]/40'
                           : isFirstTab
@@ -592,9 +590,9 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                           : 'bg-[#EFE5CB] text-[#28211D] hover:bg-[#E8DCC2] active:bg-[#DFCFA8] border-[#D4C4A0]'
                       }`}
                     >
-                      <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="flex items-center gap-3 min-w-0 flex-1">
                         <div
-                          className={`p-1.5 rounded-[2px] shrink-0 ${
+                          className={`p-2 rounded-[2px] shrink-0 ${
                             isActive
                               ? 'bg-[#FAF5EB]/20 text-[#FAF5EB]'
                               : isFirstTab
@@ -602,11 +600,11 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                               : 'bg-[#D8C8A8]/40 text-[#8E1616]'
                           }`}
                         >
-                          <IconComp className="w-3.5 h-3.5" />
+                          <IconComp className="w-4 h-4" />
                         </div>
-                        <div className="min-w-0 flex flex-col">
+                        <div className="min-w-0 flex-1 flex flex-col justify-center">
                           <h3
-                            className={`font-cinzel font-bold text-xs leading-tight truncate ${
+                            className={`font-cinzel font-bold text-xs sm:text-sm leading-snug break-normal text-left ${
                               isActive ? 'text-[#FAF5EB]' : 'text-[#8E1616] group-hover:text-[#A82222]'
                             }`}
                           >
@@ -614,8 +612,8 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                           </h3>
                           {subTitle && (
                             <span
-                              className={`text-[10px] font-serif italic font-normal truncate block leading-tight mt-0.5 ${
-                                isActive ? 'text-[#FAF5EB]/85' : 'text-[#6B5748]'
+                              className={`text-[11px] sm:text-xs font-serif italic font-normal block leading-snug mt-0.5 break-normal text-left ${
+                                isActive ? 'text-[#FAF5EB]/90' : 'text-[#6B5748]'
                               }`}
                             >
                               {subTitle}
@@ -625,11 +623,11 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                       </div>
 
                       {isActive && (
-                        <div className="flex items-center gap-1 shrink-0 bg-[#FAF5EB]/20 px-1.5 py-0.5 rounded-[2px]">
+                        <div className="flex items-center gap-1 shrink-0 bg-[#FAF5EB]/20 px-1.5 py-1 rounded-[2px] ml-1">
                           <Check className="w-3.5 h-3.5 text-[#FAF5EB]" />
                         </div>
                       )}
-                    </motion.button>
+                    </button>
                   );
                 })}
               </div>
@@ -639,13 +637,7 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
 
         {/* Right Column: Aspect / Virtue Reader Pane */}
         <div ref={aspectPaneRef} className="flex-1 min-w-0 w-full">
-          <motion.div
-            key={`single-${currentCulture.id}-${activeTab}-${activeAspect?.id}`}
-            initial={{ opacity: 0, x: 8 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.18 }}
-            className="bg-[#FAF3E0] border-2 border-[#D8C8A8] rounded-[2px] shadow-2xs overflow-hidden flex flex-col min-h-[480px]"
-          >
+          <div className="bg-[#FAF3E0] border-2 border-[#D8C8A8] rounded-[2px] shadow-2xs overflow-hidden flex flex-col min-h-[380px] sm:min-h-[480px] lg:min-h-[520px]">
             {/* Reader Header */}
             <div className="p-3.5 bg-[#EFE5CB] border-b-2 border-[#D8C8A8] flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
@@ -706,7 +698,7 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                   rehypePlugins={[rehypeRaw]}
                   components={MARKDOWN_COMPONENTS}
                 >
-                  {processMarkdownText(activeAspect.content)}
+                  {processedContent}
                 </ReactMarkdown>
               ) : (
                 <div className="flex flex-col items-center justify-center p-12 text-center text-[#6B5748] space-y-3">
@@ -717,9 +709,11 @@ export const HeroicCulturesGrid: React.FC<HeroicCulturesGridProps> = ({
                 </div>
               )}
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
+
+export const HeroicCulturesGrid = React.memo(HeroicCulturesGridComponent);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { MarkdownViewer } from './components/MarkdownViewer';
@@ -8,7 +8,6 @@ import { SearchModal } from './components/SearchModal';
 import { StyleGuideModal } from './components/StyleGuideModal';
 import { CORE_CHAPTERS } from './data/rulebookData';
 import { SupplementCategory } from './types';
-import { AnimatePresence, motion } from 'motion/react';
 
 type ViewMode = 'toc' | 'heroic-cultures' | 'reader';
 
@@ -21,16 +20,18 @@ export default function App() {
   // LoreMaster Mode state (default off for Player mode)
   const [isLoreMasterMode, setIsLoreMasterMode] = useState<boolean>(false);
 
-  const isLoreMasterChapter = (ch: { id: string; title: string }) =>
+  const isLoreMasterChapter = useCallback((ch: { id: string; title: string }) =>
     ch.id === 'the-loremaster' ||
     ch.id === 'the-world' ||
     ch.title.toLowerCase().includes('loremaster') ||
-    ch.title.toLowerCase().includes('the world');
+    ch.title.toLowerCase().includes('the world'), []);
 
   // Filter chapters based on LoreMaster Mode
-  const chapters = CORE_CHAPTERS.filter(
-    (ch) => isLoreMasterMode || !isLoreMasterChapter(ch)
-  );
+  const chapters = useMemo(() => {
+    return CORE_CHAPTERS.filter(
+      (ch) => isLoreMasterMode || !isLoreMasterChapter(ch)
+    );
+  }, [isLoreMasterMode, isLoreMasterChapter]);
 
   // View mode state
   const [activeView, setActiveView] = useState<ViewMode>('toc');
@@ -51,22 +52,25 @@ export default function App() {
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
 
   // Filtered chapter collections
-  const coreRulesChapters = chapters.filter((ch) => ch.supplement === 'Core Rules');
-  const heroicCultureChapters = chapters.filter((ch) => ch.supplement === 'Heroic Cultures');
+  const coreRulesChapters = useMemo(() => chapters.filter((ch) => ch.supplement === 'Core Rules'), [chapters]);
+  const heroicCultureChapters = useMemo(() => chapters.filter((ch) => ch.supplement === 'Heroic Cultures'), [chapters]);
 
   // Active chapter and section lookup
-  const activeChapter =
-    chapters.find((ch) => ch.id === activeChapterId) || chapters[0] || CORE_CHAPTERS[0];
-  const activeSection =
-    activeChapter?.sections.find((sec) => sec.id === activeSectionId) ||
-    activeChapter?.sections[0] || {
-      id: 'default',
-      title: 'Empty Section',
-      content: '# Section Not Found',
-    };
+  const activeChapter = useMemo(() => {
+    return chapters.find((ch) => ch.id === activeChapterId) || chapters[0] || CORE_CHAPTERS[0];
+  }, [chapters, activeChapterId]);
+
+  const activeSection = useMemo(() => {
+    return activeChapter?.sections.find((sec) => sec.id === activeSectionId) ||
+      activeChapter?.sections[0] || {
+        id: 'default',
+        title: 'Empty Section',
+        content: '# Section Not Found',
+      };
+  }, [activeChapter, activeSectionId]);
 
   // LoreMaster Mode Toggle Handler
-  const handleToggleLoreMasterMode = () => {
+  const handleToggleLoreMasterMode = useCallback(() => {
     setIsLoreMasterMode((prev) => {
       const nextMode = !prev;
       if (!nextMode && isLoreMasterChapter(activeChapter)) {
@@ -77,38 +81,55 @@ export default function App() {
       }
       return nextMode;
     });
-  };
+  }, [activeChapter, isLoreMasterChapter]);
 
   // Select section handler
-  const handleSelectSection = (chapterId: string, sectionId: string, subHeaderId?: string) => {
+  const handleSelectSection = useCallback((chapterId: string, sectionId: string, subHeaderId?: string) => {
     setActiveChapterId(chapterId);
     setActiveSectionId(sectionId);
     setActiveSubHeaderId(subHeaderId || null);
 
-    const targetChapter = chapters.find((ch) => ch.id === chapterId);
+    const targetChapter = CORE_CHAPTERS.find((ch) => ch.id === chapterId);
     if (targetChapter?.supplement === 'Heroic Cultures') {
       setSelectedSupplement('Heroic Cultures');
       setActiveView('heroic-cultures');
     } else {
       setActiveView('reader');
     }
-  };
+  }, []);
 
   // Top nav / supplement tab change handler
-  const handleSelectSupplement = (supplement: SupplementCategory) => {
+  const handleSelectSupplement = useCallback((supplement: SupplementCategory) => {
     setSelectedSupplement(supplement);
     if (supplement === 'Heroic Cultures') {
       setActiveView('heroic-cultures');
     } else {
       setActiveView('toc');
     }
-  };
+  }, []);
 
   // Return to home / index
-  const handleGoHome = () => {
+  const handleGoHome = useCallback(() => {
     setSelectedSupplement('Core Rules');
     setActiveView('toc');
-  };
+  }, []);
+
+  const handleOpenSearch = useCallback(() => setIsSearchOpen(true), []);
+  const handleCloseSearch = useCallback(() => setIsSearchOpen(false), []);
+  const handleOpenStyleGuide = useCallback(() => setIsStyleGuideOpen(true), []);
+  const handleCloseStyleGuide = useCallback(() => setIsStyleGuideOpen(false), []);
+  const handleToggleMobileSidebar = useCallback(() => setIsMobileSidebarOpen((prev) => !prev), []);
+  const handleCloseMobileSidebar = useCallback(() => setIsMobileSidebarOpen(false), []);
+
+  const handleSelectCulturePage = useCallback((chapId: string) => {
+    const targetChap = CORE_CHAPTERS.find((c) => c.id === chapId);
+    if (targetChap && targetChap.sections.length > 0) {
+      setActiveChapterId(targetChap.id);
+      setActiveSectionId(targetChap.sections[0].id);
+      setSelectedSupplement('Heroic Cultures');
+      setActiveView('heroic-cultures');
+    }
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#EFE8D3] text-[#28211D] font-serif transition-colors">
@@ -117,9 +138,9 @@ export default function App() {
         selectedSupplement={selectedSupplement}
         onSelectSupplement={handleSelectSupplement}
         onGoHome={handleGoHome}
-        onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenStyleGuide={() => setIsStyleGuideOpen(true)}
-        onToggleMobileSidebar={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}
+        onOpenSearch={handleOpenSearch}
+        onOpenStyleGuide={handleOpenStyleGuide}
+        onToggleMobileSidebar={handleToggleMobileSidebar}
         isMobileSidebarOpen={isMobileSidebarOpen}
         activeView={activeView}
         isLoreMasterMode={isLoreMasterMode}
@@ -138,78 +159,44 @@ export default function App() {
           selectedSupplement={selectedSupplement}
           setSelectedSupplement={setSelectedSupplement}
           isOpenMobile={isMobileSidebarOpen}
-          onCloseMobile={() => setIsMobileSidebarOpen(false)}
+          onCloseMobile={handleCloseMobileSidebar}
         />
 
-        {/* Dynamic Main View Area */}
-        <div className="flex-1 min-w-0">
-          <AnimatePresence mode="wait">
-            {activeView === 'toc' && (
-              <motion.div
-                key="toc-view"
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -6 }}
-                transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <TableOfContents
-                  chapters={coreRulesChapters}
-                  title="Core Rules"
-                  onSelectSection={handleSelectSection}
-                />
-              </motion.div>
-            )}
+        {/* Dynamic Main View Area - High Performance Native Fade View Transition */}
+        <div className="flex-1 min-w-0 transition-opacity duration-150 ease-out">
+          {activeView === 'toc' && (
+            <TableOfContents
+              chapters={coreRulesChapters}
+              title="Core Rules"
+              onSelectSection={handleSelectSection}
+            />
+          )}
 
-            {activeView === 'heroic-cultures' && (
-              <motion.div
-                key="heroic-cultures-view"
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -6 }}
-                transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <HeroicCulturesGrid
-                  cultureChapters={heroicCultureChapters}
-                  activeCultureId={activeChapterId}
-                  onSelectCulturePage={(chapId) => {
-                    const targetChap = chapters.find((c) => c.id === chapId);
-                    if (targetChap && targetChap.sections.length > 0) {
-                      setActiveChapterId(targetChap.id);
-                      setActiveSectionId(targetChap.sections[0].id);
-                      setSelectedSupplement('Heroic Cultures');
-                      setActiveView('heroic-cultures');
-                    }
-                  }}
-                  onNavigateSection={handleSelectSection}
-                />
-              </motion.div>
-            )}
+          {activeView === 'heroic-cultures' && (
+            <HeroicCulturesGrid
+              cultureChapters={heroicCultureChapters}
+              activeCultureId={activeChapterId}
+              onSelectCulturePage={handleSelectCulturePage}
+              onNavigateSection={handleSelectSection}
+            />
+          )}
 
-            {activeView === 'reader' && (
-              <motion.div
-                key="reader-view"
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -6 }}
-                transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <MarkdownViewer
-                  chapter={activeChapter}
-                  section={activeSection}
-                  activeSubHeaderId={activeSubHeaderId}
-                  onNavigateSection={handleSelectSection}
-                  allChapters={chapters}
-                />
-              </motion.div>
-            )}
-          </AnimatePresence>
+          {activeView === 'reader' && (
+            <MarkdownViewer
+              chapter={activeChapter}
+              section={activeSection}
+              activeSubHeaderId={activeSubHeaderId}
+              onNavigateSection={handleSelectSection}
+              allChapters={chapters}
+            />
+          )}
         </div>
       </div>
 
       {/* Search Modal */}
       <SearchModal
         isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
+        onClose={handleCloseSearch}
         chapters={chapters}
         onSelectResult={handleSelectSection}
       />
@@ -217,7 +204,7 @@ export default function App() {
       {/* Stylesheet & Formatting Debug Display Modal */}
       <StyleGuideModal
         isOpen={isStyleGuideOpen}
-        onClose={() => setIsStyleGuideOpen(false)}
+        onClose={handleCloseStyleGuide}
       />
     </div>
   );

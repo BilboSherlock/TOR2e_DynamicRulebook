@@ -271,7 +271,7 @@ export const SidebarComponent: React.FC<SidebarProps> = ({
                                       onSelectSection(chapId, secId, subGrp.parent.id);
                                       onCloseMobile();
                                     }}
-                                    className={`w-full flex items-center justify-between py-1 px-2 text-[11.5px] rounded-[2px] transition-all text-left cursor-pointer ${
+                                    className={`w-full flex items-center justify-between py-1.5 px-2 text-[11.5px] rounded-[2px] transition-all text-left cursor-pointer min-h-[34px] ${
                                       isSubParentActive
                                         ? 'bg-[#B8860B] text-[#FAF5EB] font-bold shadow-2xs'
                                         : isSubParentSelected

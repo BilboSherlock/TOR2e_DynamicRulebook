@@ -53,15 +53,17 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-1.5 sm:gap-4">
         {/* Left branding & mobile menu toggle */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={onToggleMobileSidebar}
-            className="lg:hidden p-2 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer min-w-[40px] min-h-[40px] flex items-center justify-center shrink-0"
-            aria-label="Toggle navigation menu"
-          >
-            {isMobileSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </motion.button>
+          {activeView !== 'toc' && (
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={onToggleMobileSidebar}
+              className="lg:hidden p-2 rounded-[2px] text-[#8E1616] bg-[#EFE5CB] border border-[#D4C4A0] active:bg-[#E8DCC2] transition-all cursor-pointer min-w-[42px] min-h-[42px] flex items-center justify-center shrink-0"
+              aria-label="Toggle navigation menu"
+            >
+              {isMobileSidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </motion.button>
+          )}
 
           <button
             type="button"

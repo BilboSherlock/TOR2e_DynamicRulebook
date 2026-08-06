@@ -24,7 +24,7 @@ interface StyleGuideModalProps {
   onClose: () => void;
 }
 
-export const StyleGuideModal: React.FC<StyleGuideModalProps> = ({ isOpen, onClose }) => {
+export const StyleGuideModalComponent: React.FC<StyleGuideModalProps> = ({ isOpen, onClose }) => {
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('All');
@@ -216,12 +216,12 @@ export const StyleGuideModal: React.FC<StyleGuideModalProps> = ({ isOpen, onClos
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-[#1A1410]/60 backdrop-blur-sm">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-[#1A1410]/75">
         <motion.div
-          initial={{ opacity: 0, scale: 0.95, y: 15 }}
+          initial={{ opacity: 0, scale: 0.96, y: 10 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.95, y: 15 }}
-          transition={{ duration: 0.2, ease: 'easeOut' }}
+          exit={{ opacity: 0, scale: 0.96, y: 10 }}
+          transition={{ duration: 0.15, ease: 'easeOut' }}
           className="bg-[#FAF5EB] border-2 border-[#8E1616] shadow-2xl rounded-[4px] w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden text-[#2D241E]"
         >
           {/* Header Bar */}
@@ -372,3 +372,5 @@ export const StyleGuideModal: React.FC<StyleGuideModalProps> = ({ isOpen, onClos
     </AnimatePresence>
   );
 };
+
+export const StyleGuideModal = React.memo(StyleGuideModalComponent);

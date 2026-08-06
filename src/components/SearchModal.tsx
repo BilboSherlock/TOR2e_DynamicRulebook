@@ -19,7 +19,7 @@ interface SearchMatch {
   matchSnippet: string;
 }
 
-export const SearchModal: React.FC<SearchModalProps> = ({
+export const SearchModalComponent: React.FC<SearchModalProps> = ({
   isOpen,
   onClose,
   chapters,
@@ -91,14 +91,14 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-[#1A1613]/70 backdrop-blur-xs"
+            className="fixed inset-0 bg-[#1A1613]/75"
           />
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.94, y: -10 }}
+            initial={{ opacity: 0, scale: 0.96, y: -6 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.94, y: -10 }}
-            transition={{ type: 'spring', damping: 24, stiffness: 260 }}
+            exit={{ opacity: 0, scale: 0.96, y: -6 }}
+            transition={{ duration: 0.15, ease: 'easeOut' }}
             className="relative w-full max-w-2xl bg-[#FAF5EB] border-2 border-[#D8C8A8] rounded-[2px] shadow-2xl overflow-hidden z-10 flex flex-col max-h-[82vh]"
           >
             {/* Search Input Bar */}
@@ -132,15 +132,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   <div className="mt-4 flex flex-wrap justify-center gap-1.5">
                     {['Combat Stances', 'Journey Roles', 'Hope', 'Miserable', 'Target Number', 'Shadow'].map(
                       (term) => (
-                        <motion.button
+                        <button
                           key={term}
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
                           onClick={() => setQuery(term)}
-                          className="text-[11px] px-2.5 py-1 rounded-[2px] bg-[#E8DCC2] text-[#8E1616] font-serif font-bold border border-[#C8B693] cursor-pointer"
+                          className="text-[11px] px-2.5 py-1 rounded-[2px] bg-[#E8DCC2] text-[#8E1616] font-serif font-bold border border-[#C8B693] cursor-pointer hover:bg-[#E2D2A8] active:scale-95 transition-all"
                         >
                           {term}
-                        </motion.button>
+                        </button>
                       )
                     )}
                   </div>
@@ -152,15 +150,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 </div>
               ) : (
                 results.map((item, idx) => (
-                  <motion.button
-                    whileHover={{ scale: 1.01, x: 2 }}
-                    whileTap={{ scale: 0.99 }}
+                  <button
                     key={`${item.chapterId}-${item.sectionId}-${idx}`}
                     onClick={() => {
                       onSelectResult(item.chapterId, item.sectionId);
                       onClose();
                     }}
-                    className="w-full text-left p-3 rounded-[2px] bg-[#F2E8D3]/60 hover:bg-[#E8DCC2] border border-[#D8C8A8] transition-all group cursor-pointer"
+                    className="w-full text-left p-3 rounded-[2px] bg-[#F2E8D3]/60 hover:bg-[#E8DCC2] active:bg-[#E2D2A8] border border-[#D8C8A8] transition-all group cursor-pointer"
                   >
                     <div className="flex items-center justify-between gap-2 mb-1">
                       <span className="text-xs font-serif font-bold text-[#8E1616] truncate">
@@ -177,7 +173,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                     <p className="text-xs text-[#28211D] line-clamp-2 italic font-serif bg-[#FAF5EB] p-2 rounded-[2px] border border-[#D8C8A8]">
                       {item.matchSnippet}
                     </p>
-                  </motion.button>
+                  </button>
                 ))
               )}
             </div>
@@ -193,3 +189,5 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     </AnimatePresence>
   );
 };
+
+export const SearchModal = React.memo(SearchModalComponent);
