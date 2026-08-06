@@ -35,7 +35,7 @@ interface HeaderProps {
   onToggleLoreMasterMode: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({
+export const HeaderComponent: React.FC<HeaderProps> = ({
   selectedSupplement,
   onSelectSupplement,
   onGoHome,
@@ -48,7 +48,7 @@ export const Header: React.FC<HeaderProps> = ({
   onToggleLoreMasterMode,
 }) => {
   return (
-    <header className="sticky top-0 z-30 bg-[#FAF3E0]/95 backdrop-blur-md border-b-2 border-[#D8C8A8] shadow-xs transition-colors">
+    <header className="sticky top-0 z-30 bg-[#FAF3E0] border-b-2 border-[#D8C8A8] shadow-xs transition-colors">
       {/* Top Header Row */}
       <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-1.5 sm:gap-4">
         {/* Left branding & mobile menu toggle */}
@@ -174,3 +174,5 @@ export const Header: React.FC<HeaderProps> = ({
     </header>
   );
 };
+
+export const Header = React.memo(HeaderComponent);

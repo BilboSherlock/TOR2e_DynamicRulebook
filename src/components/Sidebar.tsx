@@ -45,7 +45,47 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   BookOpen: <BookOpen className="w-4 h-4" />,
 };
 
-export const Sidebar: React.FC<SidebarProps> = ({
+interface SectionGroup {
+  parentSection: RuleSection;
+  childSections: RuleSection[];
+}
+
+function groupSections(sections: RuleSection[]): SectionGroup[] {
+  const groups: SectionGroup[] = [];
+  let currentGroup: SectionGroup | null = null;
+
+  for (const sec of sections) {
+    if (sec.level === 1 || !currentGroup) {
+      currentGroup = { parentSection: sec, childSections: [] };
+      groups.push(currentGroup);
+    } else {
+      currentGroup.childSections.push(sec);
+    }
+  }
+  return groups;
+}
+
+interface SubHeaderGroup {
+  parent: SubHeader;
+  children: SubHeader[];
+}
+
+function groupSubHeaders(subHeaders: SubHeader[]): SubHeaderGroup[] {
+  const subGroups: SubHeaderGroup[] = [];
+  let curGroup: SubHeaderGroup | null = null;
+
+  for (const sub of subHeaders) {
+    if (sub.level <= 3 || !curGroup) {
+      curGroup = { parent: sub, children: [] };
+      subGroups.push(curGroup);
+    } else {
+      curGroup.children.push(sub);
+    }
+  }
+  return subGroups;
+}
+
+export const SidebarComponent: React.FC<SidebarProps> = ({
   chapters,
   activeChapterId,
   activeSectionId,
@@ -200,46 +240,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     className="overflow-hidden ml-2 pl-2 my-1 border-l-2 border-[#D8C8A8] space-y-1"
                   >
                   {(() => {
-                    // Group chapter sections into Level 1 parent groups with Level 2 children
-                    interface SectionGroup {
-                      parentSection: RuleSection;
-                      childSections: RuleSection[];
-                    }
-
-                    const groups: SectionGroup[] = [];
-                    let currentGroup: SectionGroup | null = null;
-
-                    for (const sec of chapter.sections) {
-                      if (sec.level === 1 || !currentGroup) {
-                        currentGroup = { parentSection: sec, childSections: [] };
-                        groups.push(currentGroup);
-                      } else {
-                        currentGroup.childSections.push(sec);
-                      }
-                    }
+                    const groups = groupSections(chapter.sections);
 
                     return groups.map((group) => {
                       const { parentSection, childSections } = group;
-
-                      // Helper to group subheaders into Level 3 parent headers and Level 4 child headers
-                      const groupSubHeaders = (subHeaders: SubHeader[]) => {
-                        interface SubHeaderGroup {
-                          parent: SubHeader;
-                          children: SubHeader[];
-                        }
-                        const subGroups: SubHeaderGroup[] = [];
-                        let curGroup: SubHeaderGroup | null = null;
-
-                        for (const sub of subHeaders) {
-                          if (sub.level <= 3 || !curGroup) {
-                            curGroup = { parent: sub, children: [] };
-                            subGroups.push(curGroup);
-                          } else {
-                            curGroup.children.push(sub);
-                          }
-                        }
-                        return subGroups;
-                      };
 
                       const renderSubHeadersTree = (
                         subHeaders: SubHeader[],
@@ -531,13 +535,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={onCloseMobile}
-              className="fixed inset-0 bg-[#1A1613]/70 backdrop-blur-xs"
+              className="fixed inset-0 bg-[#1A1613]/75"
             />
             <motion.div
               initial={{ x: '-100%' }}
               animate={{ x: 0 }}
               exit={{ x: '-100%' }}
-              transition={{ type: 'spring', damping: 25, stiffness: 220 }}
+              transition={{ duration: 0.2, ease: 'easeOut' }}
               className="relative w-84 max-w-[88vw] h-full z-50 shadow-2xl"
             >
               {sidebarContent}
@@ -548,3 +552,5 @@ export const Sidebar: React.FC<SidebarProps> = ({
     </>
   );
 };
+
+export const Sidebar = React.memo(SidebarComponent);

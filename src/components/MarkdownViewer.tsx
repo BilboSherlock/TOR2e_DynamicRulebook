@@ -35,140 +35,7 @@ interface MarkdownViewerProps {
   allChapters: RuleChapter[];
 }
 
-// Helper for rendering subtle floating letters for Favoured and Ill-Favoured
-const renderFloatingText = (text: string, baseClass: string) => {
-  return (
-    <em className={baseClass}>
-      {text.split('').map((char, index) => (
-        <span
-          key={index}
-          style={{ animationDelay: `${index * 0.14}s` }}
-        >
-          {char === ' ' ? '\u00A0' : char}
-        </span>
-      ))}
-    </em>
-  );
-};
-
-// Component that splits quote text into individual words, each floating with subtle, GPU-accelerated CSS drift
-const FloatingQuoteText: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const processNode = (node: React.ReactNode, keyPrefix = ''): React.ReactNode => {
-    if (typeof node === 'string') {
-      const words = node.split(/(\s+)/);
-      let wordCounter = 0;
-      return words.map((chunk, idx) => {
-        if (/^\s+$/.test(chunk)) {
-          return chunk;
-        }
-        wordCounter++;
-        const index = wordCounter;
-
-        const seed1 = (index * 7) % 11 - 5;
-        const seed2 = (index * 13) % 9 - 4;
-        const seed3 = (index * 17) % 7 - 3;
-
-        const xDrift = seed1 * 0.18;
-        const yDrift = seed2 * 0.22;
-        const rotDrift = seed3 * 0.08;
-
-        return (
-          <span
-            key={`${keyPrefix}-${idx}`}
-            className="floating-quote-word"
-            style={{
-              '--float-x': `${xDrift}px`,
-              '--float-y': `${yDrift}px`,
-              '--float-rot': `${rotDrift}deg`,
-              '--float-duration': `${6.8 + (index % 7) * 0.6}s`,
-              '--float-delay': `${(index % 12) * 0.12}s`,
-            } as React.CSSProperties}
-          >
-            {chunk}
-          </span>
-        );
-      });
-    }
-
-    if (React.isValidElement(node)) {
-      const props = node.props as { children?: React.ReactNode };
-      if (props && props.children) {
-        return React.cloneElement(
-          node,
-          { ...props, key: node.key || keyPrefix },
-          processNode(props.children, `${keyPrefix}-child`)
-        );
-      }
-    }
-
-    if (Array.isArray(node)) {
-      return node.map((child, i) => processNode(child, `${keyPrefix}-${i}`));
-    }
-
-    return node;
-  };
-
-  return <>{processNode(children)}</>;
-};
-
-// Component that splits Letter from Gandalf text into individual words with GPU-accelerated floating CSS drift
-const FloatingGandalfText: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const processNode = (node: React.ReactNode, keyPrefix = ''): React.ReactNode => {
-    if (typeof node === 'string') {
-      const words = node.split(/(\s+)/);
-      let wordCounter = 0;
-      return words.map((chunk, idx) => {
-        if (/^\s+$/.test(chunk)) {
-          return chunk;
-        }
-        wordCounter++;
-        const index = wordCounter;
-
-        const seed1 = (index * 7) % 11 - 5;
-        const seed2 = (index * 13) % 9 - 4;
-
-        const xDrift = seed1 * 0.15;
-        const yDrift = seed2 * 0.18;
-
-        return (
-          <span
-            key={`${keyPrefix}-${idx}`}
-            className="floating-gandalf-word"
-            style={{
-              '--float-x': `${xDrift}px`,
-              '--float-y': `${yDrift}px`,
-              '--float-duration': `${6.5 + (index % 7) * 0.5}s`,
-              '--float-delay': `${(index % 10) * 0.12}s`,
-            } as React.CSSProperties}
-          >
-            {chunk}
-          </span>
-        );
-      });
-    }
-
-    if (React.isValidElement(node)) {
-      const props = node.props as { children?: React.ReactNode };
-      if (props && props.children) {
-        return React.cloneElement(
-          node,
-          { ...props, key: node.key || keyPrefix },
-          processNode(props.children, `${keyPrefix}-child`)
-        );
-      }
-    }
-
-    if (Array.isArray(node)) {
-      return node.map((child, i) => processNode(child, `${keyPrefix}-${i}`));
-    }
-
-    return node;
-  };
-
-  return <>{processNode(children)}</>;
-};
-
-export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
+export const MarkdownViewerComponent: React.FC<MarkdownViewerProps> = ({
   chapter,
   section,
   activeSubHeaderId,
@@ -350,11 +217,15 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowBackToTop(true);
-      } else {
-        setShowBackToTop(false);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const isPast = window.scrollY > 300;
+          setShowBackToTop((prev) => (prev !== isPast ? isPast : prev));
+          ticking = false;
+        });
+        ticking = true;
       }
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -366,16 +237,19 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
   };
 
   // Flat list of all sections across all chapters for next/prev navigation
-  const flatSections: { chapterId: string; sectionId: string; title: string }[] = [];
-  allChapters.forEach((ch) => {
-    ch.sections.forEach((sec) => {
-      flatSections.push({
-        chapterId: ch.id,
-        sectionId: sec.id,
-        title: `${ch.number}.${sec.title}`,
+  const flatSections = useMemo(() => {
+    const list: { chapterId: string; sectionId: string; title: string }[] = [];
+    allChapters.forEach((ch) => {
+      ch.sections.forEach((sec) => {
+        list.push({
+          chapterId: ch.id,
+          sectionId: sec.id,
+          title: `${ch.number}.${sec.title}`,
+        });
       });
     });
-  });
+    return list;
+  }, [allChapters]);
 
   const currentIndex = flatSections.findIndex(
     (s) => s.chapterId === chapter.id && s.sectionId === section.id
@@ -667,26 +541,26 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
 
                       if (lower.includes('ill-favoured') || lower.includes('ill favoured')) {
                         const formatted = text.replace(/ill[- ]favoured/gi, 'Ill-Favoured');
-                        return renderFloatingText(formatted, 'ill-favoured-floating');
+                        return <em className="ill-favoured-floating">{formatted}</em>;
                       }
 
                       if (lower.includes('favoured')) {
                         const formatted = text.replace(/favoured/gi, 'Favoured');
-                        return renderFloatingText(formatted, 'favoured-floating');
+                        return <em className="favoured-floating">{formatted}</em>;
                       }
 
                       return <em>{children}</em>;
                     },
                     blockquote: ({ children }) => (
-                      <blockquote className="my-3 sm:my-4 px-3 sm:px-6 py-1.5 sm:py-2.5 font-fell italic text-[1.38rem] leading-relaxed text-[#7A5B0B] text-center max-w-2xl mx-auto border-none bg-transparent shadow-none rounded-none relative">
-                        <FloatingQuoteText>{children}</FloatingQuoteText>
+                      <blockquote className="my-3 sm:my-4 px-3 sm:px-6 py-1.5 sm:py-2.5 font-fell italic text-[1.25rem] sm:text-[1.38rem] leading-relaxed text-[#7A5B0B] text-center max-w-2xl mx-auto border-none bg-transparent shadow-none rounded-none relative">
+                        {children}
                       </blockquote>
                     ),
                     div: ({ className, children, ...props }) => {
                       if (className === 'gandalf-letter-body') {
                         return (
                           <div className="gandalf-letter-body my-6 text-center max-w-2xl mx-auto">
-                            <FloatingGandalfText>{children}</FloatingGandalfText>
+                            {children}
                           </div>
                         );
                       }
@@ -852,4 +726,6 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
     </main>
   );
 };
+
+export const MarkdownViewer = React.memo(MarkdownViewerComponent);
 

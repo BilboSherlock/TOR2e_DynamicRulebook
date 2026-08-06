@@ -624,40 +624,6 @@ table.attributes-table tr th:first-child,
   max-width: 44rem;
 }
 
-@keyframes floatQuoteWord {
-  0%, 100% {
-    transform: translate3d(0, 0, 0) rotate(0deg);
-  }
-  25% {
-    transform: translate3d(var(--float-x, 0.5px), var(--float-y, -0.6px), 0) rotate(var(--float-rot, 0.1deg));
-  }
-  50% {
-    transform: translate3d(calc(var(--float-x, 0.5px) * -0.7), calc(var(--float-y, -0.6px) * -0.8), 0) rotate(calc(var(--float-rot, 0.1deg) * -1));
-  }
-  75% {
-    transform: translate3d(calc(var(--float-x, 0.5px) * 0.4), calc(var(--float-y, -0.6px) * 0.5), 0) rotate(0deg);
-  }
-}
-
-.floating-quote-word {
-  display: inline-block;
-  cursor: default;
-  font-family: 'IM Fell English', serif;
-  font-style: italic;
-  font-size: 1.38rem;
-  line-height: 1.6;
-  color: #7A5B0B;
-  transition: color 0.2s ease, transform 0.2s ease;
-  will-change: transform;
-  animation: floatQuoteWord var(--float-duration, 7s) ease-in-out infinite;
-  animation-delay: var(--float-delay, 0s);
-}
-
-.floating-quote-word:hover {
-  color: #8E1616;
-  transform: scale(1.04) translate3d(0, -1.5px, 0);
-}
-
 /* Formal, elegant calligraphic handwritten font for Letter from Gandalf with soft blue glowing aura on red typeface */
 .font-handwriting {
   font-family: 'Aniron', 'Anirion', 'Cinzel Decorative', 'Cinzel', serif;
@@ -675,38 +641,9 @@ table.attributes-table tr th:first-child,
   font-size: 1.5rem;
   line-height: 1.6;
   color: #C81E1E;
-  text-shadow: 0 0 5px rgba(59, 130, 246, 0.55), 0 0 12px rgba(96, 165, 250, 0.38), 0 0 20px rgba(147, 197, 253, 0.22);
+  text-shadow: 0 0 4px rgba(59, 130, 246, 0.45);
   text-align: center;
   margin-bottom: 1.1rem;
-}
-
-@keyframes floatGandalfWord {
-  0%, 100% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(var(--float-x, 0.4px), var(--float-y, -0.5px), 0);
-  }
-}
-
-.floating-gandalf-word {
-  display: inline-block;
-  cursor: default;
-  font-family: 'Aniron', 'Anirion', 'Cinzel Decorative', 'Cinzel', serif;
-  color: #C81E1E;
-  font-size: 1.45rem;
-  line-height: 1.3;
-  padding: 0 0.1rem;
-  text-shadow: 0 0 5px rgba(59, 130, 246, 0.55), 0 0 12px rgba(96, 165, 250, 0.38), 0 0 20px rgba(147, 197, 253, 0.22);
-  transition: transform 0.2s ease, text-shadow 0.2s ease;
-  will-change: transform;
-  animation: floatGandalfWord var(--float-duration, 6.5s) ease-in-out infinite;
-  animation-delay: var(--float-delay, 0s);
-}
-
-.floating-gandalf-word:hover {
-  transform: scale(1.08) translate3d(0, -2px, 0);
-  text-shadow: 0 0 9px rgba(59, 130, 246, 0.9), 0 0 18px rgba(96, 165, 250, 0.75), 0 0 28px rgba(147, 197, 253, 0.55);
 }
 
 .markdown-body code {
@@ -724,16 +661,6 @@ table.attributes-table tr th:first-child,
   color: #1A1410;
 }
 
-/* Subtle floating letter animation for Favoured and Ill-Favoured */
-@keyframes subtleFloatLetter {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-1.8px);
-  }
-}
-
 .favoured-floating {
   font-style: italic;
   font-weight: 700;
@@ -742,22 +669,12 @@ table.attributes-table tr th:first-child,
   white-space: nowrap;
 }
 
-.favoured-floating span {
-  display: inline-block;
-  animation: subtleFloatLetter 2.4s ease-in-out infinite;
-}
-
 .ill-favoured-floating {
   font-style: italic;
   font-weight: 700;
   color: #8A2626;
   display: inline-block;
   white-space: nowrap;
-}
-
-.ill-favoured-floating span {
-  display: inline-block;
-  animation: subtleFloatLetter 2.4s ease-in-out infinite;
 }
 
 /* MOBILE LAYOUT & USABILITY REFINEMENTS */
