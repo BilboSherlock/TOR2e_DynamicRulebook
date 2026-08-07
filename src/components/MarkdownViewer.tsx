@@ -14,6 +14,17 @@ import { motion, AnimatePresence } from 'motion/react';
 import { RuleChapter, RuleSection } from '../types';
 import { slugify } from '../data/rulebookLoader';
 
+const ATTRIBUTE_NAMES = new Set(['strength', 'heart', 'wits']);
+
+const SKILL_NAMES = new Set([
+  'awe', 'athletics', 'awareness', 'hunting', 'song', 'craft',
+  'enhearten', 'travel', 'insight', 'healing', 'courtesy', 'battle',
+  'persuade', 'stealth', 'scan', 'explore', 'riddle', 'lore',
+  'axes', 'bows', 'spears', 'swords', 'brawling', 'daggers',
+  'protection', 'valour', 'wisdom', 'parry', 'shadow', 'hope', 'endurance',
+  'protection roll', 'valour roll', 'wisdom roll'
+]);
+
 function isAttributesTable(node: any): boolean {
   try {
     const thead = node?.children?.find((c: any) => c.tagName === 'thead');
@@ -496,8 +507,6 @@ export const MarkdownViewerComponent: React.FC<MarkdownViewerProps> = ({
                       const text = typeof children === 'string' ? children : React.Children.toArray(children).join('');
                       const clean = text.trim().toLowerCase().replace(/[^a-z0-9 \-]/g, '');
 
-                      const ATTRIBUTE_NAMES = new Set(['strength', 'heart', 'wits']);
-
                       if (ATTRIBUTE_NAMES.has(clean) || clean.endsWith(' attribute') || clean.endsWith(' tn')) {
                         return (
                           <strong className="attribute-highlight">
@@ -505,15 +514,6 @@ export const MarkdownViewerComponent: React.FC<MarkdownViewerProps> = ({
                           </strong>
                         );
                       }
-
-                      const SKILL_NAMES = new Set([
-                        'awe', 'athletics', 'awareness', 'hunting', 'song', 'craft',
-                        'enhearten', 'travel', 'insight', 'healing', 'courtesy', 'battle',
-                        'persuade', 'stealth', 'scan', 'explore', 'riddle', 'lore',
-                        'axes', 'bows', 'spears', 'swords', 'brawling', 'daggers',
-                        'protection', 'valour', 'wisdom', 'parry', 'shadow', 'hope', 'endurance',
-                        'protection roll', 'valour roll', 'wisdom roll'
-                      ]);
 
                       const isSkillOrRoll =
                         SKILL_NAMES.has(clean) ||

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Search, X, BookOpen, FileText } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RuleChapter } from '../types';
@@ -50,10 +50,11 @@ export const SearchModalComponent: React.FC<SearchModalProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onClose]);
 
-  // Perform search across all chapters & sections
-  const results: SearchMatch[] = [];
-  if (query.trim().length > 1) {
+  // Perform search across all chapters & sections with useMemo
+  const results = useMemo<SearchMatch[]>(() => {
+    if (query.trim().length <= 1) return [];
     const cleanQuery = query.toLowerCase().trim();
+    const matches: SearchMatch[] = [];
 
     chapters.forEach((chapter) => {
       chapter.sections.forEach((section) => {
@@ -69,7 +70,7 @@ export const SearchModalComponent: React.FC<SearchModalProps> = ({
             snippet = `...${section.content.slice(start, end)}...`;
           }
 
-          results.push({
+          matches.push({
             chapterId: chapter.id,
             chapterTitle: `Ch ${chapter.number}. ${chapter.title}`,
             supplement: chapter.supplement,
@@ -80,7 +81,8 @@ export const SearchModalComponent: React.FC<SearchModalProps> = ({
         }
       });
     });
-  }
+    return matches;
+  }, [query, chapters]);
 
   return (
     <AnimatePresence>

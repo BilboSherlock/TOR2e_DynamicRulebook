@@ -170,7 +170,11 @@ function parseSubsections(body: string, chapterId: string): RuleSection[] {
   return sections;
 }
 
+let cachedRulebook: RuleChapter[] | null = null;
+
 export function loadMarkdownRulebook(): RuleChapter[] {
+  if (cachedRulebook) return cachedRulebook;
+
   const loadedChapters: RuleChapter[] = [];
 
   const fileEntries = Object.entries(rawMarkdownFiles);
@@ -205,5 +209,6 @@ export function loadMarkdownRulebook(): RuleChapter[] {
     });
   }
 
+  cachedRulebook = loadedChapters;
   return loadedChapters;
 }
