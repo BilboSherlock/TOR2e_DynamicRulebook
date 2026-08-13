@@ -41,7 +41,7 @@ The High Elves never really forget the mark that the Shadow leaves on their spir
 You can remove accumulated Shadow points exclusively during a Yule Fellowship Phase (see Spiritual Recovery in the core rules).
 [/key-box]
 
-### Standard of Living — [[Prosperous]]
+### Standard of Living — [[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)
 
 The vaults of Rivendell are filled with all manner of relics and treasure of the olden days. Although dwindling in number, the High Elves of Imladris have little need of anything from beyond their borders.
 
@@ -91,14 +91,14 @@ Choose two Distinctive Features among those listed:
 
 | |
 | --- |
-| [[Fair]] |
-| [[Keen-eyed]] |
-| [[Lordly]] |
-| [[Inquisitive]] |
-| [[Merry]] |
-| [[Proud]] |
-| [[Subtle]] |
-| [[Wilful]] |
+| [[Characteristics/Distinctive Features List/#fair]](Fair) |
+| [[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed) |
+| [[Characteristics/Distinctive Features List/#lordly]](Lordly) |
+| [[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive) |
+| [[Characteristics/Distinctive Features List/#merry]](Merry) |
+| [[Characteristics/Distinctive Features List/#proud]](Proud) |
+| [[Characteristics/Distinctive Features List/#subtle]](Subtle) |
+| [[Characteristics/Distinctive Features List/#wilful]](Wilful) |
 
 ### Languages and Typical Names
 

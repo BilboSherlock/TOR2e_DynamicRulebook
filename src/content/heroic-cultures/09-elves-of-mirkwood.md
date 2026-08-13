@@ -35,7 +35,7 @@ When you are in a forest, or at night, you can spend 1 point of Hope to achieve 
 …the Wood-elves lingered in the twilight of our Sun and Moon but loved best the stars; and they wandered in the great forests that grew tall in lands that are now lost.
 [[/inline-quote]]
 
-### Standard of Living — [[Frugal]]
+### Standard of Living — [[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)
 
 The Elves of Mirkwood consider themselves under siege at all times, and dedicate much of their wealth to their defence.
 
@@ -85,14 +85,14 @@ Choose two Distinctive Features among those listed:
 
 | |
 | --- |
-| [[Cunning]] |
-| [[Fair]] |
-| [[Fierce]] |
-| [[Keen-eyed]] |
-| [[Merry]] |
-| [[Proud]] |
-| [[Secretive]] |
-| [[Swift]] |
+| [[Characteristics/Distinctive Features List/#cunning]](Cunning) |
+| [[Characteristics/Distinctive Features List/#fair]](Fair) |
+| [[Characteristics/Distinctive Features List/#fierce]](Fierce) |
+| [[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed) |
+| [[Characteristics/Distinctive Features List/#merry]](Merry) |
+| [[Characteristics/Distinctive Features List/#proud]](Proud) |
+| [[Characteristics/Distinctive Features List/#secretive]](Secretive) |
+| [[Characteristics/Distinctive Features List/#swift]](Swift) |
 
 ### Languages and Typical Names
 

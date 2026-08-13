@@ -36,7 +36,7 @@ When you are in a forest, or when using a Skill associated with a useful item, y
 “The love of the Elves for their land and their works is deeper than the deeps of the Sea.”
 [[/inline-quote]]
 
-### Standard of Living — [[Frugal]]
+### Standard of Living — [[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)
 
 The Elves of Lórien do not hoard things, and consider their trees the greatest wealth one could have.
 
@@ -86,14 +86,14 @@ Choose two Distinctive Features among those listed:
 
 | |
 | --- |
-| [[Cunning]] |
-| [[Fair]] |
-| [[Keen-eyed]] |
-| [[Merry]] |
-| [[Proud]] |
-| [[Secretive]] |
-| [[Swift]] |
-| [[Wary]] |
+| [[Characteristics/Distinctive Features List/#cunning]](Cunning) |
+| [[Characteristics/Distinctive Features List/#fair]](Fair) |
+| [[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed) |
+| [[Characteristics/Distinctive Features List/#merry]](Merry) |
+| [[Characteristics/Distinctive Features List/#proud]](Proud) |
+| [[Characteristics/Distinctive Features List/#secretive]](Secretive) |
+| [[Characteristics/Distinctive Features List/#swift]](Swift) |
+| [[Characteristics/Distinctive Features List/#wary]](Wary) |
 
 ### Languages and Typical Names
 

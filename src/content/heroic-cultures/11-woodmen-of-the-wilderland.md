@@ -35,7 +35,7 @@ Add +2 to your Parry rating when fighting in a forest.
 In spite of the dangers of this far land bold men had of late been making their way back into it...
 [[/inline-quote]]
 
-### Standard of Living — [[Frugal]]
+### Standard of Living — [[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)
 
 The Woodmen carve a living out of meagre hunts, burning charcoal and breeding animals. Their constant fight with the Wood and its wild things leaves them struggling to do more than simply survive.
 
@@ -85,14 +85,14 @@ Choose two Distinctive Features among those listed:
 
 | |
 | --- |
-| [[Cunning]] |
-| [[Eager]] |
-| [[Faithful]] |
-| [[Patient]] |
-| [[Stern]] |
-| [[Swift]] |
-| [[True-hearted]] |
-| [[Wary]] |
+| [[Characteristics/Distinctive Features List/#cunning]](Cunning) |
+| [[Characteristics/Distinctive Features List/#eager]](Eager) |
+| [[Characteristics/Distinctive Features List/#faithful]](Faithful) |
+| [[Characteristics/Distinctive Features List/#patient]](Patient) |
+| [[Characteristics/Distinctive Features List/#stern]](Stern) |
+| [[Characteristics/Distinctive Features List/#swift]](Swift) |
+| [[Characteristics/Distinctive Features List/#true-hearted]](True-hearted) |
+| [[Characteristics/Distinctive Features List/#wary]](Wary) |
 
 ### Languages and Typical Names
 

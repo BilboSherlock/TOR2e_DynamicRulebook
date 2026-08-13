@@ -71,12 +71,133 @@ export function cleanDisplayTitle(title: string): string {
     .trim();
 }
 
+export function stripWikilinks(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/\[\[([^\]]+)\]\]\(([^)]*)\)/g, (_, target, label) => label || target)
+    .replace(/\[\[([^\]]+)\]\]/g, (_, target) => target)
+    .trim();
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()
     .replace(/[^\w\s-]/g, '')
     .trim()
     .replace(/\s+/g, '-');
+}
+
+export interface ResolvedTarget {
+  chapterId: string;
+  sectionId: string;
+  subHeaderId?: string;
+}
+
+export function resolveLinkTarget(rawTarget: string, allChapters: RuleChapter[]): ResolvedTarget | null {
+  if (!rawTarget) return null;
+  let clean = rawTarget.trim();
+  if (!clean) return null;
+
+  clean = clean.replace(/^#compendium-/, '');
+  try {
+    clean = decodeURIComponent(clean);
+  } catch {
+    // ignore
+  }
+
+  const lowerClean = clean.toLowerCase();
+  if (['subhead-quote', '/subhead-quote', 'inline-quote', '/inline-quote'].includes(lowerClean)) {
+    return null;
+  }
+
+  const norm = (s: string) => slugify(stripWikilinks(s)).toLowerCase();
+
+  const parts = clean.split('/').map((p) => p.trim()).filter(Boolean);
+  if (parts.length === 0) return null;
+
+  let chapStr = '';
+  let secStr = '';
+  let headerStr = '';
+
+  if (parts.length >= 3) {
+    chapStr = parts[0];
+    secStr = parts[1];
+    headerStr = parts[2];
+  } else if (parts.length === 2) {
+    if (parts[1].startsWith('#')) {
+      secStr = parts[0];
+      headerStr = parts[1];
+    } else {
+      chapStr = parts[0];
+      secStr = parts[1];
+    }
+  } else {
+    if (parts[0].startsWith('#')) {
+      headerStr = parts[0];
+    } else {
+      secStr = parts[0];
+    }
+  }
+
+  const cNorm = chapStr ? norm(chapStr) : '';
+  const sNorm = secStr ? norm(secStr) : '';
+
+  let matchedChapter: RuleChapter | undefined;
+  let matchedSection: RuleSection | undefined;
+
+  if (cNorm) {
+    matchedChapter = allChapters.find((ch) => {
+      const chIdNorm = norm(ch.id);
+      const chTitleNorm = norm(ch.title);
+      const chNumStr = String(ch.number);
+      return (
+        chIdNorm === cNorm ||
+        chTitleNorm === cNorm ||
+        chNumStr === cNorm ||
+        cNorm.includes(chIdNorm) ||
+        cNorm.includes(chTitleNorm)
+      );
+    });
+  }
+
+  if (matchedChapter) {
+    if (sNorm) {
+      matchedSection = matchedChapter.sections.find((sec) => {
+        const secIdNorm = norm(sec.id);
+        const secTitleNorm = norm(sec.title);
+        return secIdNorm === sNorm || secTitleNorm === sNorm;
+      });
+    } else {
+      matchedSection = matchedChapter.sections[0];
+    }
+  } else if (sNorm) {
+    for (const ch of allChapters) {
+      const sec = ch.sections.find((s) => {
+        const secIdNorm = norm(s.id);
+        const secTitleNorm = norm(s.title);
+        return secIdNorm === sNorm || secTitleNorm === sNorm;
+      });
+      if (sec) {
+        matchedChapter = ch;
+        matchedSection = sec;
+        break;
+      }
+    }
+  }
+
+  if (matchedChapter && matchedSection) {
+    let cleanHeader = headerStr ? headerStr.replace(/^#/, '') : undefined;
+    if (cleanHeader) {
+      cleanHeader = norm(cleanHeader);
+    }
+    return {
+      chapterId: matchedChapter.id,
+      sectionId: matchedSection.id,
+      subHeaderId: cleanHeader || undefined,
+    };
+  }
+
+  return null;
 }
 
 function extractSubHeaders(content: string): SubHeader[] {
@@ -87,6 +208,7 @@ function extractSubHeaders(content: string): SubHeader[] {
     let title = m[2].trim();
     // Clean any HTML or box shortcodes if present on title line
     title = title.replace(/<\/?[^>]+>/g, '').replace(/\[\/?(red-box|key-box)\]/gi, '').trim();
+    title = stripWikilinks(title);
     title = cleanDisplayTitle(title);
     const level = hashes.length;
     return {
@@ -141,7 +263,7 @@ function parseSubsections(body: string, chapterId: string): RuleSection[] {
     const match = matches[i];
     const rawHeading = match[0].trim();
     const rawTitle = match[1].trim();
-    const sectionTitle = cleanDisplayTitle(rawTitle) || rawTitle;
+    const sectionTitle = cleanDisplayTitle(stripWikilinks(rawTitle)) || rawTitle;
     const startIndex = match.index! + match[0].length;
     const endIndex = i + 1 < matches.length ? matches[i + 1].index! : body.length;
     const sectionContent = body.slice(startIndex, endIndex).trim();
@@ -208,6 +330,21 @@ export function loadMarkdownRulebook(): RuleChapter[] {
       sections,
     });
   }
+
+  // Sort chapters so Core Rules & Starter Set come first by chapter number ascending, followed by other supplements
+  loadedChapters.sort((a, b) => {
+    const isMainA = a.supplement === 'Core Rules' || a.supplement === 'Starter Set';
+    const isMainB = b.supplement === 'Core Rules' || b.supplement === 'Starter Set';
+
+    if (isMainA && !isMainB) return -1;
+    if (!isMainA && isMainB) return 1;
+
+    if (a.supplement !== b.supplement) {
+      return a.supplement.localeCompare(b.supplement);
+    }
+
+    return a.number - b.number;
+  });
 
   cachedRulebook = loadedChapters;
   return loadedChapters;
