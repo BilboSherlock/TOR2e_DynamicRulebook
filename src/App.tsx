@@ -20,14 +20,17 @@ export default function App() {
 
   // LoreMaster Mode state (default off for Player mode)
   const [isLoreMasterMode, setIsLoreMasterMode] = useState<boolean>(false);
+  const [pendingSupplementAfterAuth, setPendingSupplementAfterAuth] = useState<SupplementCategory | null>(null);
 
-  const isLoreMasterChapter = useCallback((ch: { id: string; title: string }) =>
+  const isLoreMasterChapter = useCallback((ch: { id: string; title: string; supplement?: string }) =>
     ch.id === 'the-loremaster' ||
     ch.id === 'the-world' ||
     ch.id === 'the-shire' ||
+    ch.supplement === 'Session Prep' ||
     ch.title.toLowerCase().includes('loremaster') ||
     ch.title.toLowerCase().includes('the world') ||
-    ch.title.toLowerCase().includes('the shire'), []);
+    ch.title.toLowerCase().includes('the shire') ||
+    ch.title.toLowerCase().includes('session prep'), []);
 
   // Filter chapters based on LoreMaster Mode
   const chapters = useMemo(() => {
@@ -95,6 +98,25 @@ export default function App() {
     }
   }, [isLoreMasterMode, activeChapter, isLoreMasterChapter]);
 
+  const handleLoreMasterAuthSuccess = useCallback(() => {
+    setIsLoreMasterMode(true);
+    setIsLoreMasterAuthOpen(false);
+    if (pendingSupplementAfterAuth) {
+      const targetSupp = pendingSupplementAfterAuth;
+      setPendingSupplementAfterAuth(null);
+      setSelectedSupplement(targetSupp);
+      if (targetSupp === 'Session Prep') {
+        const sessionChap = CORE_CHAPTERS.find((ch) => ch.supplement === 'Session Prep');
+        if (sessionChap) {
+          setActiveChapterId(sessionChap.id);
+          setActiveSectionId(sessionChap.sections[0]?.id || 'default');
+          setActiveSubHeaderId(null);
+        }
+        setActiveView('reader');
+      }
+    }
+  }, [pendingSupplementAfterAuth]);
+
   // Select section handler
   const handleSelectSection = useCallback((chapterId: string, sectionId: string, subHeaderId?: string) => {
     setActiveChapterId(chapterId);
@@ -105,6 +127,9 @@ export default function App() {
     if (targetChapter?.supplement === 'Heroic Cultures') {
       setSelectedSupplement('Heroic Cultures');
       setActiveView('heroic-cultures');
+    } else if (targetChapter?.supplement === 'Session Prep') {
+      setSelectedSupplement('Session Prep');
+      setActiveView('reader');
     } else {
       setActiveView('reader');
     }
@@ -112,13 +137,27 @@ export default function App() {
 
   // Top nav / supplement tab change handler
   const handleSelectSupplement = useCallback((supplement: SupplementCategory) => {
+    if (supplement === 'Session Prep' && !isLoreMasterMode) {
+      setPendingSupplementAfterAuth('Session Prep');
+      setIsLoreMasterAuthOpen(true);
+      return;
+    }
+
     setSelectedSupplement(supplement);
     if (supplement === 'Heroic Cultures') {
       setActiveView('heroic-cultures');
+    } else if (supplement === 'Session Prep') {
+      const sessionChap = CORE_CHAPTERS.find((ch) => ch.supplement === 'Session Prep');
+      if (sessionChap) {
+        setActiveChapterId(sessionChap.id);
+        setActiveSectionId(sessionChap.sections[0]?.id || 'default');
+        setActiveSubHeaderId(null);
+      }
+      setActiveView('reader');
     } else {
       setActiveView('toc');
     }
-  }, []);
+  }, [isLoreMasterMode]);
 
   const handleSelectMapTab = useCallback(() => {
     setActiveView('map');
@@ -257,8 +296,11 @@ export default function App() {
       {/* LoreMaster Riddle Confirmation Lock Modal */}
       <LoremasterAuthModal
         isOpen={isLoreMasterAuthOpen}
-        onClose={() => setIsLoreMasterAuthOpen(false)}
-        onSuccess={() => setIsLoreMasterMode(true)}
+        onClose={() => {
+          setIsLoreMasterAuthOpen(false);
+          setPendingSupplementAfterAuth(null);
+        }}
+        onSuccess={handleLoreMasterAuthSuccess}
       />
     </div>
   );

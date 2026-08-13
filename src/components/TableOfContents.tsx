@@ -40,6 +40,7 @@ export const TableOfContentsComponent: React.FC<TableOfContentsProps> = ({
   chapters,
   title = 'Core Rules',
   onSelectSection,
+  selectedSupplement = 'Core Rules',
   onSelectSupplement,
   onSelectMapTab,
   onOpenSearch,
@@ -66,7 +67,11 @@ export const TableOfContentsComponent: React.FC<TableOfContentsProps> = ({
           <button
             type="button"
             onClick={() => onSelectSupplement?.('Core Rules')}
-            className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-[2px] font-cinzel font-bold text-[10px] sm:text-xs uppercase tracking-wider bg-[#8E1616] text-[#FAF5EB] border border-[#6E1010] shadow-2xs flex items-center gap-1 cursor-pointer"
+            className={`px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-[2px] font-cinzel font-bold text-[10px] sm:text-xs uppercase tracking-wider border shadow-2xs flex items-center gap-1 cursor-pointer transition-colors ${
+              selectedSupplement === 'Core Rules'
+                ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010]'
+                : 'bg-[#EFE5CB] text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] border-[#D4C4A0]'
+            }`}
           >
             <BookOpen className="w-3 h-3" />
             <span className="hidden xs:inline sm:inline">Core Rules</span>
@@ -74,7 +79,11 @@ export const TableOfContentsComponent: React.FC<TableOfContentsProps> = ({
           <button
             type="button"
             onClick={() => onSelectSupplement?.('Heroic Cultures')}
-            className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-[2px] font-cinzel font-bold text-[10px] sm:text-xs uppercase tracking-wider bg-[#EFE5CB] text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] border border-[#D4C4A0] flex items-center gap-1 cursor-pointer transition-colors"
+            className={`px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-[2px] font-cinzel font-bold text-[10px] sm:text-xs uppercase tracking-wider border flex items-center gap-1 cursor-pointer transition-colors ${
+              selectedSupplement === 'Heroic Cultures'
+                ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010]'
+                : 'bg-[#EFE5CB] text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] border-[#D4C4A0]'
+            }`}
           >
             <Shield className="w-3 h-3 text-[#8E1616]" />
             <span className="hidden xs:inline sm:inline">Cultures</span>
@@ -87,6 +96,20 @@ export const TableOfContentsComponent: React.FC<TableOfContentsProps> = ({
             <Compass className="w-3 h-3 text-[#8E1616]" />
             <span className="hidden xs:inline sm:inline">Map</span>
           </button>
+          {isLoreMasterMode && (
+            <button
+              type="button"
+              onClick={() => onSelectSupplement?.('Session Prep')}
+              className={`px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-[2px] font-cinzel font-bold text-[10px] sm:text-xs uppercase tracking-wider border flex items-center gap-1 cursor-pointer transition-colors ${
+                selectedSupplement === 'Session Prep'
+                  ? 'bg-[#8E1616] text-[#FAF5EB] border-[#6E1010]'
+                  : 'bg-[#EFE5CB] text-[#5C4A3C] hover:text-[#8E1616] hover:bg-[#FAF3E0] border-[#D4C4A0]'
+              }`}
+            >
+              <Scroll className="w-3 h-3 text-[#8E1616]" />
+              <span className="hidden xs:inline sm:inline">Session Prep</span>
+            </button>
+          )}
         </div>
 
         {/* Right Actions: LoreMaster Toggle, Search & Styles */}

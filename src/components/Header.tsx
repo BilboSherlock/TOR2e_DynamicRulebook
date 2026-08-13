@@ -10,6 +10,7 @@ import {
   Compass,
   Trees,
   Lock,
+  Scroll,
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { SupplementCategory, ViewMode } from '../types';
@@ -25,6 +26,7 @@ export const NAV_TABS: NavTabConfig[] = [
   { id: 'Core Rules', label: 'Core Rules', icon: <BookOpen className="w-3.5 h-3.5" /> },
   { id: 'Heroic Cultures', label: 'Heroic Cultures', icon: <Shield className="w-3.5 h-3.5" /> },
   { id: 'Map', label: 'Map', icon: <Compass className="w-3.5 h-3.5" /> },
+  { id: 'Session Prep', label: 'Session Prep', icon: <Scroll className="w-3.5 h-3.5" /> },
 ];
 
 interface HeaderProps {
@@ -162,12 +164,18 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
       <div className="bg-[#EFE5CB]/90 border-t border-[#D8C8A8] overflow-x-auto no-scrollbar">
         <div className="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 flex items-center gap-2.5 py-1.5 text-xs font-cinzel">
           {NAV_TABS.map((tab) => {
+            if (tab.id === 'Session Prep' && !isLoreMasterMode) {
+              return null;
+            }
+
             const isSelected =
-              (tab.id === 'Core Rules' && (selectedSupplement === 'Core Rules' || activeView === 'toc')) ||
+              (tab.id === 'Core Rules' && selectedSupplement === 'Core Rules' && activeView !== 'map' && activeView !== 'heroic-cultures') ||
               (tab.id === 'Heroic Cultures' && (selectedSupplement === 'Heroic Cultures' || activeView === 'heroic-cultures')) ||
-              (tab.id === 'Map' && activeView === 'map');
+              (tab.id === 'Map' && activeView === 'map') ||
+              (tab.id === 'Session Prep' && selectedSupplement === 'Session Prep' && activeView !== 'map');
 
             const isMapTab = tab.id === 'Map';
+            const isSessionPrep = tab.id === 'Session Prep';
 
             const isEriadorDisabled =
               MAP_GLOBAL_CONFIG.mapNavigation.disableEriadorGlobally ||
@@ -196,6 +204,11 @@ export const HeaderComponent: React.FC<HeaderProps> = ({
                 >
                   {tab.icon}
                   <span>{tab.label}</span>
+                  {isSessionPrep && !isLoreMasterMode && (
+                    <span className="text-[9px] font-mono px-1 py-0.2 rounded-[2px] bg-[#E2D4B5] text-[#8E1616] font-bold border border-[#D4C4A0]">
+                      LM
+                    </span>
+                  )}
                 </button>
 
                 {/* Sub bar map view toggle attached to Map header button */}

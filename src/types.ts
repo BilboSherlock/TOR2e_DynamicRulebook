@@ -1,4 +1,4 @@
-export type SupplementCategory = 'Core Rules' | 'Heroic Cultures' | 'Tales from the Lone-Lands' | 'Moria' | 'Ruins of the Lost Realm' | 'Starter Set';
+export type SupplementCategory = 'Core Rules' | 'Heroic Cultures' | 'Tales from the Lone-Lands' | 'Moria' | 'Ruins of the Lost Realm' | 'Starter Set' | 'Session Prep';
 
 export type ViewMode = 'toc' | 'heroic-cultures' | 'reader' | 'map';
 
