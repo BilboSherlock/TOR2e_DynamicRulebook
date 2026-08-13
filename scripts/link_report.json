@@ -1,0 +1,3122 @@
+[
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 77,
+    "original": "[[The World]]",
+    "inner": "The World",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "The World",
+      "headerAnchor": null,
+      "displayLabel": "The World",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[The World/The World]](The World)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 145,
+    "original": "[[The Loremaster]]",
+    "inner": "The Loremaster",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Loremaster",
+      "headerAnchor": null,
+      "displayLabel": "The Loremaster",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[The Loremaster/The Loremaster]](The Loremaster)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 161,
+    "original": "[[Adventuring Phases]]",
+    "inner": "Adventuring Phases",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Adventuring Phases",
+      "headerAnchor": null,
+      "displayLabel": "Adventuring Phases",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Adventuring Phases/Adventuring Phases]](Adventuring Phases)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 161,
+    "original": "[[Fellowship Phases]]",
+    "inner": "Fellowship Phases",
+    "res": {
+      "chapterTitle": "Fellowship Phases",
+      "fileName": "07-fellowship-phases.md",
+      "sectionTitle": "Fellowship Phases",
+      "headerAnchor": null,
+      "displayLabel": "Fellowship Phases",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 180,
+    "original": "[[Action Resolution]]",
+    "inner": "Action Resolution",
+    "res": {
+      "chapterTitle": "Action Resolution",
+      "fileName": "02-action-resolution.md",
+      "sectionTitle": "Action Resolution",
+      "headerAnchor": null,
+      "displayLabel": "Action Resolution",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Action Resolution/Action Resolution]](Action Resolution)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 183,
+    "original": "[[Combat]]",
+    "inner": "Combat",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Combat",
+      "headerAnchor": null,
+      "displayLabel": "Combat",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Combat]](Combat)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 183,
+    "original": "[[Council]]",
+    "inner": "Council",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Council",
+      "headerAnchor": null,
+      "displayLabel": "Council",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Council]](Council)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 183,
+    "original": "[[Journey]]",
+    "inner": "Journey",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Journey",
+      "headerAnchor": null,
+      "displayLabel": "Journey",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Journey]](Journey)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "line": 194,
+    "original": "[[Yule]]",
+    "inner": "Yule",
+    "res": {
+      "chapterTitle": "Fellowship Phases",
+      "fileName": "07-fellowship-phases.md",
+      "sectionTitle": "Yule",
+      "headerAnchor": null,
+      "displayLabel": "Yule",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Fellowship Phases/Yule]](Yule)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 42,
+    "original": "[[The World]]",
+    "inner": "The World",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "The World",
+      "headerAnchor": null,
+      "displayLabel": "The World",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[The World/The World]](The World)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 51,
+    "original": "[[Adventuring Phases]]",
+    "inner": "Adventuring Phases",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Adventuring Phases",
+      "headerAnchor": null,
+      "displayLabel": "Adventuring Phases",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Adventuring Phases/Adventuring Phases]](Adventuring Phases)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 51,
+    "original": "[[Fellowship Phases]]",
+    "inner": "Fellowship Phases",
+    "res": {
+      "chapterTitle": "Fellowship Phases",
+      "fileName": "07-fellowship-phases.md",
+      "sectionTitle": "Fellowship Phases",
+      "headerAnchor": null,
+      "displayLabel": "Fellowship Phases",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 65,
+    "original": "[[Die Roll Modifiers|Support]]",
+    "inner": "Die Roll Modifiers|Support",
+    "res": {
+      "chapterTitle": "Action Resolution",
+      "fileName": "02-action-resolution.md",
+      "sectionTitle": "Support:",
+      "headerAnchor": null,
+      "displayLabel": "Support",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[Action Resolution/Support:]](Support)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 85,
+    "original": "[[Degree of Success]]",
+    "inner": "Degree of Success",
+    "res": {
+      "chapterTitle": "Action Resolution",
+      "fileName": "02-action-resolution.md",
+      "sectionTitle": "Degree of Success",
+      "headerAnchor": null,
+      "displayLabel": "Degree of Success",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Action Resolution/Degree of Success]](Degree of Success)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 85,
+    "original": "[[The Loremaster]]",
+    "inner": "The Loremaster",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Loremaster",
+      "headerAnchor": null,
+      "displayLabel": "The Loremaster",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[The Loremaster/The Loremaster]](The Loremaster)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 94,
+    "original": "[[Consequences of Failure]]",
+    "inner": "Consequences of Failure",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Consequences of Failure",
+      "headerAnchor": null,
+      "displayLabel": "Consequences of Failure",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[The Loremaster/The Consequences of Failure]](Consequences of Failure)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 105,
+    "original": "[[Degree of Success]]",
+    "inner": "Degree of Success",
+    "res": {
+      "chapterTitle": "Action Resolution",
+      "fileName": "02-action-resolution.md",
+      "sectionTitle": "Degree of Success",
+      "headerAnchor": null,
+      "displayLabel": "Degree of Success",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Action Resolution/Degree of Success]](Degree of Success)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 179,
+    "original": "[[Skills]]",
+    "inner": "Skills",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skills",
+      "headerAnchor": null,
+      "displayLabel": "Skills",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Characteristics/Skills]](Skills)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 179,
+    "original": "[[Virtues]]",
+    "inner": "Virtues",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues",
+      "headerAnchor": null,
+      "displayLabel": "Virtues",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues]](Virtues)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 191,
+    "original": "[[Adversaries]]",
+    "inner": "Adversaries",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "Adversaries",
+      "headerAnchor": null,
+      "displayLabel": "Adversaries",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/Adversaries]](Adversaries)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 191,
+    "original": "[[Madness]]",
+    "inner": "Madness",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "Madness",
+      "headerAnchor": null,
+      "displayLabel": "Madness",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/Madness]](Madness)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 191,
+    "original": "[[Using Flaws]]",
+    "inner": "Using Flaws",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "Using Flaws",
+      "headerAnchor": null,
+      "displayLabel": "Using Flaws",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/Using Flaws]](Using Flaws)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 233,
+    "original": "[[Distinctive Feature]]",
+    "inner": "Distinctive Feature",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Distinctive Features",
+      "headerAnchor": null,
+      "displayLabel": "Distinctive Feature",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[Adventurers/Distinctive Features]](Distinctive Feature)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 235,
+    "original": "[[Miserable]]",
+    "inner": "Miserable",
+    "res": {
+      "chapterTitle": "Action Resolution",
+      "fileName": "02-action-resolution.md",
+      "sectionTitle": "Miserable",
+      "headerAnchor": null,
+      "displayLabel": "Miserable",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Action Resolution/Miserable]](Miserable)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 235,
+    "original": "[[Hope]]",
+    "inner": "Hope",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Hope",
+      "headerAnchor": null,
+      "displayLabel": "Hope",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Characteristics/Hope]](Hope)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 263,
+    "original": "[[Complications|complication]]",
+    "inner": "Complications|complication",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Complications and Advantages",
+      "headerAnchor": null,
+      "displayLabel": "complication",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[Adventuring Phases/Complications and Advantages]](complication)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 298,
+    "original": "[[The Eye of Mordor]]",
+    "inner": "The Eye of Mordor",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Eye of Mordor",
+      "headerAnchor": null,
+      "displayLabel": "The Eye of Mordor",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/The Eye of Mordor]](The Eye of Mordor)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 323,
+    "original": "[[Load]]",
+    "inner": "Load",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Load",
+      "headerAnchor": null,
+      "displayLabel": "Load",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventurers/Load]](Load)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 323,
+    "original": "[[Endurance]]",
+    "inner": "Endurance",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Endurance",
+      "headerAnchor": null,
+      "displayLabel": "Endurance",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Characteristics/Endurance]](Endurance)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "line": 329,
+    "original": "[[Resting]]",
+    "inner": "Resting",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Endurance",
+      "headerAnchor": "#resting",
+      "displayLabel": "Resting",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Endurance/#resting]](Resting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 31,
+    "original": "[[Standard of Living]]",
+    "inner": "Standard of Living",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standard of Living",
+      "headerAnchor": null,
+      "displayLabel": "Standard of Living",
+      "confidence": "concept"
+    },
+    "formatted": "[[Characteristics/Standard of Living]](Standard of Living)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 89,
+    "original": "[[Heroic Cultures]]",
+    "inner": "Heroic Cultures",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Heroic Cultures",
+      "headerAnchor": null,
+      "displayLabel": "Heroic Cultures",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventurers/Heroic Cultures]](Heroic Cultures)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 343,
+    "original": "[[Brawling Attack]]",
+    "inner": "Brawling Attack",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Combat",
+      "headerAnchor": "#brawling-attack",
+      "displayLabel": "Brawling Attack",
+      "confidence": "concept"
+    },
+    "formatted": "[[Adventuring Phases/Combat/#brawling-attack]](Brawling Attack)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 473,
+    "original": "[[Valour & Wisdom]]",
+    "inner": "Valour & Wisdom",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Valour & Wisdom",
+      "headerAnchor": null,
+      "displayLabel": "Valour & Wisdom",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Valour & Wisdom/Valour & Wisdom]](Valour & Wisdom)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 479,
+    "original": "[[Close-fitting]]",
+    "inner": "Close-fitting",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Rewards List",
+      "headerAnchor": "#close-fitting",
+      "displayLabel": "Close-fitting",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Rewards List/#close-fitting]](Close-fitting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 480,
+    "original": "[[Cunning Make]]",
+    "inner": "Cunning Make",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Rewards List",
+      "headerAnchor": "#cunning-make",
+      "displayLabel": "Cunning Make",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Rewards List/#cunning-make]](Cunning Make)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 481,
+    "original": "[[Fell]]",
+    "inner": "Fell",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Rewards List",
+      "headerAnchor": "#fell",
+      "displayLabel": "Fell",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Rewards List/#fell]](Fell)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 482,
+    "original": "[[Grievous]]",
+    "inner": "Grievous",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "Superior Grievous",
+      "headerAnchor": null,
+      "displayLabel": "Grievous",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[The Loremaster/Superior Grievous]](Grievous)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 483,
+    "original": "[[Keen]]",
+    "inner": "Keen",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Rewards List",
+      "headerAnchor": "#keen",
+      "displayLabel": "Keen",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Rewards List/#keen]](Keen)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 484,
+    "original": "[[Reinforced]]",
+    "inner": "Reinforced",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Rewards List",
+      "headerAnchor": "#reinforced",
+      "displayLabel": "Reinforced",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Rewards List/#reinforced]](Reinforced)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 488,
+    "original": "[[Confidence]]",
+    "inner": "Confidence",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#confidence",
+      "displayLabel": "Confidence",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#confidence]](Confidence)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 489,
+    "original": "[[Dour-handed]]",
+    "inner": "Dour-handed",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#dour-handed",
+      "displayLabel": "Dour-handed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#dour-handed]](Dour-handed)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 490,
+    "original": "[[Hardiness]]",
+    "inner": "Hardiness",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#hardiness",
+      "displayLabel": "Hardiness",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#hardiness]](Hardiness)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 491,
+    "original": "[[Mastery]]",
+    "inner": "Mastery",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#mastery",
+      "displayLabel": "Mastery",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#mastery]](Mastery)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 492,
+    "original": "[[Nimbleness]]",
+    "inner": "Nimbleness",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#nimbleness",
+      "displayLabel": "Nimbleness",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#nimbleness]](Nimbleness)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 493,
+    "original": "[[Prowess]]",
+    "inner": "Prowess",
+    "res": {
+      "chapterTitle": "Valour & Wisdom",
+      "fileName": "05-valour-wisdom.md",
+      "sectionTitle": "Virtues List",
+      "headerAnchor": "#prowess",
+      "displayLabel": "Prowess",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Valour & Wisdom/Virtues List/#prowess]](Prowess)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 563,
+    "original": "[[Resting]]",
+    "inner": "Resting",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Endurance",
+      "headerAnchor": "#resting",
+      "displayLabel": "Resting",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Endurance/#resting]](Resting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 566,
+    "original": "[[Patrons]]",
+    "inner": "Patrons",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "Who?",
+      "headerAnchor": "#patrons",
+      "displayLabel": "Patrons",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[The World/Who?/#patrons]](Patrons)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "line": 665,
+    "original": "[[Yule]]",
+    "inner": "Yule",
+    "res": {
+      "chapterTitle": "Fellowship Phases",
+      "fileName": "07-fellowship-phases.md",
+      "sectionTitle": "Yule",
+      "headerAnchor": null,
+      "displayLabel": "Yule",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Fellowship Phases/Yule]](Yule)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Awe]]",
+    "inner": "Awe",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#awe",
+      "displayLabel": "Awe",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#awe]](Awe)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Song]]",
+    "inner": "Song",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#song",
+      "displayLabel": "Song",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#song]](Song)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Athletics]]",
+    "inner": "Athletics",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#athletics",
+      "displayLabel": "Athletics",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#athletics]](Athletics)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Awareness]]",
+    "inner": "Awareness",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#awareness",
+      "displayLabel": "Awareness",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#awareness]](Awareness)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Hunting]]",
+    "inner": "Hunting",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#hunting",
+      "displayLabel": "Hunting",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#hunting]](Hunting)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 43,
+    "original": "[[Craft]]",
+    "inner": "Craft",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#craft",
+      "displayLabel": "Craft",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#craft]](Craft)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Enhearten]]",
+    "inner": "Enhearten",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#enhearten",
+      "displayLabel": "Enhearten",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#enhearten]](Enhearten)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Battle]]",
+    "inner": "Battle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#battle",
+      "displayLabel": "Battle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#battle]](Battle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Travel]]",
+    "inner": "Travel",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#travel",
+      "displayLabel": "Travel",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#travel]](Travel)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Courtesy]]",
+    "inner": "Courtesy",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#courtesy",
+      "displayLabel": "Courtesy",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#courtesy]](Courtesy)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Insight]]",
+    "inner": "Insight",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#insight",
+      "displayLabel": "Insight",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#insight]](Insight)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 53,
+    "original": "[[Healing]]",
+    "inner": "Healing",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#healing",
+      "displayLabel": "Healing",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#healing]](Healing)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Persuade]]",
+    "inner": "Persuade",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#persuade",
+      "displayLabel": "Persuade",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#persuade]](Persuade)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Stealth]]",
+    "inner": "Stealth",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#stealth",
+      "displayLabel": "Stealth",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#stealth]](Stealth)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Scan]]",
+    "inner": "Scan",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#scan",
+      "displayLabel": "Scan",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#scan]](Scan)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Explore]]",
+    "inner": "Explore",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#explore",
+      "displayLabel": "Explore",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#explore]](Explore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Riddle]]",
+    "inner": "Riddle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#riddle",
+      "displayLabel": "Riddle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#riddle]](Riddle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 63,
+    "original": "[[Lore]]",
+    "inner": "Lore",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#lore",
+      "displayLabel": "Lore",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#lore]](Lore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 89,
+    "original": "[[Awe]]",
+    "inner": "Awe",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#awe",
+      "displayLabel": "Awe",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#awe]](Awe)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 89,
+    "original": "[[Enhearten]]",
+    "inner": "Enhearten",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#enhearten",
+      "displayLabel": "Enhearten",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#enhearten]](Enhearten)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 89,
+    "original": "[[Persuade]]",
+    "inner": "Persuade",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#persuade",
+      "displayLabel": "Persuade",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#persuade]](Persuade)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 90,
+    "original": "[[Athletics]]",
+    "inner": "Athletics",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#athletics",
+      "displayLabel": "Athletics",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#athletics]](Athletics)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 90,
+    "original": "[[Travel]]",
+    "inner": "Travel",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#travel",
+      "displayLabel": "Travel",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#travel]](Travel)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 90,
+    "original": "[[Stealth]]",
+    "inner": "Stealth",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#stealth",
+      "displayLabel": "Stealth",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#stealth]](Stealth)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 91,
+    "original": "[[Awareness]]",
+    "inner": "Awareness",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#awareness",
+      "displayLabel": "Awareness",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#awareness]](Awareness)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 91,
+    "original": "[[Insight]]",
+    "inner": "Insight",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#insight",
+      "displayLabel": "Insight",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#insight]](Insight)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 91,
+    "original": "[[Scan]]",
+    "inner": "Scan",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#scan",
+      "displayLabel": "Scan",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#scan]](Scan)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 92,
+    "original": "[[Hunting]]",
+    "inner": "Hunting",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#hunting",
+      "displayLabel": "Hunting",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#hunting]](Hunting)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 92,
+    "original": "[[Healing]]",
+    "inner": "Healing",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#healing",
+      "displayLabel": "Healing",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#healing]](Healing)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 92,
+    "original": "[[Explore]]",
+    "inner": "Explore",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#explore",
+      "displayLabel": "Explore",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#explore]](Explore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 93,
+    "original": "[[Song]]",
+    "inner": "Song",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#song",
+      "displayLabel": "Song",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#song]](Song)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 93,
+    "original": "[[Courtesy]]",
+    "inner": "Courtesy",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#courtesy",
+      "displayLabel": "Courtesy",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#courtesy]](Courtesy)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 93,
+    "original": "[[Riddle]]",
+    "inner": "Riddle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#riddle",
+      "displayLabel": "Riddle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#riddle]](Riddle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 94,
+    "original": "[[Craft]]",
+    "inner": "Craft",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#craft",
+      "displayLabel": "Craft",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#craft]](Craft)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 94,
+    "original": "[[Battle]]",
+    "inner": "Battle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#battle",
+      "displayLabel": "Battle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#battle]](Battle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 94,
+    "original": "[[Lore]]",
+    "inner": "Lore",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Skill List",
+      "headerAnchor": "#lore",
+      "displayLabel": "Lore",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Skill List/#lore]](Lore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 286,
+    "original": "[[Combat]]",
+    "inner": "Combat",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Combat",
+      "headerAnchor": null,
+      "displayLabel": "Combat",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Combat]](Combat)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 551,
+    "original": "[[Wounds]]",
+    "inner": "Wounds",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Wounds",
+      "headerAnchor": null,
+      "displayLabel": "Wounds",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Wounds]](Wounds)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 590,
+    "original": "[[Journey]]",
+    "inner": "Journey",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Journey",
+      "headerAnchor": null,
+      "displayLabel": "Journey",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventuring Phases/Journey]](Journey)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 622,
+    "original": "[[The Shadow]]",
+    "inner": "The Shadow",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Shadow",
+      "headerAnchor": null,
+      "displayLabel": "The Shadow",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/The Shadow]](The Shadow)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 636,
+    "original": "[[Fellowship Phases]]",
+    "inner": "Fellowship Phases",
+    "res": {
+      "chapterTitle": "Fellowship Phases",
+      "fileName": "07-fellowship-phases.md",
+      "sectionTitle": "Fellowship Phases",
+      "headerAnchor": null,
+      "displayLabel": "Fellowship Phases",
+      "confidence": "exact-chapter"
+    },
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "line": 649,
+    "original": "[[Starting Gear]]",
+    "inner": "Starting Gear",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Starting Gear",
+      "headerAnchor": null,
+      "displayLabel": "Starting Gear",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[Adventurers/Starting Gear]](Starting Gear)"
+  },
+  {
+    "file": "core-rules/05-valour-wisdom.md",
+    "line": 15,
+    "original": "[[The Shadow]]",
+    "inner": "The Shadow",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "The Shadow",
+      "headerAnchor": null,
+      "displayLabel": "The Shadow",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/The Shadow]](The Shadow)"
+  },
+  {
+    "file": "core-rules/06-adventuring-phases.md",
+    "line": 418,
+    "original": "[[Brawling Attack]]",
+    "inner": "Brawling Attack",
+    "res": {
+      "chapterTitle": "Adventuring Phases",
+      "fileName": "06-adventuring-phases.md",
+      "sectionTitle": "Combat",
+      "headerAnchor": "#brawling-attack",
+      "displayLabel": "Brawling Attack",
+      "confidence": "concept"
+    },
+    "formatted": "[[Adventuring Phases/Combat/#brawling-attack]](Brawling Attack)"
+  },
+  {
+    "file": "core-rules/07-fellowship-phases.md",
+    "line": 70,
+    "original": "[[Experience Points Costs table]]",
+    "inner": "Experience Points Costs table",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Experience",
+      "headerAnchor": null,
+      "displayLabel": "Experience Points Costs table",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[Adventurers/Experience]](Experience Points Costs table)"
+  },
+  {
+    "file": "core-rules/08-the-loremaster.md",
+    "line": 126,
+    "original": "[[Loremaster Characters]]",
+    "inner": "Loremaster Characters",
+    "res": {
+      "chapterTitle": "The Loremaster",
+      "fileName": "08-the-loremaster.md",
+      "sectionTitle": "Loremaster Characters",
+      "headerAnchor": null,
+      "displayLabel": "Loremaster Characters",
+      "confidence": "exact-section"
+    },
+    "formatted": "[[The Loremaster/Loremaster Characters]](Loremaster Characters)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "line": 415,
+    "original": "[[The Dome of Sight]]",
+    "inner": "The Dome of Sight",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "The Dome Of Sight:",
+      "headerAnchor": null,
+      "displayLabel": "The Dome of Sight",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[The World/The Dome Of Sight:]](The Dome of Sight)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "line": 415,
+    "original": "[[The Throne Room of Arvedui:]]",
+    "inner": "The Throne Room of Arvedui:",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "The North Downs",
+      "headerAnchor": "#the-throne-room-of-arvedui",
+      "displayLabel": "The Throne Room of Arvedui:",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[The World/The North Downs/#the-throne-room-of-arvedui]](The Throne Room of Arvedui:)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "line": 415,
+    "original": "[[The Records of the Last King]]",
+    "inner": "The Records of the Last King",
+    "res": {
+      "chapterTitle": "The World",
+      "fileName": "09-the-world.md",
+      "sectionTitle": "The Records Of The Last King:",
+      "headerAnchor": null,
+      "displayLabel": "The Records of the Last King",
+      "confidence": "partial-heading"
+    },
+    "formatted": "[[The World/The Records Of The Last King:]](The Records of the Last King)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 33,
+    "original": "[[Prosperous]]",
+    "inner": "Prosperous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#prosperous",
+      "displayLabel": "Prosperous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 83,
+    "original": "[[Bold]]",
+    "inner": "Bold",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#bold",
+      "displayLabel": "Bold",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 84,
+    "original": "[[Eager]]",
+    "inner": "Eager",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#eager",
+      "displayLabel": "Eager",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 85,
+    "original": "[[Fair]]",
+    "inner": "Fair",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair",
+      "displayLabel": "Fair",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 86,
+    "original": "[[Fierce]]",
+    "inner": "Fierce",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fierce",
+      "displayLabel": "Fierce",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 87,
+    "original": "[[Generous]]",
+    "inner": "Generous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#generous",
+      "displayLabel": "Generous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 88,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 89,
+    "original": "[[Tall]]",
+    "inner": "Tall",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#tall",
+      "displayLabel": "Tall",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 90,
+    "original": "[[Wilful]]",
+    "inner": "Wilful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wilful",
+      "displayLabel": "Wilful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "line": 93,
+    "original": "[[Item.dH5JERXRatKLOOw9|Dalish]]",
+    "inner": "Item.dH5JERXRatKLOOw9|Dalish",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Distinctive Features",
+      "headerAnchor": "#dalish",
+      "displayLabel": "Dalish",
+      "confidence": "concept"
+    },
+    "formatted": "[[Adventurers/Distinctive Features/#dalish]](Dalish)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 41,
+    "original": "[[Prosperous]]",
+    "inner": "Prosperous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#prosperous",
+      "displayLabel": "Prosperous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 91,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 92,
+    "original": "[[Fierce]]",
+    "inner": "Fierce",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fierce",
+      "displayLabel": "Fierce",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 93,
+    "original": "[[Lordly]]",
+    "inner": "Lordly",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#lordly",
+      "displayLabel": "Lordly",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 94,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 95,
+    "original": "[[Secretive]]",
+    "inner": "Secretive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#secretive",
+      "displayLabel": "Secretive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 96,
+    "original": "[[Stern]]",
+    "inner": "Stern",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#stern",
+      "displayLabel": "Stern",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 97,
+    "original": "[[Wary]]",
+    "inner": "Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "line": 98,
+    "original": "[[Wilful]]",
+    "inner": "Wilful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wilful",
+      "displayLabel": "Wilful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 38,
+    "original": "[[Spiritual Recovery]]",
+    "inner": "Spiritual Recovery",
+    "res": {
+      "chapterTitle": "Adventurers",
+      "fileName": "03-adventurers.md",
+      "sectionTitle": "Distinctive Features",
+      "headerAnchor": "#spiritual recovery",
+      "displayLabel": "Spiritual Recovery",
+      "confidence": "concept"
+    },
+    "formatted": "[[Adventurers/Distinctive Features/#spiritual recovery]](Spiritual Recovery)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 41,
+    "original": "[[Frugal]]",
+    "inner": "Frugal",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#frugal",
+      "displayLabel": "Frugal",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 91,
+    "original": "[[Fair]]",
+    "inner": "Fair",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair",
+      "displayLabel": "Fair",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 92,
+    "original": "[[Keen-eyed]]",
+    "inner": "Keen-eyed",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#keen-eyed",
+      "displayLabel": "Keen-eyed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 93,
+    "original": "[[Lordly]]",
+    "inner": "Lordly",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#lordly",
+      "displayLabel": "Lordly",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 94,
+    "original": "[[Merry]]",
+    "inner": "Merry",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#merry",
+      "displayLabel": "Merry",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 95,
+    "original": "[[Patient]]",
+    "inner": "Patient",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#patient",
+      "displayLabel": "Patient",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 96,
+    "original": "[[Subtle]]",
+    "inner": "Subtle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#subtle",
+      "displayLabel": "Subtle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 97,
+    "original": "[[Swift]]",
+    "inner": "Swift",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#swift",
+      "displayLabel": "Swift",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "line": 98,
+    "original": "[[Wary]]",
+    "inner": "Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 46,
+    "original": "[[Common]]",
+    "inner": "Common",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#common",
+      "displayLabel": "Common",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 96,
+    "original": "[[Eager]]",
+    "inner": "Eager",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#eager",
+      "displayLabel": "Eager",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 97,
+    "original": "[[Fair-spoken]]",
+    "inner": "Fair-spoken",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair-spoken",
+      "displayLabel": "Fair-spoken",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair-spoken]](Fair-spoken)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 98,
+    "original": "[[Faithful]]",
+    "inner": "Faithful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#faithful",
+      "displayLabel": "Faithful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 99,
+    "original": "[[Honourable]]",
+    "inner": "Honourable",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#honourable",
+      "displayLabel": "Honourable",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 100,
+    "original": "[[Inquisitive]]",
+    "inner": "Inquisitive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#inquisitive",
+      "displayLabel": "Inquisitive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 101,
+    "original": "[[Keen-eyed]]",
+    "inner": "Keen-eyed",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#keen-eyed",
+      "displayLabel": "Keen-eyed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 102,
+    "original": "[[Merry]]",
+    "inner": "Merry",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#merry",
+      "displayLabel": "Merry",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "line": 103,
+    "original": "[[Rustic]]",
+    "inner": "Rustic",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#rustic",
+      "displayLabel": "Rustic",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 38,
+    "original": "[[Common]]",
+    "inner": "Common",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#common",
+      "displayLabel": "Common",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 88,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 89,
+    "original": "[[Fair-spoken]]",
+    "inner": "Fair-spoken",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair-spoken",
+      "displayLabel": "Fair-spoken",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair-spoken]](Fair-spoken)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 90,
+    "original": "[[Faithful]]",
+    "inner": "Faithful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#faithful",
+      "displayLabel": "Faithful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 91,
+    "original": "[[Generous]]",
+    "inner": "Generous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#generous",
+      "displayLabel": "Generous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 92,
+    "original": "[[Inquisitive]]",
+    "inner": "Inquisitive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#inquisitive",
+      "displayLabel": "Inquisitive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 93,
+    "original": "[[Patient]]",
+    "inner": "Patient",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#patient",
+      "displayLabel": "Patient",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 94,
+    "original": "[[Rustic]]",
+    "inner": "Rustic",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#rustic",
+      "displayLabel": "Rustic",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "line": 95,
+    "original": "[[True-hearted]]",
+    "inner": "True-hearted",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#true-hearted",
+      "displayLabel": "True-hearted",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 38,
+    "original": "[[Frugal]]",
+    "inner": "Frugal",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#frugal",
+      "displayLabel": "Frugal",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 88,
+    "original": "[[Bold]]",
+    "inner": "Bold",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#bold",
+      "displayLabel": "Bold",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 89,
+    "original": "[[Honourable]]",
+    "inner": "Honourable",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#honourable",
+      "displayLabel": "Honourable",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 90,
+    "original": "[[Secretive]]",
+    "inner": "Secretive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#secretive",
+      "displayLabel": "Secretive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 91,
+    "original": "[[Stern]]",
+    "inner": "Stern",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#stern",
+      "displayLabel": "Stern",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 92,
+    "original": "[[Subtle]]",
+    "inner": "Subtle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#subtle",
+      "displayLabel": "Subtle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 93,
+    "original": "[[Swift]]",
+    "inner": "Swift",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#swift",
+      "displayLabel": "Swift",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 94,
+    "original": "[[Tall]]",
+    "inner": "Tall",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#tall",
+      "displayLabel": "Tall",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "line": 95,
+    "original": "[[True-hearted]]",
+    "inner": "True-hearted",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#true-hearted",
+      "displayLabel": "True-hearted",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 38,
+    "original": "[[Common]]",
+    "inner": "Common",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#common",
+      "displayLabel": "Common",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 88,
+    "original": "[[Bold]]",
+    "inner": "Bold",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#bold",
+      "displayLabel": "Bold",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 89,
+    "original": "[[Fierce]]",
+    "inner": "Fierce",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fierce",
+      "displayLabel": "Fierce",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 90,
+    "original": "[[Generous]]",
+    "inner": "Generous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#generous",
+      "displayLabel": "Generous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 91,
+    "original": "[[Honourable]]",
+    "inner": "Honourable",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#honourable",
+      "displayLabel": "Honourable",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 92,
+    "original": "[[Actor.vSWhCz54fZmfJM3x.Item.zvMN48EVNQVsfn98|Rustic]]",
+    "inner": "Actor.vSWhCz54fZmfJM3x.Item.zvMN48EVNQVsfn98|Rustic",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#rustic",
+      "displayLabel": "Rustic",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 93,
+    "original": "[[Stern]]",
+    "inner": "Stern",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#stern",
+      "displayLabel": "Stern",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 94,
+    "original": "[[Tall]]",
+    "inner": "Tall",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#tall",
+      "displayLabel": "Tall",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "line": 95,
+    "original": "[[Actor.8vXvRElVAEvQemR5.Item.8d4VthPS4iblYcRS|Wary]]",
+    "inner": "Actor.8vXvRElVAEvQemR5.Item.8d4VthPS4iblYcRS|Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 50,
+    "original": "[[Common]]",
+    "inner": "Common",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#common",
+      "displayLabel": "Common",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 100,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 101,
+    "original": "[[Fierce]]",
+    "inner": "Fierce",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fierce",
+      "displayLabel": "Fierce",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 102,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 103,
+    "original": "[[Rustic]]",
+    "inner": "Rustic",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#rustic",
+      "displayLabel": "Rustic",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 104,
+    "original": "[[Secretive]]",
+    "inner": "Secretive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#secretive",
+      "displayLabel": "Secretive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 105,
+    "original": "[[Stern]]",
+    "inner": "Stern",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#stern",
+      "displayLabel": "Stern",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 106,
+    "original": "[[Wary]]",
+    "inner": "Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "line": 107,
+    "original": "[[Wilful]]",
+    "inner": "Wilful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wilful",
+      "displayLabel": "Wilful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 38,
+    "original": "[[Frugal]]",
+    "inner": "Frugal",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#frugal",
+      "displayLabel": "Frugal",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 88,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 89,
+    "original": "[[Fair]]",
+    "inner": "Fair",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair",
+      "displayLabel": "Fair",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 90,
+    "original": "[[Fierce]]",
+    "inner": "Fierce",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fierce",
+      "displayLabel": "Fierce",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 91,
+    "original": "[[Keen-eyed]]",
+    "inner": "Keen-eyed",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#keen-eyed",
+      "displayLabel": "Keen-eyed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 92,
+    "original": "[[Merry]]",
+    "inner": "Merry",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#merry",
+      "displayLabel": "Merry",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 93,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 94,
+    "original": "[[Secretive]]",
+    "inner": "Secretive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#secretive",
+      "displayLabel": "Secretive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "line": 95,
+    "original": "[[Swift]]",
+    "inner": "Swift",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#swift",
+      "displayLabel": "Swift",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 44,
+    "original": "[[Prosperous]]",
+    "inner": "Prosperous",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#prosperous",
+      "displayLabel": "Prosperous",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 94,
+    "original": "[[Fair]]",
+    "inner": "Fair",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair",
+      "displayLabel": "Fair",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 95,
+    "original": "[[Keen-eyed]]",
+    "inner": "Keen-eyed",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#keen-eyed",
+      "displayLabel": "Keen-eyed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 96,
+    "original": "[[Lordly]]",
+    "inner": "Lordly",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#lordly",
+      "displayLabel": "Lordly",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 97,
+    "original": "[[Inquisitive]]",
+    "inner": "Inquisitive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#inquisitive",
+      "displayLabel": "Inquisitive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 98,
+    "original": "[[Merry]]",
+    "inner": "Merry",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#merry",
+      "displayLabel": "Merry",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 99,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 100,
+    "original": "[[Subtle]]",
+    "inner": "Subtle",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#subtle",
+      "displayLabel": "Subtle",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "line": 101,
+    "original": "[[Wilful]]",
+    "inner": "Wilful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wilful",
+      "displayLabel": "Wilful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 38,
+    "original": "[[Frugal]]",
+    "inner": "Frugal",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#frugal",
+      "displayLabel": "Frugal",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 88,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 89,
+    "original": "[[Eager]]",
+    "inner": "Eager",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#eager",
+      "displayLabel": "Eager",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 90,
+    "original": "[[Faithful]]",
+    "inner": "Faithful",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#faithful",
+      "displayLabel": "Faithful",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 91,
+    "original": "[[Patient]]",
+    "inner": "Patient",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#patient",
+      "displayLabel": "Patient",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 92,
+    "original": "[[Stern]]",
+    "inner": "Stern",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#stern",
+      "displayLabel": "Stern",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 93,
+    "original": "[[Swift]]",
+    "inner": "Swift",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#swift",
+      "displayLabel": "Swift",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 94,
+    "original": "[[True-hearted]]",
+    "inner": "True-hearted",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#true-hearted",
+      "displayLabel": "True-hearted",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "line": 95,
+    "original": "[[Wary]]",
+    "inner": "Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 39,
+    "original": "[[Frugal]]",
+    "inner": "Frugal",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Standards of Living Descriptions",
+      "headerAnchor": "#frugal",
+      "displayLabel": "Frugal",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 89,
+    "original": "[[Cunning]]",
+    "inner": "Cunning",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#cunning",
+      "displayLabel": "Cunning",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 90,
+    "original": "[[Fair]]",
+    "inner": "Fair",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#fair",
+      "displayLabel": "Fair",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 91,
+    "original": "[[Keen-eyed]]",
+    "inner": "Keen-eyed",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#keen-eyed",
+      "displayLabel": "Keen-eyed",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 92,
+    "original": "[[Merry]]",
+    "inner": "Merry",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#merry",
+      "displayLabel": "Merry",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 93,
+    "original": "[[Proud]]",
+    "inner": "Proud",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#proud",
+      "displayLabel": "Proud",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 94,
+    "original": "[[Secretive]]",
+    "inner": "Secretive",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#secretive",
+      "displayLabel": "Secretive",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 95,
+    "original": "[[Swift]]",
+    "inner": "Swift",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#swift",
+      "displayLabel": "Swift",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "line": 96,
+    "original": "[[Wary]]",
+    "inner": "Wary",
+    "res": {
+      "chapterTitle": "Characteristics",
+      "fileName": "04-characteristics.md",
+      "sectionTitle": "Distinctive Features List",
+      "headerAnchor": "#wary",
+      "displayLabel": "Wary",
+      "confidence": "exact-header"
+    },
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  }
+]

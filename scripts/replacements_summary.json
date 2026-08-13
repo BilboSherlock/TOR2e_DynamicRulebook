@@ -1,0 +1,1042 @@
+[
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[The World]]",
+    "formatted": "[[The World/The World]](The World)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[The Loremaster]]",
+    "formatted": "[[The Loremaster/The Loremaster]](The Loremaster)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Adventuring Phases]]",
+    "formatted": "[[Adventuring Phases/Adventuring Phases]](Adventuring Phases)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Fellowship Phases]]",
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Action Resolution]]",
+    "formatted": "[[Action Resolution/Action Resolution]](Action Resolution)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Combat]]",
+    "formatted": "[[Adventuring Phases/Combat]](Combat)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Council]]",
+    "formatted": "[[Adventuring Phases/Council]](Council)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Journey]]",
+    "formatted": "[[Adventuring Phases/Journey]](Journey)"
+  },
+  {
+    "file": "core-rules/01-prologue.md",
+    "original": "[[Yule]]",
+    "formatted": "[[Fellowship Phases/Yule]](Yule)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[The World]]",
+    "formatted": "[[The World/The World]](The World)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Adventuring Phases]]",
+    "formatted": "[[Adventuring Phases/Adventuring Phases]](Adventuring Phases)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Fellowship Phases]]",
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Die Roll Modifiers|Support]]",
+    "formatted": "[[Action Resolution/Support:]](Support)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Degree of Success]]",
+    "formatted": "[[Action Resolution/Degree of Success]](Degree of Success)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[The Loremaster]]",
+    "formatted": "[[The Loremaster/The Loremaster]](The Loremaster)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Consequences of Failure]]",
+    "formatted": "[[The Loremaster/The Consequences of Failure]](Consequences of Failure)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Degree of Success]]",
+    "formatted": "[[Action Resolution/Degree of Success]](Degree of Success)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Skills]]",
+    "formatted": "[[Characteristics/Skills]](Skills)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Virtues]]",
+    "formatted": "[[Valour & Wisdom/Virtues]](Virtues)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Adversaries]]",
+    "formatted": "[[The Loremaster/Adversaries]](Adversaries)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Madness]]",
+    "formatted": "[[The Loremaster/Madness]](Madness)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Using Flaws]]",
+    "formatted": "[[The Loremaster/Using Flaws]](Using Flaws)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Distinctive Feature]]",
+    "formatted": "[[Adventurers/Distinctive Features]](Distinctive Feature)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Miserable]]",
+    "formatted": "[[Action Resolution/Miserable]](Miserable)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Hope]]",
+    "formatted": "[[Characteristics/Hope]](Hope)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Complications|complication]]",
+    "formatted": "[[Adventuring Phases/Complications and Advantages]](complication)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[The Eye of Mordor]]",
+    "formatted": "[[The Loremaster/The Eye of Mordor]](The Eye of Mordor)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Load]]",
+    "formatted": "[[Adventurers/Load]](Load)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Endurance]]",
+    "formatted": "[[Characteristics/Endurance]](Endurance)"
+  },
+  {
+    "file": "core-rules/02-action-resolution.md",
+    "original": "[[Resting]]",
+    "formatted": "[[Characteristics/Endurance/#resting]](Resting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Standard of Living]]",
+    "formatted": "[[Characteristics/Standard of Living]](Standard of Living)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Heroic Cultures]]",
+    "formatted": "[[Adventurers/Heroic Cultures]](Heroic Cultures)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Brawling Attack]]",
+    "formatted": "[[Adventuring Phases/Combat/#brawling-attack]](Brawling Attack)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Valour & Wisdom]]",
+    "formatted": "[[Valour & Wisdom/Valour & Wisdom]](Valour & Wisdom)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Close-fitting]]",
+    "formatted": "[[Valour & Wisdom/Rewards List/#close-fitting]](Close-fitting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Cunning Make]]",
+    "formatted": "[[Valour & Wisdom/Rewards List/#cunning-make]](Cunning Make)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Fell]]",
+    "formatted": "[[Valour & Wisdom/Rewards List/#fell]](Fell)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Grievous]]",
+    "formatted": "[[The Loremaster/Superior Grievous]](Grievous)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Keen]]",
+    "formatted": "[[Valour & Wisdom/Rewards List/#keen]](Keen)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Reinforced]]",
+    "formatted": "[[Valour & Wisdom/Rewards List/#reinforced]](Reinforced)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Confidence]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#confidence]](Confidence)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Dour-handed]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#dour-handed]](Dour-handed)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Hardiness]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#hardiness]](Hardiness)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Mastery]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#mastery]](Mastery)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Nimbleness]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#nimbleness]](Nimbleness)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Prowess]]",
+    "formatted": "[[Valour & Wisdom/Virtues List/#prowess]](Prowess)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Resting]]",
+    "formatted": "[[Characteristics/Endurance/#resting]](Resting)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Patrons]]",
+    "formatted": "[[The World/Who?/#patrons]](Patrons)"
+  },
+  {
+    "file": "core-rules/03-adventurers.md",
+    "original": "[[Yule]]",
+    "formatted": "[[Fellowship Phases/Yule]](Yule)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Awe]]",
+    "formatted": "[[Characteristics/Skill List/#awe]](Awe)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Song]]",
+    "formatted": "[[Characteristics/Skill List/#song]](Song)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Athletics]]",
+    "formatted": "[[Characteristics/Skill List/#athletics]](Athletics)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Awareness]]",
+    "formatted": "[[Characteristics/Skill List/#awareness]](Awareness)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Hunting]]",
+    "formatted": "[[Characteristics/Skill List/#hunting]](Hunting)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Craft]]",
+    "formatted": "[[Characteristics/Skill List/#craft]](Craft)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Enhearten]]",
+    "formatted": "[[Characteristics/Skill List/#enhearten]](Enhearten)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Battle]]",
+    "formatted": "[[Characteristics/Skill List/#battle]](Battle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Travel]]",
+    "formatted": "[[Characteristics/Skill List/#travel]](Travel)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Courtesy]]",
+    "formatted": "[[Characteristics/Skill List/#courtesy]](Courtesy)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Insight]]",
+    "formatted": "[[Characteristics/Skill List/#insight]](Insight)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Healing]]",
+    "formatted": "[[Characteristics/Skill List/#healing]](Healing)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Persuade]]",
+    "formatted": "[[Characteristics/Skill List/#persuade]](Persuade)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Stealth]]",
+    "formatted": "[[Characteristics/Skill List/#stealth]](Stealth)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Scan]]",
+    "formatted": "[[Characteristics/Skill List/#scan]](Scan)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Explore]]",
+    "formatted": "[[Characteristics/Skill List/#explore]](Explore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Riddle]]",
+    "formatted": "[[Characteristics/Skill List/#riddle]](Riddle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Lore]]",
+    "formatted": "[[Characteristics/Skill List/#lore]](Lore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Awe]]",
+    "formatted": "[[Characteristics/Skill List/#awe]](Awe)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Enhearten]]",
+    "formatted": "[[Characteristics/Skill List/#enhearten]](Enhearten)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Persuade]]",
+    "formatted": "[[Characteristics/Skill List/#persuade]](Persuade)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Athletics]]",
+    "formatted": "[[Characteristics/Skill List/#athletics]](Athletics)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Travel]]",
+    "formatted": "[[Characteristics/Skill List/#travel]](Travel)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Stealth]]",
+    "formatted": "[[Characteristics/Skill List/#stealth]](Stealth)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Awareness]]",
+    "formatted": "[[Characteristics/Skill List/#awareness]](Awareness)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Insight]]",
+    "formatted": "[[Characteristics/Skill List/#insight]](Insight)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Scan]]",
+    "formatted": "[[Characteristics/Skill List/#scan]](Scan)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Hunting]]",
+    "formatted": "[[Characteristics/Skill List/#hunting]](Hunting)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Healing]]",
+    "formatted": "[[Characteristics/Skill List/#healing]](Healing)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Explore]]",
+    "formatted": "[[Characteristics/Skill List/#explore]](Explore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Song]]",
+    "formatted": "[[Characteristics/Skill List/#song]](Song)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Courtesy]]",
+    "formatted": "[[Characteristics/Skill List/#courtesy]](Courtesy)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Riddle]]",
+    "formatted": "[[Characteristics/Skill List/#riddle]](Riddle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Craft]]",
+    "formatted": "[[Characteristics/Skill List/#craft]](Craft)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Battle]]",
+    "formatted": "[[Characteristics/Skill List/#battle]](Battle)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Lore]]",
+    "formatted": "[[Characteristics/Skill List/#lore]](Lore)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Combat]]",
+    "formatted": "[[Adventuring Phases/Combat]](Combat)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Wounds]]",
+    "formatted": "[[Adventuring Phases/Wounds]](Wounds)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Journey]]",
+    "formatted": "[[Adventuring Phases/Journey]](Journey)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[The Shadow]]",
+    "formatted": "[[The Loremaster/The Shadow]](The Shadow)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Fellowship Phases]]",
+    "formatted": "[[Fellowship Phases/Fellowship Phases]](Fellowship Phases)"
+  },
+  {
+    "file": "core-rules/04-characteristics.md",
+    "original": "[[Starting Gear]]",
+    "formatted": "[[Adventurers/Starting Gear]](Starting Gear)"
+  },
+  {
+    "file": "core-rules/05-valour-wisdom.md",
+    "original": "[[The Shadow]]",
+    "formatted": "[[The Loremaster/The Shadow]](The Shadow)"
+  },
+  {
+    "file": "core-rules/06-adventuring-phases.md",
+    "original": "[[Brawling Attack]]",
+    "formatted": "[[Adventuring Phases/Combat/#brawling-attack]](Brawling Attack)"
+  },
+  {
+    "file": "core-rules/07-fellowship-phases.md",
+    "original": "[[Experience Points Costs table]]",
+    "formatted": "[[Adventurers/Experience]](Experience Points Costs table)"
+  },
+  {
+    "file": "core-rules/08-the-loremaster.md",
+    "original": "[[Loremaster Characters]]",
+    "formatted": "[[The Loremaster/Loremaster Characters]](Loremaster Characters)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "original": "[[The Dome of Sight]]",
+    "formatted": "[[The World/The Dome Of Sight:]](The Dome of Sight)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "original": "[[The Throne Room of Arvedui:]]",
+    "formatted": "[[The World/The North Downs/#the-throne-room-of-arvedui]](The Throne Room of Arvedui:)"
+  },
+  {
+    "file": "core-rules/09-the-world.md",
+    "original": "[[The Records of the Last King]]",
+    "formatted": "[[The World/The Records Of The Last King:]](The Records of the Last King)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Prosperous]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Bold]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Eager]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Fair]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Fierce]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Generous]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Tall]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Wilful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/01-bardings.md",
+    "original": "[[Item.dH5JERXRatKLOOw9|Dalish]]",
+    "formatted": "[[Adventurers/Distinctive Features/#dalish]](Dalish)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Prosperous]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Fierce]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Lordly]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Secretive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Stern]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/02-dwarves-of-durins-folk.md",
+    "original": "[[Wilful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Spiritual Recovery]]",
+    "formatted": "[[Adventurers/Distinctive Features/#spiritual recovery]](Spiritual Recovery)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Frugal]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Fair]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Keen-eyed]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Lordly]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Merry]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Patient]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Subtle]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Swift]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/03-elves-of-lindon.md",
+    "original": "[[Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Common]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Eager]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Fair-spoken]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair-spoken]](Fair-spoken)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Faithful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Honourable]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Inquisitive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Keen-eyed]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Merry]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/04-hobbits-of-the-shire.md",
+    "original": "[[Rustic]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Common]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Fair-spoken]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair-spoken]](Fair-spoken)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Faithful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Generous]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Inquisitive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Patient]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[Rustic]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/05-men-of-bree.md",
+    "original": "[[True-hearted]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Frugal]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Bold]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Honourable]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Secretive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Stern]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Subtle]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Swift]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[Tall]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/06-rangers-of-the-north.md",
+    "original": "[[True-hearted]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Common]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Bold]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#bold]](Bold)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Fierce]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Generous]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#generous]](Generous)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Honourable]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#honourable]](Honourable)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Actor.vSWhCz54fZmfJM3x.Item.zvMN48EVNQVsfn98|Rustic]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Stern]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Tall]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#tall]](Tall)"
+  },
+  {
+    "file": "heroic-cultures/07-beornings.md",
+    "original": "[[Actor.8vXvRElVAEvQemR5.Item.8d4VthPS4iblYcRS|Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Common]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#common]](Common)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Fierce]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Rustic]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#rustic]](Rustic)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Secretive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Stern]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/08-dwarves-of-nogrod-and-belegost.md",
+    "original": "[[Wilful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Frugal]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Fair]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Fierce]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fierce]](Fierce)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Keen-eyed]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Merry]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Secretive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/09-elves-of-mirkwood.md",
+    "original": "[[Swift]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Prosperous]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#prosperous]](Prosperous)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Fair]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Keen-eyed]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Lordly]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#lordly]](Lordly)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Inquisitive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#inquisitive]](Inquisitive)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Merry]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Subtle]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#subtle]](Subtle)"
+  },
+  {
+    "file": "heroic-cultures/10-high-elves-of-rivendell.md",
+    "original": "[[Wilful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wilful]](Wilful)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Frugal]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Eager]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#eager]](Eager)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Faithful]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#faithful]](Faithful)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Patient]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#patient]](Patient)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Stern]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#stern]](Stern)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Swift]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[True-hearted]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#true-hearted]](True-hearted)"
+  },
+  {
+    "file": "heroic-cultures/11-woodmen-of-the-wilderland.md",
+    "original": "[[Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Frugal]]",
+    "formatted": "[[Characteristics/Standards of Living Descriptions/#frugal]](Frugal)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Cunning]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#cunning]](Cunning)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Fair]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#fair]](Fair)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Keen-eyed]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#keen-eyed]](Keen-eyed)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Merry]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#merry]](Merry)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Proud]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#proud]](Proud)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Secretive]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#secretive]](Secretive)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Swift]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#swift]](Swift)"
+  },
+  {
+    "file": "heroic-cultures/12-elves-of-lorien.md",
+    "original": "[[Wary]]",
+    "formatted": "[[Characteristics/Distinctive Features List/#wary]](Wary)"
+  }
+]
